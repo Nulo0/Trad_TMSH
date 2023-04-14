@@ -6122,7 +6122,7 @@
                         "\n",
                         "^Barry:: <style=Thought>(Quem não ama uma boa emoção?)</style>",
                         "\n",
-                        "^Amy:: Entendo, você é uma garota que AMA um bom podcast de crimes reais. ",
+                        "^Amy:: Entenda, eu sou uma garota que AMA um bom podcast de crimes reais. ",
                         {
                             "#": "expression:explaining1"
                         },
@@ -21454,7 +21454,7 @@
                 "\n",
                 "^>>>>PlayMusic(conductorcar1)",
                 "\n",
-                "^>>>>EstablishingShot(Conductor Car)",
+                "^>>>>EstablishingShot(Vagão do Maquinista)",
                 "\n",
                 "ev",
                 true,
@@ -21463,7 +21463,7 @@
                     "VAR=": "ALLOW_SAVE_LOAD",
                     "re": true
                 },
-                "^Barry:: <style=Thought>(Should really sort out my evidence before I continue…)</style>",
+                "^Barry:: <style=Thought>(Devo realmente organizar minha evidência antes de continuar…)</style>",
                 "\n",
                 "ev",
                 {
@@ -21482,13 +21482,13 @@
                 "pop",
                 "/ev",
                 "\n",
-                "^Barry:: <style=Thought>(In my short time working on this train, I haven’t visited the conductor car yet.)</style>",
+                "^Barry:: <style=Thought>(Em meu curto tempo trabalhando neste trem, ainda não visitei o vagão do maquinista.)</style>",
                 "\n",
-                "^Barry:: <style=Thought>(Feels… empty?)</style>",
+                "^Barry:: <style=Thought>(Parece… vazio?)</style>",
                 "\n",
-                "^Barry:: Wait, where’s the conductor?",
+                "^Barry:: Espera, onde está o maquinista?",
                 "\n",
-                "^Tails:: That’s odd… I haven’t seen him throughout the train at all. ",
+                "^Tails:: Isso é estranho… Não o vi em nenhum lugar do trem.",
                 {
                     "#": "stage:rightmiddle"
                 },
@@ -21502,9 +21502,9 @@
                     "#": "expression:thinking"
                 },
                 "\n",
-                "^Tails:: Last we saw him was when he left the dining car.",
+                "^Tails:: A última vez que o vimos foi quando ele saiu do vagão do jantar.",
                 "\n",
-                "^Shadow:: …something clearly happened here. ",
+                "^Shadow:: …algo claramente aconteceu aqui. ",
                 {
                     "#": "stage:leftmiddle"
                 },
@@ -21526,7 +21526,7 @@
                     "#": "move:shadow to:left"
                 },
                 "\n",
-                "^Amy:: Nothing we can’t figure out! ",
+                "^Amy:: Nada que não possamos descobrir! ",
                 {
                     "#": "stage:middle"
                 },
@@ -21546,7 +21546,7 @@
                     "#": "expression:shadow_shocked"
                 },
                 "\n",
-                "^Amy:: C’mon, time to investigate! ",
+                "^Amy:: Vamos lá, hora de investigar! ",
                 {
                     "#": "expression:delighted"
                 },
@@ -21568,7 +21568,7 @@
                     "#": "move:tails to:middle"
                 },
                 "\n",
-                "^Tails:: Let’s crack on! ",
+                "^Tails:: Vamos lá! ",
                 {
                     "#": "expression:determined"
                 },
@@ -21580,7 +21580,7 @@
                 },
                 {
                     "Environment_Shadow": [
-                        "^Shadow:: Isn’t it odd we haven’t seen the conductor since the dining car? ",
+                        "^Shadow:: Não é estranho não termos visto o maquinista desde o vagão de jantar? ",
                         {
                             "#": "expression:talking"
                         },
@@ -21603,19 +21603,19 @@
                             "#": "face:tails_right"
                         },
                         "\n",
-                        "^Barry:: I figured he’s had to drive the train the entire time. ",
+                        "^Barry:: Eu imaginei que ele tinha que conduzir o trem o tempo todo. ",
                         {
                             "#": "expression:default"
                         },
                         "\n",
-                        "^Tails:: I’d guess the same, but the train’s quick speed-up is odd, and we currently don’t know where he is…. ",
+                        "^Tails:: Eu diria o mesmo, mas a aceleração rápida do trem é estranha, e atualmente não sabemos onde ele está... ",
                         {
                             "#": "expression:thinking"
                         },
                         "\n",
-                        "^Tails:: Hope he’s alright…",
+                        "^Tails:: Espero que ele esteja bem...",
                         "\n",
-                        "^Barry:: <style=Thought>(Admittedly I do miss his laugh… Fahahaha!)</style>",
+                        "^Barry:: <style=Thought>(Admito que sinto falta da risada dele... Fahahaha!)</style>",
                         "\n",
                         "^Shadow:: … ",
                         {
@@ -21674,7 +21674,7 @@
                             {
                                 "b": [
                                     "\n",
-                                    "^Tails:: Before we talk to Amy, I think we should keep looking around for clues. ",
+                                    "^Tails:: Antes de falarmos com a Amy, acho que devemos continuar procurando por pistas. ",
                                     {
                                         "#": "stage:rightmiddle"
                                     },
@@ -21688,7 +21688,7 @@
                                         "#": "animatein"
                                     },
                                     "\n",
-                                    "^Barry:: Oh! Good call.",
+                                    "^Barry:: Ah! Boa ideia.",
                                     "\n",
                                     "^>>>> EndConversation()",
                                     "\n",
@@ -21736,7 +21736,7 @@
                                 "#": "exit:blaze_right"
                             },
                             "\n",
-                            "^Amy:: Well, you two? Think you have enough evidence for me to call everyone here? ",
+                            "^Amy:: Bem, vocês dois acham que têm provas suficientes para que eu chame todos aqui? ",
                             {
                                 "#": "stage:rightmiddle"
                             },
@@ -21750,19 +21750,19 @@
                                 "#": "animatein"
                             },
                             "\n",
-                            "^Amy:: It’s high time we named a suspect! ",
+                            "^Amy:: Já passou da hora de nomearmos um suspeito! ",
                             {
                                 "#": "expression:explaining2"
                             },
                             "\n",
-                            "^Tails:: What do you think, ",
+                            "^Tails:: O que você acha, ",
                             "ev",
                             {
                                 "VAR?": "PLAYER_NAME"
                             },
                             "out",
                             "/ev",
-                            "^? Ready to solve this case? ",
+                            "^? Pronto para resolver este caso? ",
                             {
                                 "#": "stage:leftmiddle"
                             },
@@ -21778,7 +21778,7 @@
                             "\n",
                             "ev",
                             "str",
-                            "^Yes",
+                            "^Sim",
                             "/str",
                             "/ev",
                             {
@@ -21787,7 +21787,7 @@
                             },
                             "ev",
                             "str",
-                            "^No",
+                            "^Não",
                             "/str",
                             "/ev",
                             {
@@ -21843,12 +21843,12 @@
                             "#": "move:amy to:middle"
                         },
                         "\n",
-                        "^Amy:: Hello everyone, this is the birthday girl speaking! ",
+                        "^Amy:: Olá a todos, aqui é a aniversariante falando!",
                         {
                             "#": "expression:delighted"
                         },
                         "\n",
-                        "^Amy:: Please report to the conductor car at ONCE! ",
+                        "^Amy:: Por favor, dirijam-se IMEDIATAMENTE ao vagão do maquinista!",
                         {
                             "#": "expression:explaining1"
                         },
@@ -21945,12 +21945,12 @@
                             "#": "animateinfrom:amy_right"
                         },
                         "\n",
-                        "^Amy:: Wonderful to have you all here! Tails and I are ready to announce our prime suspect! ",
+                        "^Amy:: Maravilhoso ter todos aqui! Tails e eu estamos prontos para anunciar nosso principal suspeito! ",
                         {
                             "#": "expression:happy"
                         },
                         "\n",
-                        "^Amy:: With assistance from ",
+                        "^Amy:: Com a ajuda de ",
                         "ev",
                         {
                             "VAR?": "PLAYER_NAME"
@@ -21962,7 +21962,7 @@
                             "#": "expression:default"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(...Why hasn’t Sonic shown up?)</style>",
+                        "^Barry:: <style=Thought>(...Por que o Sonic ainda não apareceu?)</style>",
                         "\n",
                         "^Amy:: …? ",
                         {
@@ -22021,14 +22021,14 @@
                             "#": "animateinfrom:vector_left"
                         },
                         "\n",
-                        "^Amy:: Real quick, can you come with me to get Sonic?",
+                        "^Amy:: Muito rápido, você pode vir comigo para pegar o Sonic?",
                         "\n",
-                        "^Amy:: He must still be pretending to be dead! Lazy bum! ",
+                        "^Amy:: Ele ainda deve estar fingindo estar morto! Preguiçoso! ",
                         {
                             "#": "expression:sideeye"
                         },
                         "\n",
-                        "^Vector:: Ready! Let’s go get him. ",
+                        "^Vector:: Pronto! Vamos buscá-lo. ",
                         {
                             "#": "expression:thumbsatself"
                         },
@@ -22049,7 +22049,7 @@
                         "\n",
                         "^>>>>Hold(1)",
                         "\n",
-                        "^Rouge:: Let me tell you darlings, this has been a delight.  ",
+                        "^Rouge:: Deixe-me dizer, queridos, isso foi uma delícia. ",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -22063,7 +22063,7 @@
                             "#": "expression:confident"
                         },
                         "\n",
-                        "^Knuckles:: A delight? ",
+                        "^Knuckles:: Uma delícia?",
                         {
                             "#": "stage:leftmiddle"
                         },
@@ -22080,7 +22080,7 @@
                             "#": "expression:rouge_default"
                         },
                         "\n",
-                        "^Rouge:: The air in here is so intense, I love it! Nothing like the thrill of a mystery. ",
+                        "^Rouge:: O ar aqui está tão intenso, eu amo isso! Nada como a emoção de um mistério. ",
                         {
                             "#": "expression:confident"
                         },
@@ -22088,7 +22088,7 @@
                             "#": "expression:explaining2"
                         },
                         "\n",
-                        "^Blaze:: The train has so many amenities, I feel so catered to. ",
+                        "^Blaze:: O trem tem tantas comodidades, eu me sinto tão bem cuidada. ",
                         {
                             "#": "stage:right"
                         },
@@ -22142,7 +22142,7 @@
                             "#": "exit:knuckles_left"
                         },
                         "\n",
-                        "^Tails:: Admittedly, I’ve been having a lot of fun myself! The amusement of a chase.  ",
+                        "^Tails:: Admito que eu também me diverti muito! A emoção da perseguição. ",
                         {
                             "#": "stage:right"
                         },
@@ -22178,9 +22178,9 @@
                             "#": "animateinfrom:espio_right"
                         },
                         "\n",
-                        "^Tails:: I see why you’re a detective outside of this mystery, Espio.",
+                        "^Tails:: Eu entendo por que você é um detetive fora deste mistério, Espio.",
                         "\n",
-                        "^Espio:: You and I love a good thrill, it seems. ",
+                        "^Espio:: Parece que você e eu adoramos uma boa emoção.",
                         {
                             "#": "expression:stoic"
                         },
@@ -22188,12 +22188,12 @@
                             "#": "expression:tails_default"
                         },
                         "\n",
-                        "^Espio:: But on this train… I am but a humble poet. ",
+                        "^Espio:: Mas neste trem... Eu sou apenas um humilde poeta.",
                         {
                             "#": "expression:dismissive"
                         },
                         "\n",
-                        "^Blaze:: I’d be willing to do an event like this again. It says here the train does escape rooms as well. ",
+                        "^Blaze:: Eu estaria disposta a fazer um evento como este novamente. Aqui diz que o trem também faz salas de fuga.",
                         {
                             "#": "move:tails to:rightmiddle"
                         },
@@ -22207,7 +22207,7 @@
                             "#": "expression:espio_default"
                         },
                         "\n",
-                        "^Tails:: I love escape rooms! Count me in. ",
+                        "^Tails:: Eu amo salas de fuga! Conte comigo.",
                         {
                             "#": "expression:excited"
                         },
@@ -22215,9 +22215,9 @@
                             "#": "expression:blaze_default"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(I’m so glad everyone’s having a good time!)</style>",
+                        "^Barry:: <style=Thought>(Estou tão feliz que todos estão se divertindo!)</style>",
                         "\n",
-                        "^Rouge:: Maybe we could ride a train just to relax sometime…? ",
+                        "^Rouge:: Talvez pudéssemos pegar um trem apenas para relaxar às vezes...?",
                         {
                             "#": "face:blaze_left"
                         },
@@ -22228,7 +22228,7 @@
                             "#": "expression:shifty"
                         },
                         "\n",
-                        "^Tails:: Haa… yeah, that’d be fun too! ",
+                        "^Tails:: Haa... Sim, também seria divertido!",
                         {
                             "#": "expression:bashful"
                         },
@@ -22293,7 +22293,7 @@
                             "#": "exit:knuckles_left"
                         },
                         "\n",
-                        "^Shadow:: …! What in the world- - ",
+                        "^Shadow:: …! O que diabos está acontecendo- - ",
                         {
                             "#": "stage:middle"
                         },
@@ -22307,12 +22307,12 @@
                             "#": "expression:shocked"
                         },
                         "\n",
-                        "^Tails:: T-that’s Amy’s voice! ",
+                        "^Tails:: A-aquela é a voz da Amy! ",
                         {
                             "#": "expression:speechless"
                         },
                         "\n",
-                        "^Blaze:: Quick, where's Amy- - ",
+                        "^Blaze:: Rápido, onde está a Amy- - ",
                         {
                             "#": "expression:annoyed"
                         },
@@ -22370,7 +22370,7 @@
                             "VAR=": "ALLOW_SAVE_LOAD",
                             "re": true
                         },
-                        "^Amy:: He, he–! He’s not responding to us! ",
+                        "^Amy:: Ele não está respondendo! ",
                         {
                             "#": "expression:shocked"
                         },
@@ -22404,7 +22404,7 @@
                             "#": "expression:terrified"
                         },
                         "\n",
-                        "^Tails:: …! What?! Is he hurt? ",
+                        "^Tails:: …! O que?! Ele está ferido?",
                         {
                             "#": "stage:leftmiddle"
                         },
@@ -22418,7 +22418,7 @@
                             "#": "expression:worried"
                         },
                         "\n",
-                        "^Rouge:: Why isn’t he moving? ",
+                        "^Rouge:: Por que ele não está se movendo? ",
                         {
                             "#": "stage:left"
                         },
@@ -22432,7 +22432,7 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Rouge:: Sonic, Sonic can you hear us?",
+                        "^Rouge:: Sonic, Sonic, você pode nos ouvir?",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -22442,7 +22442,7 @@
                             "#": "face:tails_left"
                         },
                         "\n",
-                        "^Shadow:: He’s banged up. If there is a pulse, it’s weak. ",
+                        "^Shadow:: Ele está machucado. Se tiver um pulso, é fraco. ",
                         {
                             "#": "stage:leftmiddle"
                         },
@@ -22495,7 +22495,7 @@
                             "#": "exit:rouge_left"
                         },
                         "\n",
-                        "^Espio:: Set him down, Vector. Make sure his head is propped up. ",
+                        "^Espio:: Coloque-o no chão, Vector. Certifique-se de que a cabeça dele esteja apoiada. ",
                         {
                             "#": "stage:right"
                         },
@@ -22509,7 +22509,7 @@
                             "#": "expression:vector_intimidating"
                         },
                         "\n",
-                        "^Shadow:: I'll help you. ",
+                        "^Shadow:: Eu vou ajudar você. ",
                         {
                             "#": "expression:talking"
                         },
@@ -22554,7 +22554,7 @@
                             "#": "face:tails_right"
                         },
                         "\n",
-                        "^Amy:: …I knew one of you would take this too far. ",
+                        "^Amy:: ...Eu sabia que um de vocês iria longe demais. ",
                         {
                             "#": "move:amy to:right"
                         },
@@ -22562,9 +22562,9 @@
                             "#": "expression:threatening3"
                         },
                         "\n",
-                        "^Barry:: …!",
+                        "^Barry:: ...!",
                         "\n",
-                        "^Amy:: Which one of you did this to Sonic? On my birthday, no less. ",
+                        "^Amy:: Qual de vocês fez isso com o Sonic? No meu aniversário, ainda por cima. ",
                         {
                             "#": "expression:angry"
                         },
@@ -22572,12 +22572,12 @@
                             "#": "face:left"
                         },
                         "\n",
-                        "^Knuckles:: …could this really have been one of us? ",
+                        "^Knuckles:: ...será que realmente foi um de nós?",
                         {
                             "#": "expression:questioning"
                         },
                         "\n",
-                        "^Amy:: There’s no one else here, Knuckles. ",
+                        "^Amy:: Não há mais ninguém aqui, Knuckles. ",
                         {
                             "#": "move:amy to:middle"
                         },
@@ -22585,7 +22585,7 @@
                             "#": "expression:knuckles_awkward"
                         },
                         "\n",
-                        "^Amy:: So I’ll ask again, which one of you did this? ",
+                        "^Amy:: Então eu vou perguntar novamente, qual de vocês fez isso? ",
                         {
                             "#": "Expression: Threatening2"
                         },
@@ -22628,12 +22628,12 @@
                             "#": "expression:confused"
                         },
                         "\n",
-                        "^Tails:: …this is inexcusable. Sonic’s hurt.",
+                        "^Tails:: …isso é inaceitável. Sonic está ferido.",
                         {
                             "#": "expression:determined"
                         },
                         "\n",
-                        "^Tails:: I’m going to expose the monster who did this.",
+                        "^Tails:: Vou expor o monstro que fez isso.",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -22643,13 +22643,13 @@
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Barry:: …! <style=Thought>(Tails is NOT having it!)</style>",
+                        "^Barry:: …! <style=Thought>(Tails não vai deixar isso passar!)</style>",
                         "\n",
-                        "^Barry:: <style=Thought>(I thought Sonic could handle anything… but…)</style>",
+                        "^Barry:: <style=Thought>(Eu achava que o Sonic podia lidar com tudo, mas…)</style>",
                         "\n",
-                        "^Barry:: <style=Thought>(Somehow he met his match…!)</style>",
+                        "^Barry:: <style=Thought>(De alguma forma, ele encontrou um adversário…!)</style>",
                         "\n",
-                        "^Blaze:: I’m going to help you get to the bottom of this, Tails. ",
+                        "^Blaze:: Vou ajudar você a descobrir o que aconteceu, Tails. ",
                         {
                             "#": "expression:annoyed"
                         },
@@ -22673,14 +22673,14 @@
                             "#": "animateinfrom:vector_right"
                         },
                         "\n",
-                        "^Vector:: Absolutely!",
+                        "^Vector:: Com certeza!",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
                             "#": "exit:vector_left"
                         },
                         "\n",
-                        "^Knuckles:: Me too. ",
+                        "^Knuckles:: Eu também. ",
                         {
                             "#": "expression:determined"
                         },
@@ -22693,7 +22693,7 @@
                             "#": "exit:knuckles_left"
                         },
                         "\n",
-                        "^Espio:: Same. ",
+                        "^Espio:: O mesmo. ",
                         {
                             "#": "expression:ready2attack"
                         },
@@ -22703,16 +22703,16 @@
                             "#": "exit:espio_left"
                         },
                         "\n",
-                        "^Amy:: We’re going to figure out exactly what happened in this room. ",
+                        "^Amy:: Vamos descobrir exatamente o que aconteceu nesta sala. ",
                         {
                             "#": "expression:threatening3"
                         },
                         "\n",
-                        "^Amy:: And punish the one responsible.",
+                        "^Amy:: E punir o responsável.",
                         "\n",
-                        "^Barry:: S-Sonic… <style=Thought>(He really was hurt this whole time… and I did nothing…)</style>",
+                        "^Barry:: S-Sonic… <style=Thought>(Ele realmente estava ferido o tempo todo… e eu não fiz nada…)</style>",
                         "\n",
-                        "^Barry:: <style=Thought>(I’m righting my wrong… I must take down the murderer!)</style>",
+                        "^Barry:: <style=Thought>(Estou consertando meu erro… Eu devo derrubar o assassino!)</style>",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -22735,7 +22735,7 @@
                         },
                         "out",
                         "/ev",
-                        "^… I have a big question to ask. ",
+                        "^… Eu tenho uma grande pergunta para fazer. ",
                         {
                             "#": "expression:explaining3"
                         },
@@ -22764,14 +22764,14 @@
                                 {
                                     "b": [
                                         "\n",
-                                        "^Tails:: Think, ",
+                                        "^Tails:: Pense, ",
                                         "ev",
                                         {
                                             "VAR?": "PLAYER_NAME"
                                         },
                                         "out",
                                         "/ev",
-                                        "^… who was one suspect Shadow didn't see when he was walking through the train…? ",
+                                        "^… quem foi o suspeito que o Shadow não viu quando ele estava andando pelo trem…? ",
                                         {
                                             "#": "expression:wondering"
                                         },
@@ -22790,7 +22790,7 @@
                                 "#": "expression:tails_thinking"
                             },
                             "\n",
-                            "^Amy:: Who, in this room, did this? Who killed Sonic The Hedgehog? ",
+                            "^Amy:: Quem, nessa sala, fez isso? Quem matou Sonic The Hedgehog? ",
                             {
                                 "#": "expression:explaining3"
                             },
@@ -22999,12 +22999,12 @@
                             "#": "expression:tails_disappointed"
                         },
                         "\n",
-                        "^Amy:: That can’t be right. Neither Tails or I can be the murderer. ",
+                        "^Amy:: Isso não pode estar certo. Nem o Tails nem eu podemos ser o assassino. ",
                         {
                             "#": "expression:sideeye"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(Ah, that’s right, let me pick again.)</style>",
+                        "^Barry:: <style=Thought>(Ah, é verdade, deixa eu escolher novamente.)</style>",
                         "\n",
                         {
                             "->": ".^.^.Who_Dunnit_Choice"
@@ -23021,16 +23021,16 @@
                             "#": "expression:tails_disappointed"
                         },
                         "\n",
-                        "^Amy:: Hmm… I don’t see it. Care to explain your reasoning? ",
+                        "^Amy:: Hmm… Eu não vejo isso. Pode explicar o seu raciocínio?",
                         {
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Barry:: Oh, well… um…",
+                        "^Barry:: Ah, bem... uh...",
                         "\n",
-                        "^Barry:: <style=Thought>(When I’m put on the spot like this, it’s hard to explain!)</style>",
+                        "^Barry:: <style=Thought>(Quando sou colocado na berlinda assim, é difícil explicar!)</style>",
                         "\n",
-                        "^Barry:: <style=Thought>(Maybe I’ll pick someone else…)</style>",
+                        "^Barry:: <style=Thought>(Talvez eu escolha outra pessoa...)</style>",
                         "\n",
                         {
                             "->": ".^.^.Who_Dunnit_Choice"
@@ -23047,17 +23047,17 @@
                             "#": "expression:tails_disappointed"
                         },
                         "\n",
-                        "^Amy:: I know she can be abrasive at times, but I don't think Rouge is the culprit here. ",
+                        "^Amy:: Eu sei que ela pode ser abrasiva às vezes, mas não acredito que Rouge seja a culpada aqui. ",
                         {
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Tails:: She had one goal, and it was to find blueprints. I don’t think she had the time to find the blueprints and murder Sonic. ",
+                        "^Tails:: Ela tinha um objetivo, que era encontrar os projetos. Não acho que ela teve tempo para encontrar os projetos e matar Sonic. ",
                         {
                             "#": "expression:explaining"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(Ah… I’ll think of something else…)</style>",
+                        "^Barry:: <style=Thought>(Ah... Vou pensar em outra coisa...)</style>",
                         "\n",
                         {
                             "->": ".^.^.Who_Dunnit_Choice"
@@ -23074,17 +23074,17 @@
                             "#": "expression:tails_disappointed"
                         },
                         "\n",
-                        "^Amy:: We just got to the bottom of his motivation, remember? ",
+                        "^Amy:: Nós acabamos de descobrir sua motivação, lembra?",
                         {
                             "#": "expression:sideeye"
                         },
                         "\n",
-                        "^Amy:: Shadow was locking all the doors so I wouldn’t see him buying me a gift! ",
+                        "^Amy:: Shadow estava trancando todas as portas para que eu não o visse comprando um presente para mim!",
                         {
                             "#": "expression:explaining2"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(What a sweetie… let me think again.)</style>",
+                        "^Barry:: <style=Thought>(Que fofo... Deixe-me pensar novamente.)</style>",
                         "\n",
                         {
                             "->": ".^.^.Who_Dunnit_Choice"
@@ -23127,12 +23127,12 @@
                             "VAR=": "IN_INTERROGATION",
                             "re": true
                         },
-                        "^Tails:: Espio. You were the one to murder Sonic… ",
+                        "^Tails:: Espio. Você foi o responsável por matar o Sonic…",
                         {
                             "#": "expression:determined"
                         },
                         "\n",
-                        "^Tails:: …weren’t you? ",
+                        "^Tails:: ...não foi?",
                         {
                             "#": "expression:skeptical"
                         },
@@ -23156,12 +23156,12 @@
                             "#": "expression:shocked"
                         },
                         "\n",
-                        "^Espio:: I did no such thing, my young friend. ",
+                        "^Espio:: Eu não fiz tal coisa, meu jovem amigo. ",
                         {
                             "#": "expression:skeptical2"
                         },
                         "\n",
-                        "^Espio:: …but if it’s a battle of wits you wish, I would love to discuss things. ",
+                        "^Espio:: ...mas se é uma batalha de inteligência que você deseja, eu adoraria discutir as coisas. ",
                         {
                             "#": "expression:stoic"
                         },
@@ -23171,7 +23171,7 @@
                             "#": "expression:espio_default"
                         },
                         "\n",
-                        "^Tails:: Let's discuss. ",
+                        "^Tails:: Vamos discutir. ",
                         {
                             "#": "expression:certain"
                         },
@@ -23195,32 +23195,32 @@
                             "#": "expression:tails_upset"
                         },
                         "\n",
-                        "^Vector:: What the, you’re accusing Espio? ",
+                        "^Vector:: O que, você está acusando o Espio?",
                         {
                             "#": "expression:confused"
                         },
                         "\n",
-                        "^Vector:: We already talked about this! The man was reading! You have nothing! ",
+                        "^Vector:: Nós já conversamos sobre isso! O homem estava lendo! Você não tem nada!",
                         {
                             "#": "expression:intimidating"
                         },
                         "\n",
-                        "^Tails:: Restating Espio’s alibi would be helpful for everyone, I think. ",
+                        "^Tails:: Repetir o álibi do Espio seria útil para todos, eu acho.",
                         {
                             "#": "expression:thinking"
                         },
                         "\n",
-                        "^Tails:: Espio was locked in the <style=CarName>library car</style> reading. He only had access to the <style=CarName>saloon car</style> during the murder. ",
+                        "^Tails:: Espio estava trancado no vagão da <style=CarName>biblioteca</style> lendo. Ele só teve acesso ao vagão do <style=CarName>salão</style> durante o assassinato.",
                         {
                             "#": "expression:explaining"
                         },
                         "\n",
-                        "^Tails:: However… new evidence has come to light that needs to be addressed. ",
+                        "^Tails:: No entanto ... novas evidências vieram à tona que precisam ser abordadas.",
                         {
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(New evidence…? Oh, that's right!)</style>",
+                        "^Barry:: <style=Thought>(Novas evidências ...? Ah, é verdade!)</style>",
                         "\n",
                         "^Tails:: ",
                         "ev",
@@ -23229,7 +23229,7 @@
                         },
                         "out",
                         "/ev",
-                        "^, could you fill everyone in? ",
+                        "^, você poderia informar a todos?",
                         {
                             "#": "face:left"
                         },
@@ -23246,14 +23246,14 @@
                     ],
                     "Interrogation_Part1": [
                         [
-                            "^Tails:: What did we find that brings into question Espio’s alibi? ",
+                            "^Tails:: O que encontramos que traz em questão o álibi do Espio?",
                             {
                                 "#": "expression:explaining"
                             },
                             "\n",
                             "ev",
                             "str",
-                            "^Vector's been acting protective",
+                            "^Vector tem agido de forma protetora",
                             "/str",
                             "/ev",
                             {
@@ -23262,7 +23262,7 @@
                             },
                             "ev",
                             "str",
-                            "^We discovered a hidden passage",
+                            "^Descobrimos uma passagem secreta",
                             "/str",
                             "/ev",
                             {
@@ -23277,16 +23277,16 @@
                                         "#": "expression:tails_thinking"
                                     },
                                     "\n",
-                                    "^Barry:: I think what brings Espio’s alibi into question… is Vector’s suspiciousness.",
+                                    "^Barry:: Eu acho que o que coloca em questão o álibi do Espio... é a suspeita do Vector.",
                                     "\n",
-                                    "^Barry:: He’s been oddly protective, and I believe he knows something!",
+                                    "^Barry:: Ele tem sido estranhamente protetor, e eu acredito que ele sabe de algo!",
                                     "\n",
-                                    "^Vector:: Way to tell the room you don’t have any friends. ",
+                                    "^Vector:: Legal dizer para a sala que você não tem amigos. ",
                                     {
                                         "#": "expression:confused"
                                     },
                                     "\n",
-                                    "^Vector:: You go to the mat for your friends! I know Espio wouldn’t do this to Sonic. ",
+                                    "^Vector:: Você defende seus amigos até o fim! Eu sei que Espio não faria isso com o Sonic. ",
                                     {
                                         "#": "expression:ready2fight"
                                     },
@@ -23296,7 +23296,7 @@
                                         "#": "expression:vector_intimidating"
                                     },
                                     "\n",
-                                    "^Tails:: I think you were off a bit there, ",
+                                    "^Tails:: Acho que você errou um pouco aí, ",
                                     "ev",
                                     {
                                         "VAR?": "PLAYER_NAME"
@@ -23308,7 +23308,7 @@
                                         "#": "expression:worried"
                                     },
                                     "\n",
-                                    "^Barry:: <style=Thought>(Ok… change of strategy…)</style>",
+                                    "^Barry:: <style=Thought>(Ok... mudança de estratégia...)</style>",
                                     "\n",
                                     {
                                         "->": ".^.^.^"
@@ -23342,43 +23342,43 @@
                                 "#": "face:tails_right"
                             },
                             "\n",
-                            "^Barry:: Espio could have left the library at any time, because Tails and I found a <style=Important>hidden passage</style> from the <style=CarName>library car</style>…",
+                            "^Barry:: Espio poderia ter saído da biblioteca a qualquer momento, porque Tails e eu encontramos uma <style=Important>passagem secreta</style> do <style=CarName>vagão da biblioteca</style>…",
                             "\n",
-                            "^Barry:: …to the <style=CarName>lounge car</style>.",
+                            "^Barry:: …para o <style=CarName>vagão do salão</style>.",
                             "\n",
-                            "^Tails:: In the lounge, the <style=Important>hidden passage</style> exits behind the wardrobe. I feel lucky we even found it. ",
+                            "^Tails:: No salão, a <style=Important>passagem secreta</style> sai atrás do guarda-roupa. Eu me sinto sortudo de tê-la encontrado. ",
                             {
                                 "#": "expression:explaining"
                             },
                             "\n",
-                            "^Tails:: Not only would Espio avoid any locked doors, but that would put him in the car just before this one. ",
+                            "^Tails:: Não só Espio evitaria qualquer porta trancada, mas isso o colocaria no vagão imediatamente anterior a este. ",
                             {
                                 "#": "expression:skeptical"
                             },
                             "\n",
-                            "^Espio:: You have no evidence I used any ‘<style=Important>secret passage</style>.’ ",
+                            "^Espio:: Você não tem nenhuma evidência de que eu usei qualquer '<style=Important>passagem secreta</style>'.",
                             {
                                 "#": "expression:skeptical1"
                             },
                             "\n",
-                            "^Espio:: I answered all your questions without flaw. I was reading the entire time, remember? ",
+                            "^Espio:: Respondi todas as suas perguntas sem falhas. Eu estava lendo o tempo todo, lembra?",
                             {
                                 "#": "expression:dismissive"
                             },
                             "\n",
-                            "^Tails:: It’s true, you didn’t miss a question… ",
+                            "^Tails:: É verdade, você não errou nenhuma pergunta… ",
                             {
                                 "#": "expression:wondering"
                             },
                             "\n",
-                            "^Tails:: But I think ",
+                            "^Tails:: Mas acho que ",
                             "ev",
                             {
                                 "VAR?": "PLAYER_NAME"
                             },
                             "out",
                             "/ev",
-                            "^ and I can explain that too.  ",
+                            "^ e eu também podemos explicar isso. ",
                             "ev",
                             {
                                 "VAR?": "PLAYER_NAME"
@@ -23390,11 +23390,11 @@
                                 "#": "expression:certain"
                             },
                             "\n",
-                            "^Tails:: How did Espio know everything in the train manual he was reading?",
+                            "^Tails:: Como Espio sabia tudo no manual do trem que ele estava lendo?",
                             "\n",
                             "ev",
                             "str",
-                            "^A ninja like him speed reads!",
+                            "^Um ninja como ele lê rapidamente!",
                             "/str",
                             "/ev",
                             {
@@ -23403,7 +23403,7 @@
                             },
                             "ev",
                             "str",
-                            "^He’s a poet, so a quick reader!",
+                            "^Ele é um poeta, então um leitor rápido!",
                             "/str",
                             "/ev",
                             {
@@ -23413,7 +23413,7 @@
                             {
                                 "c-0": [
                                     "\n",
-                                    "^Tails:: Espio is a ninja. He’s fluent in 17 different languages and remarkably disciplined. ",
+                                    "^Tails:: Espio é um ninja. Ele é fluente em 17 línguas diferentes e é notavelmente disciplinado. ",
                                     {
                                         "#": "face:right"
                                     },
@@ -23433,7 +23433,7 @@
                                 ],
                                 "c-1": [
                                     "\n",
-                                    "^Tails:: Espio is a poet. I feel such a profession would make you quite the reader. ",
+                                    "^Tails:: Espio é um poeta. Acho que essa profissão faria de você um grande leitor. ",
                                     {
                                         "#": "expression:explaining"
                                     },
@@ -23452,7 +23452,7 @@
                                     }
                                 ],
                                 "g-0": [
-                                    "^Espio:: What are you getting at…? ",
+                                    "^Espio:: O que você está insinuando...?",
                                     {
                                         "#": "expression:skeptical2"
                                     },
@@ -23460,19 +23460,19 @@
                                         "#": "face:tails_right"
                                     },
                                     "\n",
-                                    "^Tails:: You picked a random book from the shelf… and memorized it! ",
+                                    "^Tails:: Você escolheu um livro aleatório na prateleira... e memorizou!",
                                     {
                                         "#": "expression:skeptical"
                                     },
                                     "\n",
-                                    "^Tails:: Just to guarantee yourself a clean alibi!",
+                                    "^Tails:: Só para garantir um álibi limpo!",
                                     "\n",
-                                    "^Espio:: …! What?? ",
+                                    "^Espio:: ...! O que??",
                                     {
                                         "#": "expression:sweaty"
                                     },
                                     "\n",
-                                    "^Vector:: T-that’s absurd! Memorizing a whole book? ",
+                                    "^Vector:: I-Isso é absurdo! Memorizar um livro inteiro?",
                                     {
                                         "#": "expression:resistant"
                                     },
@@ -23536,17 +23536,17 @@
                                         "#": "expression:knuckles_grumpy"
                                     },
                                     "\n",
-                                    "^Rouge:: I know this is a talented bunch, but that seems like a lot! ",
+                                    "^Rouge:: Eu sei que essa é uma turma talentosa, mas isso parece muito!",
                                     {
                                         "#": "expression:tense"
                                     },
                                     "\n",
-                                    "^Blaze:: I dunno… it is plausible. Espio is particularly skilled. ",
+                                    "^Blaze:: Eu não sei... é plausível. Espio é especialmente habilidoso.",
                                     {
                                         "#": "expression:confused"
                                     },
                                     "\n",
-                                    "^Knuckles:: I’ve known Espio a long time. He once speedread a book I was reading just to spoil the ending for me.  ",
+                                    "^Knuckles:: Conheço Espio há muito tempo. Ele já leu rapidamente um livro que eu estava lendo só para me estragar o final.",
                                     {
                                         "#": "expression:explaining"
                                     },
@@ -23606,7 +23606,7 @@
                                         "#": "expression:espio_skeptical2"
                                     },
                                     "\n",
-                                    "^Tails:: If I’m right, and Espio quickly memorized a book before entering the hidden passage… ",
+                                    "^Tails:: Se eu estiver certo, e Espio memorizou rapidamente um livro antes de entrar na passagem escondida… ",
                                     {
                                         "#": "expression:determined"
                                     },
@@ -23614,12 +23614,12 @@
                                         "#": "expression:espio_skeptical1"
                                     },
                                     "\n",
-                                    "^Tails:: Then Espio could have met Sonic in the <style=CarName>conductor’s car</style>, where he was murdered! ",
+                                    "^Tails:: Então, Espio poderia ter encontrado Sonic no <style=CarName>vagão do maquinista</style>, onde ele foi assassinado! ",
                                     {
                                         "#": "expression:skeptical"
                                     },
                                     "\n",
-                                    "^Espio:: Since we’re only talking in ‘what ifs,’ let me throw something at you. ",
+                                    "^Espio:: Já que estamos apenas discutindo 'e se', deixe-me jogar algo para você. ",
                                     {
                                         "#": "expression:skeptical2"
                                     },
@@ -23627,7 +23627,7 @@
                                         "#": "expression:tails_upset"
                                     },
                                     "\n",
-                                    "^Espio:: How was I to know about the <style=Important>hidden passage</style>? It’s hidden! ",
+                                    "^Espio:: Como eu ia saber sobre a <style=Important>passagem escondida</style>? É escondido! ",
                                     {
                                         "#": "expression:stoic"
                                     },
@@ -23640,12 +23640,12 @@
                                         "#": "expression:espio_skeptical1"
                                     },
                                     "\n",
-                                    "^Vector:: …! That’s right! How would Espio have even known it was there?? ",
+                                    "^Vector:: …! Isso mesmo! Como Espio poderia sequer saber que estava lá? ",
                                     {
                                         "#": "expression:intimidating"
                                     },
                                     "\n",
-                                    "^Vector:: You said it yourself kid, you were lucky to even find the passage! ",
+                                    "^Vector:: Você mesmo disse, garoto, você teve sorte de encontrar a passagem! ",
                                     {
                                         "#": "expression:confused"
                                     },
@@ -23657,12 +23657,12 @@
                                     },
                                     "out",
                                     "/ev",
-                                    "^ and I might not have the evidence to answer your question… ",
+                                    "^ e eu podemos não ter as evidências para responder sua pergunta… ",
                                     {
                                         "#": "expression:thinking"
                                     },
                                     "\n",
-                                    "^Tails:: But we know someone who does. ",
+                                    "^Tails:: Mas nós sabemos alguém que tem. ",
                                     "ev",
                                     {
                                         "VAR?": "PLAYER_NAME"
@@ -23726,19 +23726,19 @@
                             "#": "face:espio_left"
                         },
                         "\n",
-                        "^Tails:: You picked a random book from the shelf… and memorized it! ",
+                        "^Tails:: Você pegou um livro aleatório da prateleira... e o memorizou! ",
                         {
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Tails:: Just to guarantee yourself a clean alibi!",
+                        "^Tails:: Só para garantir um álibi limpo!",
                         "\n",
-                        "^Espio:: …! What?? ",
+                        "^Espio:: …! O que?? ",
                         {
                             "#": "expression:sweaty"
                         },
                         "\n",
-                        "^Vector:: T-that’s absurd! Memorizing a whole book? ",
+                        "^Vector:: I-isso é absurdo! Memorizar um livro inteiro? ",
                         {
                             "#": "expression:resistant"
                         },
@@ -23791,17 +23791,17 @@
                             "#": "expression:knuckles_default"
                         },
                         "\n",
-                        "^Rouge:: I know this is a talented bunch, but that seems like a lot! ",
+                        "^Rouge:: Eu sei que esse grupo é talentoso, mas isso parece muito! ",
                         {
                             "#": "expression:tense"
                         },
                         "\n",
-                        "^Blaze:: I dunno… it is plausible. Espio is particularly skilled. ",
+                        "^Blaze:: Eu não sei... é plausível. Espio é particularmente habilidoso. ",
                         {
                             "#": "expression:confused"
                         },
                         "\n",
-                        "^Knuckles:: I’ve known Espio a long time. He could have memorized it.  ",
+                        "^Knuckles:: Conheço Espio há muito tempo. Ele poderia ter memorizado. ",
                         {
                             "#": "expression:explaining"
                         },
@@ -23851,14 +23851,14 @@
                             "#": "face:vector_left"
                         },
                         "\n",
-                        "^Tails:: If I’m right, and Espio quickly memorized a book before entering the hidden passage… ",
+                        "^Tails:: Se estiver certo, e Espio rapidamente memorizou um livro antes de entrar na passagem oculta… ",
                         {
                             "#": "expression:certain"
                         },
                         "\n",
-                        "^Tails:: Then Espio could have met Sonic in the conductor’s car, where he was murdered!",
+                        "^Tails:: Então Espio poderia ter encontrado Sonic no vagão do maquinista, onde ele foi assassinado!",
                         "\n",
-                        "^Espio:: Since we’re only talking in ‘what ifs,’ let me throw something at you.",
+                        "^Espio:: Já que estamos apenas falando em 'e se', deixe-me jogar algo para vocês.",
                         "\n",
                         {
                             "->": ".^.^.Who_Dunnit_Choice2"
@@ -23869,7 +23869,7 @@
                     ],
                     "Who_Dunnit_Choice2": [
                         [
-                            "^Tails:: Who here has evidence to prove Espio knew about the hidden passage? ",
+                            "^Tails:: Quem aqui tem evidências para provar que o Espio sabia sobre a passagem oculta? ",
                             {
                                 "#": "expression:explaining"
                             },
@@ -24071,19 +24071,19 @@
                     "Choose_Not_Rouge": [
                         "^>>>>HideWhoDunnitScreenChoices()",
                         "\n",
-                        "^Tails:: That wasn’t exactly who I had in mind… ",
+                        "^Tails:: Isso não foi exatamente quem eu tinha em mente… ",
                         {
                             "#": "expression:disappointed"
                         },
                         "\n",
-                        "^Barry:: …maybe you could give me a hint?",
+                        "^Barry:: …talvez você possa me dar uma dica?",
                         "\n",
-                        "^Tails:: They told us we can see something later, and now’s the time to take a look. ",
+                        "^Tails:: Disse que podemos ver algo mais tarde, e agora é hora de dar uma olhada. ",
                         {
                             "#": "expression:explaining"
                         },
                         "\n",
-                        "^Tails:: Who told us that?",
+                        "^Tails:: Quem nos disse isso?",
                         "\n",
                         {
                             "->": ".^.^.Who_Dunnit_Choice2"
@@ -24117,7 +24117,7 @@
                                 "#": "expression:espio_default"
                             },
                             "\n",
-                            "^Tails:: Rouge! We need to see those <style=InventoryItem>blueprints</style>. ",
+                            "^Tails:: Rouge! Precisamos ver aquelas <style=InventoryItem>plantas</style>.",
                             {
                                 "#": "expression:determined"
                             },
@@ -24136,17 +24136,17 @@
                                 "#": "animateinfrom:rouge_left"
                             },
                             "\n",
-                            "^Vector:: <style=InventoryItem>Blueprints</style>? You stole <style=InventoryItem>blueprints</style>?? ",
+                            "^Vector:: <style=InventoryItem>Plantas</style>? Você roubou as <style=InventoryItem>plantas</style>?? ",
                             {
                                 "#": "expression:confused"
                             },
                             "\n",
-                            "^Rouge:: Whatever, I already used it to scout for more treasures. Came up cold. ",
+                            "^Rouge:: Deixa pra lá, eu já usei para procurar mais tesouros. Não encontrei nada. ",
                             {
                                 "#": "expression:unimpressed"
                             },
                             "\n",
-                            "^Rouge:: You can have it. ",
+                            "^Rouge:: Você pode ficar com elas. ",
                             {
                                 "#": "expression:explaining3"
                             },
@@ -24161,7 +24161,7 @@
                             "pop",
                             "/ev",
                             "\n",
-                            "^<style=InventoryItem>Blueprints</style> are added to your inventory.",
+                            "^<style=InventoryItem>Plantas</style> foram adicionados ao seu inventário.",
                             "\n",
                             "^>>>>ParseTags()  ",
                             {
@@ -24181,19 +24181,19 @@
                             "\n",
                             "^>>>>StageShowImage(librarycloseup, blueprints)",
                             "\n",
-                            "^Tails:: This right here is a blueprint to the entire train.  ",
+                            "^Tails:: Isso aqui é uma planta do trem inteiro. ",
                             {
                                 "#": "expression:tails_explaining"
                             },
                             "\n",
-                            "^Tails:: Espio could have easily used this to find the <style=Important>hidden passage</style>! ",
+                            "^Tails:: O Espio poderia ter facilmente usado isso para encontrar a <style=Important>passagem escondida</style>! ",
                             {
                                 "#": "expression:skeptical"
                             },
                             "\n",
                             "^>>>>StageHideImage(librarycloseup)",
                             "\n",
-                            "^Espio:: What makes you think I ever saw those <style=InventoryItem>blueprints</style>? Rouge had ‘em! ",
+                            "^Espio:: O que te faz pensar que eu vi essas <style=InventoryItem>plantas</style>? A Rouge as tinha!",
                             {
                                 "#": "expression:tails_thinking"
                             },
@@ -24206,14 +24206,14 @@
                                 "#": "move:tails to:leftmiddle"
                             },
                             "\n",
-                            "^Tails:: Well ",
+                            "^Tails:: Bem ",
                             "ev",
                             {
                                 "VAR?": "PLAYER_NAME"
                             },
                             "out",
                             "/ev",
-                            "^? Do you have an answer for him? ",
+                            "^? Você tem uma resposta para ele?",
                             {
                                 "#": "face:left"
                             },
@@ -24221,14 +24221,14 @@
                                 "#": "expression:tails_wondering"
                             },
                             "\n",
-                            "^Tails:: How could Espio have seen those blueprints? ",
+                            "^Tails:: Como o Espio poderia ter visto essas plantas?",
                             {
                                 "#": "expression:tails_explaining"
                             },
                             "\n",
                             "ev",
                             "str",
-                            "^Espio swiped them from the conductor!",
+                            "^Espio pegou elas do maquinista!",
                             "/str",
                             "/ev",
                             {
@@ -24237,7 +24237,7 @@
                             },
                             "ev",
                             "str",
-                            "^Espio found them before Rouge did",
+                            "^Espio as encontrou antes da Rouge",
                             "/str",
                             "/ev",
                             {
@@ -24247,7 +24247,7 @@
                             {
                                 "c-0": [
                                     "\n",
-                                    "^Tails:: There’s a code included with these <style=InventoryItem>blueprints</style> I thought was odd. ",
+                                    "^Tails:: Há um código incluído nessas <style=InventoryItem>plantas</style> que eu achei estranho.",
                                     {
                                         "#": "face:right"
                                     },
@@ -24258,21 +24258,21 @@
                                         "#": "expression:espio_skeptical1"
                                     },
                                     "\n",
-                                    "^Tails:: That code is classified information. Could these <style=InventoryItem>blueprints</style> have belonged… to the conductor? ",
+                                    "^Tails:: Esse código é informação confidencial. Será que essas <style=InventoryItem>plantas</style> pertenciam... ao maquinista?",
                                     {
                                         "#": "expression:speechless"
                                     },
                                     "\n",
-                                    "^Barry:: <style=Thought>(...! That makes a lot of sense, actually.)</style>",
+                                    "^Barry:: <style=Thought>(...! Isso faz muito sentido, na verdade.)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(I remember the conductor pulling <style=InventoryItem>blueprints</style> out to show me something during my interview…)</style>",
+                                    "^Barry:: <style=Thought>(Lembro que o maquinista puxou as <style=InventoryItem>plantas</style> para me mostrar algo durante minha entrevista...)</style>",
                                     "\n",
-                                    "^Tails:: Espio could have swiped the <style=InventoryItem>blueprints</style>, found out about the <style=Important>passage</style>, and then stuffed them somewhere!  ",
+                                    "^Tails:: Espio pode ter roubado as <style=InventoryItem>plantas</style>, descoberto sobre a <style=Important>passagem</style> e as escondido em algum lugar!",
                                     {
                                         "#": "expression:thinking"
                                     },
                                     "\n",
-                                    "^Rouge:: …! Come to think of it…  ",
+                                    "^Rouge:: ...! Pensando bem...",
                                     {
                                         "#": "expression:unimpressed"
                                     },
@@ -24286,12 +24286,12 @@
                                         "#": "animatein"
                                     },
                                     "\n",
-                                    "^Rouge:: …I did discover the <style=InventoryItem>blueprints</style> in the library car! ",
+                                    "^Rouge:: ...eu descobri as <style=InventoryItem>plantas</style> no vagão da biblioteca!",
                                     {
                                         "#": "expression:annoyed"
                                     },
                                     "\n",
-                                    "^Barry:: …! No way…!",
+                                    "^Barry:: ...! Sem chance...!",
                                     "\n",
                                     {
                                         "->": ".^.^.g-0"
@@ -24302,7 +24302,7 @@
                                 ],
                                 "c-1": [
                                     "\n",
-                                    "^Tails:: Rouge, where did you find the <style=InventoryItem>blueprints</style>?  ",
+                                    "^Tails:: Rouge, onde você encontrou as <style=InventoryItem>plantas</style>? ",
                                     {
                                         "#": "face:tails_left"
                                     },
@@ -24313,7 +24313,7 @@
                                         "#": "expression:determined"
                                     },
                                     "\n",
-                                    "^Rouge:: Oh, uh the <style=CarName>library car</style>. It was stuffed with the brochures.  ",
+                                    "^Rouge:: Ah, no vagão da <style=CarName>biblioteca</style>. Estava junto com os folhetos.",
                                     {
                                         "#": "expression:explaining3"
                                     },
@@ -24333,9 +24333,9 @@
                                         "#": "animatein"
                                     },
                                     "\n",
-                                    "^Rouge:: I checked the <style=CarName>saloon car first</style>, then found the <style=InventoryItem>blueprints</style> after leaving.",
+                                    "^Rouge:: Eu verifiquei o <style=CarName>salão primeiro</style>, depois encontrei as <style=InventoryItem>plantas</style> depois de sair.",
                                     "\n",
-                                    "^Tails:: So that means, Espio had time to find the <style=InventoryItem>blueprints</style>, and discover the <style=Important>hidden passage</style>!  ",
+                                    "^Tails:: Isso significa que Espio teve tempo de encontrar as <style=InventoryItem>plantas</style> e descobrir a <style=Important>passagem secreta</style>!",
                                     {
                                         "#": "expression:rouge_nervous"
                                     },
@@ -24359,7 +24359,7 @@
                                         "#": "exit:rouge_left"
                                     },
                                     "\n",
-                                    "^Tails:: In my theory, Espio looked at the <style=InventoryItem>blueprints</style> and then used the <style=Important>hidden passage</style> to get to Sonic. ",
+                                    "^Tails:: Na minha teoria, o Espio olhou as <style=InventoryItem>plantas</style> e usou a <style=Important>passagem secreta</style> para chegar até o Sonic. ",
                                     {
                                         "#": "face:right"
                                     },
@@ -24367,36 +24367,36 @@
                                         "#": "expression:explaining"
                                     },
                                     "\n",
-                                    "^Tails:: Within Amy’s guidelines, the murderer can ‘kill’ a single participant however they choose. ",
+                                    "^Tails:: Dentro das regras da Amy, o assassino pode 'matar' um único participante da forma que escolher. ",
                                     {
                                         "#": "face:right"
                                     },
                                     "\n",
-                                    "^Tails:: The logistics are still vague… but ",
+                                    "^Tails:: A logística ainda é vaga... mas ",
                                     "ev",
                                     {
                                         "VAR?": "PLAYER_NAME"
                                     },
                                     "out",
                                     "/ev",
-                                    "^ and I have evidence on how Sonic was murdered. ",
+                                    "^ e eu temos evidências de como o Sonic foi morto. ",
                                     {
                                         "#": "expression:determined"
                                     },
                                     "\n",
-                                    "^Tails:: I’m unsure how much harm Espio caused Sonic… but ",
+                                    "^Tails:: Não tenho certeza de quanto dano o Espio causou ao Sonic... mas ",
                                     "ev",
                                     {
                                         "VAR?": "PLAYER_NAME"
                                     },
                                     "out",
                                     "/ev",
-                                    "^ and I have evidence on how it was done. ",
+                                    "^ e eu temos evidências de como foi feito. ",
                                     {
                                         "#": "expression:skeptical"
                                     },
                                     "\n",
-                                    "^Vector:: …! ",
+                                    "^Vector:: ...! ",
                                     {
                                         "#": "expression:intimidating"
                                     },
@@ -24404,12 +24404,12 @@
                                         "#": "expression:tails_upset"
                                     },
                                     "\n",
-                                    "^Espio:: Oh, this is rich. Pray tell. ",
+                                    "^Espio:: Ah, isso é interessante. Me diga. ",
                                     {
                                         "#": "expression:confused"
                                     },
                                     "\n",
-                                    "^Espio:: If I murdered Sonic, how did I do it?",
+                                    "^Espio:: Se eu matei o Sonic, como fiz isso?",
                                     "\n",
                                     "^>>>> InventoryChoice",
                                     "\n",
@@ -24453,16 +24453,16 @@
                                         "VAR=": "INVENTORY_SELECTED_ITEM",
                                         "re": true
                                     },
-                                    "^Barry:: <style=Thought>(Ok, now to form my argument…)</style>",
+                                    "^Barry:: <style=Thought>(Ok, agora para formar meu argumento...)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(C’mon focus…! You’re close, ",
+                                    "^Barry:: <style=Thought>(Vamos, concentre-se...! Você está perto, ",
                                     "ev",
                                     {
                                         "VAR?": "PLAYER_NAME"
                                     },
                                     "out",
                                     "/ev",
-                                    "^!  What would Sonic do!)</style>",
+                                    "^! O que Sonic faria!)</style>",
                                     "\n",
                                     "^>>>> StartMinigame(32,Conductor_Car.Minigame_Midpoint1)",
                                     "\n",
@@ -24492,9 +24492,9 @@
                                         "VAR=": "INVENTORY_SELECTED_ITEM",
                                         "re": true
                                     },
-                                    "^Barry:: <style=Thought>(Hm… On second thought, this doesn't seem right.)</style>",
+                                    "^Barry:: <style=Thought>(Hm... Pensando melhor, isso não parece certo.)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(How could Espio have murdered Sonic?)</style>",
+                                    "^Barry:: <style=Thought>(Como Espio poderia ter assassinado o Sonic?)</style>",
                                     "\n",
                                     "^>>>> InventoryChoice",
                                     "\n",
@@ -24556,7 +24556,7 @@
                                     "\n",
                                     "^Barry:: <style=Thought>(Ah…)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(It’s ok, let me try again.)</style>",
+                                    "^Barry:: <style=Thought>(Está tudo bem, deixe-me tentar novamente.)</style>",
                                     "\n",
                                     "^>>>> StartMinigame(32,Conductor_Car.Minigame_Midpoint1)",
                                     "\n",
@@ -24597,7 +24597,7 @@
                             "#": "expression:vector_shocked"
                         },
                         "\n",
-                        "^Tails:: This <style=InventoryItem>blowdart</style> was found here, in the conductor room. ",
+                        "^Tails:: Este <style=InventoryItem>dardo sonífero</style> foi encontrado aqui, na sala do maquinista. ",
                         {
                             "#": "expression:skeptical"
                         },
@@ -24625,7 +24625,7 @@
                             "#": "expression:vector_intimidating"
                         },
                         "\n",
-                        "^Tails:: I believe Espio used this… to knock Sonic unconscious! ",
+                        "^Tails:: Eu acredito que o Espio usou isso… para deixar o Sonic inconsciente! ",
                         {
                             "#": "expression:determined"
                         },
@@ -24646,7 +24646,7 @@
                             "#": "expression:tails_upset"
                         },
                         "\n",
-                        "^Amy:: Ah! So you mean… ",
+                        "^Amy:: Ah! Então você quer dizer que… ",
                         {
                             "#": "stage:left"
                         },
@@ -24663,7 +24663,7 @@
                             "#": "face:tails_left"
                         },
                         "\n",
-                        "^Amy:: Sonic might just be knocked out??",
+                        "^Amy:: o Sonic pode estar apenas inconsciente??",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -24679,7 +24679,7 @@
                             "#": "expression:tails_thinking"
                         },
                         "\n",
-                        "^Blaze:: I’m… unsure. He's more banged up than what a <style=InventoryItem>blowdart</style> would do. ",
+                        "^Blaze:: Eu… não tenho certeza. Ele está mais machucado do que o que um <style=InventoryItem>dardo sonífero</style> faria.",
                         {
                             "#": "stage:left"
                         },
@@ -24709,7 +24709,7 @@
                             "#": "face:tails_right"
                         },
                         "\n",
-                        "^Tails:: According to Amy’s rules, a <style=InventoryItem>blowdart</style> counts as a ‘kill’ for the murder mystery. ",
+                        "^Tails:: De acordo com as regras da Amy, um <style=InventoryItem>dardo sonífero</style> conta como um 'assassinato' para o mistério do assassinato.",
                         {
                             "#": "expression:explaining"
                         },
@@ -24717,7 +24717,7 @@
                             "#": "face:left"
                         },
                         "\n",
-                        "^Tails:: My theory, therefore, is plausible. ",
+                        "^Tails:: Minha teoria, portanto, é plausível.",
                         {
                             "#": "face:right"
                         },
@@ -24730,7 +24730,7 @@
                             "#": "expression:tails_upset"
                         },
                         "\n",
-                        "^Espio:: Plausible, you say? Then why are there so many holes in it? ",
+                        "^Espio:: Plausível, você diz? Então por que há tantos buracos nela?",
                         {
                             "#": "expression:dismissive"
                         },
@@ -24740,7 +24740,7 @@
                             "#": "expression:tails_worried"
                         },
                         "\n",
-                        "^Rouge:: …! You deny the allegations? ",
+                        "^Rouge:: …! Você nega as acusações?",
                         {
                             "#": "expression:confrontational"
                         },
@@ -24809,31 +24809,31 @@
                             "#": "expression:shadow_grumpy"
                         },
                         "\n",
-                        "^Espio:: Of course I do. Let me present the first fatal flaw. ",
+                        "^Espio:: Claro que sim. Deixe-me apresentar a primeira falha fatal. ",
                         {
                             "#": "expression:stoic"
                         },
                         "\n",
-                        "^Espio:: If I knocked out Sonic in the <style=CarName>conductor’s car</style>… ",
+                        "^Espio:: Se eu tivesse nocauteado o Sonic no <style=CarName>vagão do maquinista</style>… ",
                         {
                             "#": "expression:skeptical2"
                         },
                         "\n",
-                        "^Espio:: …then how was Sonic found in the <style=CarName>dining car</style>?",
+                        "^Espio:: …então como o Sonic foi encontrado no <style=CarName>vagão de jantar</style>?",
                         "\n",
-                        "^Barry:: <style=Thought>(Ah, shoot...that’s a good point. But Tails was on to something, I’m sure of it!)</style>",
+                        "^Barry:: <style=Thought>(Ah, droga...esse é um bom ponto. Mas o Tails estava certo, tenho certeza disso!)</style>",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
                             "#": "expression:espio_skeptical1"
                         },
                         "\n",
-                        "^Shadow:: I locked all the doors, and Espio didn’t have a key… he would have had to take the <style=Important>hidden passage</style> back. ",
+                        "^Shadow:: Eu tranquei todas as portas, e o Espio não tinha uma chave… ele teria que ter voltado pela <style=Important>passagem secreta</style>. ",
                         {
                             "#": "expression:defensive"
                         },
                         "\n",
-                        "^Blaze:: If he took the <style=Important>hidden passage</style> back, he’d end up back in the <style=CarName>library</style>. ",
+                        "^Blaze:: Se ele voltou pela <style=Important>passagem secreta</style>, ele teria acabado de volta na <style=CarName>biblioteca</style>. ",
                         {
                             "#": "expression:annoyed"
                         },
@@ -24865,7 +24865,7 @@
                         },
                         "out",
                         "/ev",
-                        "^ and I know another way it could have been done. ",
+                        "^ e eu conhecemos outra maneira de fazer isso. ",
                         {
                             "#": "expression:wondering"
                         },
@@ -24879,9 +24879,9 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(W-we do?)</style>",
+                        "^Barry:: <style=Thought>(Nós sabemos?)</style>",
                         "\n",
-                        "^Tails:: What piece of evidence do we need to take a closer look at? ",
+                        "^Tails:: Qual evidência precisamos analisar mais de perto? ",
                         {
                             "#": "expression:explaining"
                         },
@@ -24925,16 +24925,16 @@
                                         "VAR=": "INVENTORY_SELECTED_ITEM",
                                         "re": true
                                     },
-                                    "^Barry:: <style=Thought>(Alright, now what's my argument?)</style>",
+                                    "^Barry:: <style=Thought>(Certo, agora... qual é o meu argumento?)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(We’re getting closer… think ",
+                                    "^Barry:: <style=Thought>(Nós estamos chegando perto… pense. ",
                                     "ev",
                                     {
                                         "VAR?": "PLAYER_NAME"
                                     },
                                     "out",
                                     "/ev",
-                                    "^, think!)</style>",
+                                    "^, pense!)</style>",
                                     "\n",
                                     "^>>>> StartMinigame(28,Conductor_Car.Minigame_Midpoint2)",
                                     "\n",
@@ -24964,9 +24964,9 @@
                                         "VAR=": "INVENTORY_SELECTED_ITEM",
                                         "re": true
                                     },
-                                    "^Barry:: <style=Thought>(I don’t think this is the right direction.)</style>",
+                                    "^Barry:: <style=Thought>(Eu não acho que esta seja a direção certa.)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(What evidence shows another route Espio could have used to move Sonic?)</style>",
+                                    "^Barry:: <style=Thought>(Que evidência mostra outro caminho que Espio poderia ter usado para mover Sonic?)</style>",
                                     "\n",
                                     "^>>>> InventoryChoice",
                                     "\n",
@@ -25026,9 +25026,9 @@
                             {
                                 "b": [
                                     "\n",
-                                    "^Barry:: <style=Thought>(Big oof…)</style>",
+                                    "^Barry:: <style=Thought>(Grande erro...)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(Let’s give it another try!)</style>",
+                                    "^Barry:: <style=Thought>(Vamos tentar de novo!)</style>",
                                     "\n",
                                     "^>>>> StartMinigame(28,Conductor_Car.Minigame_Midpoint2)",
                                     "\n",
@@ -25080,25 +25080,25 @@
                             "#": "face:tails_right"
                         },
                         "\n",
-                        "^Tails:: Alright, let's take a look. ",
+                        "^Tails:: Certo, vamos dar uma olhada. ",
                         {
                             "#": "expression:wondering"
                         },
                         "\n",
                         "^>>>>StageShowImage(closeup, blueprints)",
                         "\n",
-                        "^Tails:: If Espio didn’t take the <style=Important>secret passage</style> to get to the <style=CarName>dining car</style>… ",
+                        "^Tails:: Se Espio não usou a <style=Important>passagem secreta</style> para chegar ao <style=CarName>vagão de jantar</style>… ",
                         {
                             "#": "expression:thinking"
                         },
                         "\n",
-                        "^Tails:: …then what route did he take to get Sonic there?",
+                        "^Tails:: …então que caminho ele tomou para levar Sonic até lá?",
                         "\n",
                         "^Barry:: ... ...!",
                         "\n",
                         "^>>>>StageShowImage(closeup,blueprintsatticreveal)",
                         "\n",
-                        "^Barry:: There's...there's a path above the <style=CarName>conductor car</style>! And it goes all the way to the <style=CarName>dining car</style>!",
+                        "^Barry:: Existe...existe um caminho acima do <style=CarName>vagão do maquinista</style>! E ele vai até o <style=CarName>vagão de jantar</style>!",
                         "\n",
                         "^Tails:: ..! ",
                         {
@@ -25124,12 +25124,12 @@
                             "#": "bringfront:tails"
                         },
                         "\n",
-                        "^Rouge:: Huh? I didn’t even see that area! ",
+                        "^Rouge:: Hein? Eu nem vi essa área! ",
                         {
                             "#": "expression:rouge_impressed"
                         },
                         "\n",
-                        "^Rouge:: Is that some sort of… long attic? ",
+                        "^Rouge:: Isso é algum tipo de... longo sótão? ",
                         {
                             "#": "expression:nervous"
                         },
@@ -25139,7 +25139,7 @@
                             "#": "exit:rouge_left"
                         },
                         "\n",
-                        "^Tails:: According to these blueprints, there’s a hidden path in the ceiling that leads straight to the dining car. ",
+                        "^Tails:: De acordo com essas plantas, há um caminho escondido no teto que leva diretamente ao vagão de jantar. ",
                         {
                             "#": "expression:tails_explaining"
                         },
@@ -25147,11 +25147,11 @@
                             "#": "move:tails to:left"
                         },
                         "\n",
-                        "^Tails:: Perhaps you can access it…",
+                        "^Tails:: Talvez você possa acessá-lo...",
                         "\n",
                         "^>>>>StageShowImage(closeup, vent)",
                         "\n",
-                        "^Tails:: ...through the vent over there? ",
+                        "^Tails:: ...pelo duto ali? ",
                         {
                             "#": "expression:wondering"
                         },
@@ -25177,7 +25177,7 @@
                             "#": "expression:tails_thinking"
                         },
                         "\n",
-                        "^Amy:: The vent, of course! That must be the entrance to the path. ",
+                        "^Amy:: O duto, é claro! Deve ser a entrada para o caminho.",
                         {
                             "#": "stage:left"
                         },
@@ -25199,7 +25199,7 @@
                             "#": "expression:espio_skeptical1"
                         },
                         "\n",
-                        "^Knuckles:: Allow me to check it out. ",
+                        "^Knuckles:: Deixe-me dar uma olhada.",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -25256,14 +25256,14 @@
                         "\n",
                         "^>>>>ScreenShake(60,100)",
                         "\n",
-                        "^Knuckles:: My word… ",
+                        "^Knuckles:: Minha nossa…",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Knuckles:: There is a path back there! And a track!",
+                        "^Knuckles:: Há um caminho ali! E uma pista!",
                         "\n",
-                        "^Amy:: A… track? Huh? ",
+                        "^Amy:: Uma... pista? Hã?",
                         {
                             "#": "expression:shocked"
                         },
@@ -25279,7 +25279,7 @@
                             "#": "expression:tails_worried"
                         },
                         "\n",
-                        "^Knuckles:: A track for the robot arms, I think. ",
+                        "^Knuckles:: Uma pista para os braços robóticos, eu acho.",
                         {
                             "#": "stage:left"
                         },
@@ -25298,7 +25298,7 @@
                             "#": "expression:tails_upset"
                         },
                         "\n",
-                        "^Amy:: This must be the path the arms take to move throughout the train. ",
+                        "^Amy:: Deve ser o caminho que os braços percorrem para se mover pelo trem.",
                         {
                             "#": "expression:knuckles_grumpy"
                         },
@@ -25326,12 +25326,12 @@
                             "#": "bringfront:knuckles"
                         },
                         "\n",
-                        "^Espio:: So you’re saying... ",
+                        "^Espio:: Então você está dizendo...",
                         {
                             "#": "expression:confused"
                         },
                         "\n",
-                        "^Espio:: I somehow fit with Sonic in that vent, and took him to the dining car?",
+                        "^Espio:: Que de alguma forma eu entrei naquele duto com Sonic e o levei até o vagão de jantar?",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -25351,12 +25351,12 @@
                             "#": "expression:tails_thinking"
                         },
                         "\n",
-                        "^Espio:: Tails, you’re a smart kid, so I know you realize we both couldn’t fit up there. ",
+                        "^Espio:: Tails, você é um garoto esperto, então sei que você percebe que nós dois não caberíamos lá em cima.",
                         {
                             "#": "expression:stoic"
                         },
                         "\n",
-                        "^Knuckles:: Espio’s right. This is feeling flimsy, Tails. ",
+                        "^Knuckles:: Espio está certo. Isso está parecendo frágil, Tails.",
                         {
                             "#": "expression:awkward"
                         },
@@ -25380,12 +25380,12 @@
                             "#": "face:tails_right"
                         },
                         "\n",
-                        "^Espio:: I need an answer. My name’s getting dragged around here. ",
+                        "^Espio:: Eu preciso de uma resposta. Meu nome está sendo arrastado aqui.",
                         {
                             "#": "expression:tails_worried"
                         },
                         "\n",
-                        "^Espio:: How on Earth would I get Sonic through that vent? ",
+                        "^Espio:: Como diabos eu levaria Sonic por aquele duto?",
                         {
                             "#": "expression:tails_thinking"
                         },
@@ -25426,16 +25426,16 @@
                                         "VAR=": "INVENTORY_SELECTED_ITEM",
                                         "re": true
                                     },
-                                    "^Barry:: <style=Thought>(Phew, now to think about my argument.)</style>",
+                                    "^Barry:: <style=Thought>(Ufa, agora preciso pensar no meu argumento.)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(You can do this ",
+                                    "^Barry:: <style=Thought>(Você consegue fazer isso ",
                                     "ev",
                                     {
                                         "VAR?": "PLAYER_NAME"
                                     },
                                     "out",
                                     "/ev",
-                                    "^… You can do this…!)</style>",
+                                    "^… Você consegue fazer isso…!)</style>",
                                     "\n",
                                     "^>>>> StartMinigame(33,Conductor_Car.Minigame_Midpoint3)",
                                     "\n",
@@ -25465,9 +25465,9 @@
                                         "VAR=": "INVENTORY_SELECTED_ITEM",
                                         "re": true
                                     },
-                                    "^Barry:: <style=Thought>(Hm… I dunno...)</style>",
+                                    "^Barry:: <style=Thought>(Hm... Eu não sei...)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(What could be used to carry Sonic through that vent?)</style>",
+                                    "^Barry:: <style=Thought>(O que poderia ser usado para carregar o Sonic através daquele duto?)</style>",
                                     "\n",
                                     "^>>>> InventoryChoice",
                                     "\n",
@@ -25527,9 +25527,9 @@
                             {
                                 "b": [
                                     "\n",
-                                    "^Barry:: <style=Thought>(Oh no…)</style>",
+                                    "^Barry:: <style=Thought>(Oh não...)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(I gotta try this again!)</style>",
+                                    "^Barry:: <style=Thought>(Eu tenho que tentar isso de novo!)</style>",
                                     "\n",
                                     "^>>>> StartMinigame(33,Conductor_Car.Minigame_Midpoint3)",
                                     "\n",
@@ -25564,7 +25564,7 @@
                             "#": "expression:espio_skeptical1"
                         },
                         "\n",
-                        "^Tails:: Everyone saw the <style=InventoryItem>broken robot arm</style> on the ground, right? ",
+                        "^Tails:: Todo mundo viu o <style=InventoryItem>braço de robô quebrado</style> no chão, certo? ",
                         {
                             "#": "expression:explaining"
                         },
@@ -25579,21 +25579,21 @@
                         "\n",
                         "^>>>>StageShowImage(closeup,brokenrobotarm)",
                         "\n",
-                        "^Tails:: Clearly, a fight broke out here, and one of these robot arms was a casualty.  ",
+                        "^Tails:: Claramente, houve uma briga aqui, e um desses braços de robô foi uma vítima. ",
                         {
                             "#": "expression:wondering"
                         },
                         "\n",
-                        "^Tails:: But what if… one of the robot arms actually caught Sonic? ",
+                        "^Tails:: Mas e se… um dos braços de robô realmente pegou o Sonic? ",
                         {
                             "#": "expression:thinking"
                         },
                         "\n",
-                        "^Barry:: Knuckles said there’s a track the robot arms use that continues through the vent.",
+                        "^Barry:: Knuckles disse que há uma trilha que os braços de robô usam que continua através da ventilação.",
                         "\n",
-                        "^Barry:: A robot arm could have grabbed Sonic passed out from a <style=InventoryItem>blowdart</style>…",
+                        "^Barry:: Um braço de robô poderia ter pegado o Sonic desmaiado por um <style=InventoryItem>dardo sonífero</style>…",
                         "\n",
-                        "^Barry:: …and carried him to the <style=CarName>dining car</style>!",
+                        "^Barry:: …e o levado para o <style=CarName>vagão de jantar</style>!",
                         "\n",
                         "^>>>>StageHideImage(closeup)",
                         "\n",
@@ -25614,14 +25614,14 @@
                             "#": "expression:vector_confused"
                         },
                         "\n",
-                        "^Vector:: C-could that be true??",
+                        "^Vector:: I-isso poderia ser verdade??",
                         "\n",
-                        "^Tails:: Take a look at Sonic, he’s clearly banged up. ",
+                        "^Tails:: Dê uma olhada em Sonic, ele claramente está machucado. ",
                         {
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Tails:: Could the fight have been between Sonic and the robot arms?",
+                        "^Tails:: Será que a luta foi entre Sonic e os braços robóticos?",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -25690,17 +25690,17 @@
                             "#": "expression:shocked"
                         },
                         "\n",
-                        "^Rouge:: I can see that… Those arms do look powerful… ",
+                        "^Rouge:: Eu posso ver isso… Esses braços parecem poderosos… ",
                         {
                             "#": "expression:unimpressed"
                         },
                         "\n",
-                        "^Shadow:: Sonic doesn’t fall easily… but if he’s woozy from a blowdart, the arms could have gotten him. ",
+                        "^Shadow:: Sonic não cai facilmente… mas se ele estiver tonto por causa de um dardo, os braços poderiam ter o capturado. ",
                         {
                             "#": "expression:tsundere"
                         },
                         "\n",
-                        "^Blaze:: Interesting theory, Tails… but you have to admit these are a lot of coincidences. ",
+                        "^Blaze:: Teoria interessante, Tails… mas você tem que admitir que são muitas coincidências. ",
                         {
                             "#": "expression:confused"
                         },
@@ -25758,12 +25758,12 @@
                             "#": "expression:espio_default"
                         },
                         "\n",
-                        "^Tails:: I might not be able to link everything directly to Espio yet… ",
+                        "^Tails:: Talvez eu não consiga relacionar tudo diretamente com o Espio ainda...",
                         {
                             "#": "expression:wondering"
                         },
                         "\n",
-                        "^Tails:: …But I have found one inconsistency. ",
+                        "^Tails:: ...Mas encontrei uma inconsistência.",
                         {
                             "#": "face:right"
                         },
@@ -25771,12 +25771,12 @@
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Espio:: …! ",
+                        "^Espio:: ...!",
                         {
                             "#": "expression:surprised"
                         },
                         "\n",
-                        "^Vector:: What kind of inconsistency?? ",
+                        "^Vector:: Que tipo de inconsistência??",
                         {
                             "#": "expression:resistant"
                         },
@@ -25786,9 +25786,9 @@
                             "#": "expression:vector_intimidating"
                         },
                         "\n",
-                        "^Tails:: Someone here received false information, and I believe that information… came from Espio.",
+                        "^Tails:: Alguém aqui recebeu informações falsas, e acredito que essas informações... vieram do Espio.",
                         "\n",
-                        "^Tails:: Who received that information?",
+                        "^Tails:: Quem recebeu essas informações?",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -26023,12 +26023,12 @@
                         }
                     ],
                     "Choose_Not_Amy": [
-                        "^Tails:: Hm, not quite. ",
+                        "^Tails:: Hm, não exatamente. ",
                         {
                             "#": "expression:disappointed"
                         },
                         "\n",
-                        "^Tails:: Someone here received a hot scoop that turned out to be false. Who was it? ",
+                        "^Tails:: Alguém aqui recebeu uma dica quente que acabou sendo falsa. Quem foi?",
                         {
                             "#": "expression:explaining"
                         },
@@ -26075,9 +26075,9 @@
                             "#": "expression:espio_surprised"
                         },
                         "\n",
-                        "^Barry:: Amy… you received a hot scoop, did you not?",
+                        "^Barry:: Amy... você recebeu uma grande notícia, não é verdade?",
                         "\n",
-                        "^Barry:: I think it’s time you told us where that scoop came from.",
+                        "^Barry:: Acho que é hora de você nos dizer de onde veio essa notícia.",
                         "\n",
                         "^Espio:: …! ",
                         {
@@ -26087,19 +26087,19 @@
                             "#": "expression:espio_surprised"
                         },
                         "\n",
-                        "^Amy:: Tails! You're... you're right!",
+                        "^Amy:: Tails! Você está... está certo!",
                         "\n",
-                        "^Amy:: Espio LIED to me. ",
+                        "^Amy:: Espio MENTIU para mim. ",
                         {
                             "#": "expression:threatening1"
                         },
                         "\n",
-                        "^Amy:: Espio told me Shadow was locking doors to trap Sonic… ",
+                        "^Amy:: Espio me disse que Shadow estava trancando portas para prender Sonic... ",
                         {
                             "#": "expression:explaining3"
                         },
                         "\n",
-                        "^Amy::…But we found out Shadow was trying to keep me from discovering my birthday surprise! ",
+                        "^Amy::...Mas descobrimos que Shadow estava tentando me impedir de descobrir minha surpresa de aniversário! ",
                         {
                             "#": "expression:skeptical"
                         },
@@ -26118,7 +26118,7 @@
                             "#": "face:tails_right"
                         },
                         "\n",
-                        "^Shadow:: …that ‘scoop’ came from you, Espio…? ",
+                        "^Shadow:: ...aquele 'furo' veio de você, Espio...?",
                         {
                             "#": "stage:right"
                         },
@@ -26132,7 +26132,7 @@
                             "#": "expression:grumpy"
                         },
                         "\n",
-                        "^Espio:: Hngh!! ",
+                        "^Espio:: Argh!! ",
                         {
                             "#": "face:right"
                         },
@@ -26146,7 +26146,7 @@
                             "#": "move:espio to:middle"
                         },
                         "\n",
-                        "^Espio:: No, of course not. Amy must have misheard me. ",
+                        "^Espio:: Não, é claro que não. Amy deve ter entendido errado. ",
                         {
                             "#": "expression:espio_skeptical2"
                         },
@@ -26156,12 +26156,12 @@
                             "#": "expression:tails_disappointed"
                         },
                         "\n",
-                        "^Amy:: Misheard you? ",
+                        "^Amy:: Entendido errado?",
                         {
                             "#": "expression:sideeye"
                         },
                         "\n",
-                        "^Espio:: Y-yes, I said, uh, Sonic’s going to get trapped with all these locked doors! ",
+                        "^Espio:: S-sim, eu disse, uh, que o Sonic ia ficar preso com todas essas portas trancadas!",
                         {
                             "#": "face:left"
                         },
@@ -26169,9 +26169,9 @@
                             "#": "expression:dismissive"
                         },
                         "\n",
-                        "^Espio:: I was just looking out for my fellow passenger’s safety. I didn’t blame Shadow!",
+                        "^Espio:: Eu só estava cuidando da segurança dos outros passageiros. Eu não culpei o Shadow!",
                         "\n",
-                        "^Blaze:: … I don’t know, Espio. ",
+                        "^Blaze:: ...eu não sei, Espio. ",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -26185,7 +26185,7 @@
                             "#": "expression:confused"
                         },
                         "\n",
-                        "^Espio:: W-what? ",
+                        "^Espio:: O que? ",
                         {
                             "#": "face:right"
                         },
@@ -26193,12 +26193,12 @@
                             "#": "expression:surprised"
                         },
                         "\n",
-                        "^Blaze:: The evidence might not be air tight… but there’s a lot being thrown at you that makes sense. ",
+                        "^Blaze:: As evidências podem não ser totalmente concretas... mas há muitas coisas que fazem sentido. ",
                         {
                             "#": "expression:annoyed"
                         },
                         "\n",
-                        "^Shadow:: I have to agree. You want us to believe you were lazily reading the whole time? ",
+                        "^Shadow:: Eu tenho que concordar. Você quer que acreditemos que estava preguiçosamente lendo o tempo todo?",
                         {
                             "#": "expression:defensive"
                         },
@@ -26206,9 +26206,9 @@
                             "#": "bringfront"
                         },
                         "\n",
-                        "^Shadow:: While you were stationed in the room with a <style=Important>hidden passage</style>?",
+                        "^Shadow:: Enquanto você estava estacionado na sala com uma <style=Important>passagem secreta</style>?",
                         "\n",
-                        "^Espio:: …gah! ",
+                        "^Espio:: ...argh! ",
                         {
                             "#": "expression:panicking"
                         },
@@ -26226,7 +26226,7 @@
                             "#": "bringfront:tails"
                         },
                         "\n",
-                        "^Amy:: And now you’re lying to me? On my birthday? Of all days? ",
+                        "^Amy:: E agora você está mentindo para mim? No meu aniversário? De todos os dias?",
                         {
                             "#": "expression:angry"
                         },
@@ -26285,7 +26285,7 @@
                         }
                     ],
                     "Accusation": [
-                        "^Tails:: I believe the murderer used the train’s controls to move Sonic from the conductor car to the dining car…  ",
+                        "^Tails:: Eu acredito que o assassino usou os controles do trem para mover Sonic do vagão do maquinista para o vagão de jantar…",
                         {
                             "#": "expression:skeptical"
                         },
@@ -26296,15 +26296,15 @@
                             "#": "stage:espio_rightmiddle"
                         },
                         "\n",
-                        "^Tails:: …and lied to Amy casting further blame on Shadow. For no other reason than to cause doubt and confusion.",
+                        "^Tails:: …e mentiu para Amy, lançando mais culpa sobre Shadow. Sem outro motivo além de causar dúvida e confusão.",
                         "\n",
-                        "^Barry:: When examining everyone’s alibi’s, one clearly stands out as the weakest!",
+                        "^Barry:: Ao examinar o álibi de todos, um claramente se destaca como o mais fraco!",
                         "\n",
-                        "^Barry:: I believe it’s clear to everyone…",
+                        "^Barry:: Eu acredito que está claro para todos...",
                         "\n",
                         "^>>>>StopMusic(1)",
                         "\n",
-                        "^Tails:: …that it only could have been one person! ",
+                        "^Tails:: …que só poderia ter sido uma pessoa!",
                         {
                             "#": "expression:determined"
                         },
@@ -26340,7 +26340,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, espioaccusation1, 0.3)",
                         "\n",
-                        "^Tails:: It was you, Espio! ",
+                        "^Tails:: Foi você, Espio! ",
                         {
                             "#": "stage:offscreen"
                         },
@@ -26349,7 +26349,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, espioaccusation2, 0.3)",
                         "\n",
-                        "^Barry:: You were the one who murdered Sonic The Hedgehog!",
+                        "^Barry:: Você foi quem assassinou Sonic The Hedgehog!",
                         "\n",
                         "^>>>>StageHideImage(inlinecomics)",
                         "\n",
@@ -26439,7 +26439,7 @@
                         },
                         "^>>>>Hold(1.3)",
                         "\n",
-                        "^Sonic:: …h-hey guys!",
+                        "^Sonic:: …h-hey pessoal!",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -26471,12 +26471,12 @@
                             "#": "face:espio_right"
                         },
                         "\n",
-                        "^Amy:: …! Sonic! You’re ok! ",
+                        "^Amy:: …! Sonic! Você está bem!",
                         {
                             "#": "expression:shocked"
                         },
                         "\n",
-                        "^Tails:: Sonic…! And just as we solved the mystery!  ",
+                        "^Tails:: Sonic…! E justo quando resolvemos o mistério!",
                         {
                             "#": "expression:amy_confused"
                         },
@@ -26486,7 +26486,7 @@
                             "#": "expression:espio_sweaty"
                         },
                         "\n",
-                        "^Tails:: Espio was the murderer! ",
+                        "^Tails:: Espio era o assassino!",
                         {
                             "#": "expression:determined"
                         },
@@ -26499,7 +26499,7 @@
                         }
                     ],
                     "Sonic_Explanation1": [
-                        "^Sonic:: Right... ",
+                        "^Sonic:: Certo... ",
                         {
                             "#": "expression:serious"
                         },
@@ -26546,7 +26546,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, explanation1)",
                         "\n",
-                        "^Sonic:: Espio jumped me in the <style=CarName>conductor car</style>. ",
+                        "^Sonic:: Espio me atacou no <style=CarName>vagão do maquinista</style>. ",
                         {
                             "#": "expression:sonic_serious"
                         },
@@ -26558,27 +26558,27 @@
                         "\n",
                         "^>>>>Hold(0.4)",
                         "\n",
-                        "^Sonic:: <style=Flashback>\"Dangit, you got me.\"</style> ",
+                        "^Sonic:: <style=Flashback>\"Droga, você me pegou.\"</style> ",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Sonic:: <style=Flashback>\"A blow dart though? Really?\"</style>",
+                        "^Sonic:: <style=Flashback>\"Um dardo com veneno não letal? Sério?\"</style>",
                         "\n",
-                        "^Espio:: <style=Flashback>\"It’s nonlethal poison. You'll just be sleepy for a while.\"</style> ",
+                        "^Espio:: <style=Flashback>\"É veneno não letal. Você apenas ficará sonolento por um tempo.\"</style> ",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Sonic:: <style=Flashback>\"Great… I could use a nap…\"</style>",
+                        "^Sonic:: <style=Flashback>\"Ótimo... Eu poderia tirar uma soneca...\"</style>",
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, explanation2)",
                         "\n",
-                        "^Sonic:: <style=Flashback>\"No wait... there's something... important...\"</style>",
+                        "^Sonic:: <style=Flashback>\"Não espere... há algo... importante...\"</style>",
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, explanation3)",
                         "\n",
-                        "^Sonic:: Espio left me there. ",
+                        "^Sonic:: Espio me deixou lá. ",
                         {
                             "#": "stage:right"
                         },
@@ -26628,19 +26628,19 @@
                             "#": "face:amy_right"
                         },
                         "\n",
-                        "^Barry:: …! <style=Thought>(Something important?)</style>",
+                        "^Barry:: ...! <style=Thought>(Algo importante?)</style>",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
                             "#": "expression:espio_surprised"
                         },
                         "\n",
-                        "^Sonic:: I need... everyone to listen... ",
+                        "^Sonic:: Eu preciso... que todos escutem...",
                         {
                             "#": "expression:injured"
                         },
                         "\n",
-                        "^Sonic:: The train’s <style=Important>a badnik</style>. ",
+                        "^Sonic:: O trem é um <style=Important>badnik</style>.",
                         {
                             "#": "expression:upset"
                         },
@@ -26655,7 +26655,7 @@
                             "#": "move:sonic to:rightmiddle"
                         },
                         "\n",
-                        "^Rouge:: Sonic, are you feeling alright? ",
+                        "^Rouge:: Sonic, você está se sentindo bem?",
                         {
                             "#": "stage:right"
                         },
@@ -26695,7 +26695,7 @@
                             "#": "move:rouge to:rightmiddle"
                         },
                         "\n",
-                        "^Vector:: Do you need to lie back down? ",
+                        "^Vector:: Precisa deitar novamente?",
                         {
                             "#": "stage:right"
                         },
@@ -26730,12 +26730,12 @@
                             "#": "face:sonic_right"
                         },
                         "\n",
-                        "^Sonic:: N-No… We all need to get off this train. ",
+                        "^Sonic:: N-Não... Todos nós precisamos sair deste trem.",
                         {
                             "#": "expression:mad"
                         },
                         "\n",
-                        "^Sonic:: We’re not safe! ",
+                        "^Sonic:: Não estamos seguros!",
                         {
                             "#": "face:left"
                         },
@@ -26743,26 +26743,26 @@
                             "#": "expression:injured"
                         },
                         "\n",
-                        "^Tails:: W-what? ",
+                        "^Tails:: O-o que? ",
                         {
                             "#": "expression:worried"
                         },
                         "\n",
-                        "^Sonic:: When I arrived at the conductor car, the conductor was already here. ",
+                        "^Sonic:: Quando cheguei no vagão do maquinista, ele já estava lá.",
                         {
                             "#": "expression:serious"
                         },
                         "\n",
-                        "^Sonic:: He was so excited to tell me all about the features of the train.",
+                        "^Sonic:: Ele estava tão empolgado para me mostrar todas as características do trem.",
                         "\n",
-                        "^Sonic:: But what he was telling me… I had a bad feeling. I asked to see the power source. The conductor hadn’t even seen it. ",
+                        "^Sonic:: Mas o que ele estava me contando... eu tive um mau pressentimento. Pedi para ver a fonte de energia. O maquinista nem mesmo tinha visto.",
                         {
                             "#": "expression:thinking3"
                         },
                         "\n",
-                        "^Sonic:: When we took a look, we realized...",
+                        "^Sonic:: Quando olhamos, percebemos...",
                         "\n",
-                        "^Sonic:: ...the train's powered by a <style=Important>flicky</style>. ",
+                        "^Sonic:: ...o trem é alimentado por um <style=Important>flicky</style>.",
                         {
                             "#": "expression:mad"
                         },
@@ -26780,21 +26780,21 @@
                             "#": "expression:tails_upset"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(A flicky? The tiny animal??)</style>",
+                        "^Barry:: <style=Thought>(Um flicky? O animalzinho??)</style>",
                         "\n",
-                        "^Tails:: There’s only one person twisted enough to use a flicky as a power source… ",
+                        "^Tails:: Só há uma pessoa malvada o suficiente para usar um flicky como fonte de energia...",
                         {
                             "#": "expression:speechless"
                         },
                         "\n",
-                        "^Tails:: …Dr. Eggman. ",
+                        "^Tails:: ...Dr. Eggman.",
                         {
                             "#": "expression:determined"
                         },
                         "\n",
                         "^>>>>StageHideImage(closeup)",
                         "\n",
-                        "^Sonic:: I told the conductor the train needed to be destroyed… he refused.  ",
+                        "^Sonic:: Eu disse ao maquinista que o trem precisava ser destruído... ele se recusou. ",
                         {
                             "#": "expression:tails_worried"
                         },
@@ -26802,14 +26802,14 @@
                             "#": "expression:serious"
                         },
                         "\n",
-                        "^Sonic:: The way the conductor was describing it… it’s more than a simple badnik. ",
+                        "^Sonic:: A maneira como o maquinista estava descrevendo... é mais do que um simples badnik. ",
                         {
                             "#": "expression:thinking3"
                         },
                         "\n",
-                        "^Sonic:: It’s the conductor’s friend. The train is his co-conductor.",
+                        "^Sonic:: É o amigo do maquinista. O trem é seu co-maquinista.",
                         "\n",
-                        "^Amy:: You’re not serious… ",
+                        "^Amy:: Você não está falando sério...",
                         {
                             "#": "expression:sonic_defeated"
                         },
@@ -26817,7 +26817,7 @@
                             "#": "expression:amy_confused"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(They uh, certainly didn’t tell me that in the interview…)</style>",
+                        "^Barry:: <style=Thought>(Eles certamente não me contaram isso na entrevista...)</style>",
                         "\n",
                         {
                             "->": ".^.^.Sonic_Explanation2"
@@ -26827,7 +26827,7 @@
                         }
                     ],
                     "Sonic_Explanation2": [
-                        "^Sonic:: Right as we saw the <style=Important>flicky</style>, I felt a sting in my shoulder. It was the <style=InventoryItem>blowdart</style> from Espio. ",
+                        "^Sonic:: Logo que vimos o <style=Important>flicky</style>, senti uma picada no meu ombro. Era o <style=InventoryItem>dardo sonífero</style> do Espio.",
                         {
                             "#": "stage:right"
                         },
@@ -26910,7 +26910,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, explanation3recap)",
                         "\n",
-                        "^Sonic:: Espio left… ",
+                        "^Sonic:: Espio foi embora… ",
                         {
                             "#": "stage:right"
                         },
@@ -26923,7 +26923,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, redfade, 1.5)",
                         "\n",
-                        "^Sonic:: The lights in the room started to glow red... ",
+                        "^Sonic:: As luzes na sala começaram a brilhar em vermelho...",
                         {
                             "#": "expression:upset"
                         },
@@ -26944,14 +26944,14 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, explanation5)",
                         "\n",
-                        "^Conductor:: <style=Flashback>\"Hey! Stop! What are you doing?\"</style> ",
+                        "^Conductor:: <style=Flashback>\"Ei! Pare! O que vocês estão fazendo?\"</style>",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, explanation6)",
                         "\n",
-                        "^Sonic:: I knew something was wrong and stood up. ",
+                        "^Sonic:: Eu sabia que algo estava errado e me levantei. ",
                         {
                             "#": "stage:right"
                         },
@@ -26974,21 +26974,21 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, explanation7)",
                         "\n",
-                        "^Sonic:: The arms came for me next.",
+                        "^Sonic:: Os braços vieram para mim em seguida.",
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, explanation8)",
                         "\n",
-                        "^Sonic::  I spindashed right through the robot arm, sliced it off the rail it was on. ",
+                        "^Sonic:: Eu fiz um spindash através do braço robótico, cortando-o do trilho em que estava.",
                         {
                             "#": "expression:sonic_serious"
                         },
                         "\n",
-                        "^Barry:: Wow… <style=Thought>(I’m amazed he was able to do any of this poisoned!)</style> ",
+                        "^Barry:: Uau... <style=Thought>(Estou impressionado que ele conseguiu fazer isso envenenado!)</style>",
                         {
                             "#": "expression:sonic_defeated"
                         },
                         "\n",
-                        "^Sonic:: But another robot arm managed to grab me, and pinned me to the floor. ",
+                        "^Sonic:: Mas outro braço robótico conseguiu me agarrar e me prendeu no chão. ",
                         {
                             "#": "expression:sonic_serious"
                         },
@@ -27005,7 +27005,7 @@
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Sonic:: The Conductor screamed as the arms approached him, but… ",
+                        "^Sonic:: O maquinista gritou enquanto os braços se aproximavam dele, mas...",
                         {
                             "#": "stage:right"
                         },
@@ -27019,7 +27019,7 @@
                             "#": "expression:sonic_serious"
                         },
                         "\n",
-                        "^Sonic:: …I was hit quite a bit before it all got to me…",
+                        "^Sonic:: ...Eu fui atingido várias vezes antes que tudo chegasse até mim...",
                         "\n",
                         "^>>>>FadeToBlack(2)",
                         "\n",
@@ -27093,7 +27093,7 @@
                                 "VAR=": "ALLOW_SAVE_LOAD",
                                 "re": true
                             },
-                            "^Amy:: Oh no…",
+                            "^Amy:: Ah não…",
                             "\n",
                             "^Knuckles:: … ",
                             {
@@ -27124,7 +27124,7 @@
                                 "#": "exit:amy_inplace"
                             },
                             "\n",
-                            "^Espio:: Everyone… I have something to admit. ",
+                            "^Espio:: Todos... eu tenho algo a admitir. ",
                             {
                                 "#": "stage:middle"
                             },
@@ -27140,12 +27140,12 @@
                             "\n",
                             "^Espio:: …",
                             "\n",
-                            "^Espio:: I murdered Sonic The Hedgehog. ",
+                            "^Espio:: Eu matei Sonic The Hedgehog. ",
                             {
                                 "#": "expression:guilty"
                             },
                             "\n",
-                            "^Rouge:: Yeah, we already knew that. ",
+                            "^Rouge:: Sim, nós já sabíamos disso. ",
                             {
                                 "#": "stage:right"
                             },
@@ -27213,12 +27213,12 @@
                                 "#": "expression:sideeye"
                             },
                             "\n",
-                            "^Amy:: The situation has gotten so serious… Why would you not just tell us? ",
+                            "^Amy:: A situação ficou tão séria… Por que você não nos disse? ",
                             {
                                 "#": "expression:explaining3"
                             },
                             "\n",
-                            "^Espio:: I thought that's how these murder games worked. ",
+                            "^Espio:: Eu pensei que era assim que esses jogos de assassinato funcionavam. ",
                             {
                                 "#": "expression:skeptical2"
                             },
@@ -27226,12 +27226,12 @@
                                 "#": "expression:amy_upset"
                             },
                             "\n",
-                            "^Espio:: You shoot someone with a <style=InventoryItem>blowdart</style>, they die! ",
+                            "^Espio:: Você atira em alguém com um <style=InventoryItem>dardo sonífero</style>, ele morre! ",
                             {
                                 "#": "expression:content"
                             },
                             "\n",
-                            "^Amy:: Are you crazy?? It's just a make-believe game, no one should get hit with a <style=InventoryItem>blowdart</style>!! ",
+                            "^Amy:: Você está louco?? É só um jogo de faz-de-conta, ninguém deveria ser atingido por um <style=InventoryItem>dardo sonífero</style>!! ",
                             {
                                 "#": "expression:skeptical"
                             },
@@ -27241,7 +27241,7 @@
                                 "#": "expression:surprised"
                             },
                             "\n",
-                            "^Espio:: I was just following the rules. ",
+                            "^Espio:: Eu estava apenas seguindo as regras. ",
                             {
                                 "#": "expression:explaining"
                             },
@@ -27271,12 +27271,12 @@
                             "\n",
                             "^>>>>StageShowImage(closeup, trainnote)",
                             "\n",
-                            "^Espio:: See? ",
+                            "^Espio:: Veja só. ",
                             {
                                 "#": "expression:stoic"
                             },
                             "\n",
-                            "^Sonic:: What is that? ",
+                            "^Sonic:: O que é isso? ",
                             {
                                 "#": "expression:espio_default"
                             },
@@ -27284,14 +27284,14 @@
                                 "#": "expression:thinking3"
                             },
                             "\n",
-                            "^Tails:: It says… “Use this <style=InventoryItem>blowdart</style> on Sonic, stationed in the conductor car. It is laced with a nonlethal sleeping agent.” ",
+                            "^Tails:: Diz aqui… “Use este <style=InventoryItem>dardo sonífero</style> no Sonic, estacionado no vagão do maquinista. Está envenenado com um agente sonífero não letal.” ",
                             {
                                 "#": "expression:thinking"
                             },
                             "\n",
-                            "^Tails:: “Thank you again for choosing the Mirage Express...-Staff.”",
+                            "^Tails:: “Obrigado novamente por escolher o Expresso Mirage...-Staff.”",
                             "\n",
-                            "^Tails:: What is this? Instructions? ",
+                            "^Tails:: O que é isso? Instruções? ",
                             {
                                 "#": "expression:worried"
                             },
@@ -27312,33 +27312,33 @@
                                 "#": "move:tails to:leftmiddle"
                             },
                             "\n",
-                            "^Espio:: I was given the <style=InventoryItem>blowdart</style> along with that card. ",
+                            "^Espio:: Me entregaram o <style=InventoryItem>dardo sonífero</style> junto com esse cartão. ",
                             {
                                 "#": "expression:stoic"
                             },
                             "\n",
-                            "^Barry:: It’s signed staff… Who gave this to you?",
+                            "^Barry:: Está assinado pela equipe... Quem te deu isso?",
                             "\n",
-                            "^Espio:: Come to think of it… ",
+                            "^Espio:: Agora que você mencionou... ",
                             {
                                 "#": "expression:confused"
                             },
                             "\n",
-                            "^Espio:: …one of the <style=Important>robotic arms</style> handed it to me.",
+                            "^Espio:: ...um dos <style=Important>braços robóticos</style> me entregou isso.",
                             "\n",
-                            "^Sonic:: …! ",
+                            "^Sonic:: ...! ",
                             {
                                 "#": "expression:upset"
                             },
                             "\n",
-                            "^Amy:: Weapons shouldn’t be allowed on the train… ",
+                            "^Amy:: Armas não deveriam ser permitidas no trem... ",
                             {
                                 "#": "expression:explaining3"
                             },
                             "\n",
-                            "^Amy:: What is the larger picture here…? Who instructed those arms to attack?",
+                            "^Amy:: Qual é o quadro geral aqui...? Quem instruiu esses braços a atacar?",
                             "\n",
-                            "^Tails:: Who… or what? ",
+                            "^Tails:: Quem... ou o quê?",
                             {
                                 "#": "expression:amy_confused"
                             },
@@ -27378,14 +27378,14 @@
                             },
                             "out",
                             "/ev",
-                            "^, who do you think attacked Sonic and handed Espio the <style=InventoryItem>blowdart</style>? ",
+                            "^, quem você acha que atacou Sonic e entregou o <style=InventoryItem>dardo</style> para Espio?",
                             {
                                 "#": "expression:explaining"
                             },
                             "\n",
                             "ev",
                             "str",
-                            "^The conductor",
+                            "^O maquinista",
                             "/str",
                             "/ev",
                             {
@@ -27394,7 +27394,7 @@
                             },
                             "ev",
                             "str",
-                            "^The train itself",
+                            "^O próprio trem",
                             "/str",
                             "/ev",
                             {
@@ -27404,12 +27404,12 @@
                             {
                                 "c-0": [
                                     "\n",
-                                    "^Tails:: According to Sonic, the conductor was attacked by the <style=Important>robot arms.</style> ",
+                                    "^Tails:: De acordo com Sonic, o maquinista foi atacado pelos <style=Important>braços robóticos.</style>",
                                     {
                                         "#": "expression:disappointed"
                                     },
                                     "\n",
-                                    "^Tails:: I doubt he attacked himself on purpose, and while it could have been an accident, I have a different theory…",
+                                    "^Tails:: Eu duvido que ele tenha se atacado de propósito, e embora possa ter sido um acidente, tenho uma teoria diferente...",
                                     "\n",
                                     {
                                         "->": ".^.^.g-0"
@@ -27428,12 +27428,12 @@
                                     }
                                 ],
                                 "g-0": [
-                                    "^Tails:: I believe something’s been orchestrating things behind the scenes. ",
+                                    "^Tails:: Eu acredito que algo esteja orquestrando as coisas nos bastidores. ",
                                     {
                                         "#": "expression:thinking"
                                     },
                                     "\n",
-                                    "^Tails:: Something wanted Sonic out of the picture, and for a good while. So I think… ",
+                                    "^Tails:: Algo queria Sonic fora de cena, e por um bom tempo. Então eu acho...",
                                     {
                                         "#": "move:tails to:leftmiddle"
                                     },
@@ -27447,16 +27447,16 @@
                                         "#": "expression:sonic_thinking1"
                                     },
                                     "\n",
-                                    "^Tails:: …the <style=Important>train itself</style> is plotting something! ",
+                                    "^Tails:: ...o <style=Important>próprio trem</style> está tramando algo! ",
                                     {
                                         "#": "expression:determined"
                                     },
                                     "\n",
                                     "^Barry:: ...!",
                                     "\n",
-                                    "^Barry:: <style=Thought>(First we learn the train’s a badnik… and now it’s out to get us?!)</style>",
+                                    "^Barry:: <style=Thought>(Primeiro descobrimos que o trem é um badnik... e agora ele está atrás de nós?!)</style>",
                                     "\n",
-                                    "^Shadow:: Once again you keep saying the most ridiculous nonsense. ",
+                                    "^Shadow:: Mais uma vez você continua falando as maiores besteiras. ",
                                     {
                                         "#": "stage:left"
                                     },
@@ -27470,9 +27470,9 @@
                                         "#": "expression:talking"
                                     },
                                     "\n",
-                                    "^Shadow:: You’re seriously convinced the train has it out to get us?",
+                                    "^Shadow:: Você está seriamente convencido de que o trem está atrás de nós?",
                                     "\n",
-                                    "^Tails:: I don’t know what the train’s full intent is… ",
+                                    "^Tails:: Eu não sei qual é a intenção completa do trem...",
                                     {
                                         "#": "face:left"
                                     },
@@ -27480,7 +27480,7 @@
                                         "#": "expression:thinking"
                                     },
                                     "\n",
-                                    "^Tails:: But clearly it’s been tampering in our murder mystery game! ",
+                                    "^Tails:: Mas está claro que ele tem se intrometido no nosso jogo de mistério de assassinato!",
                                     {
                                         "#": "expression:determined"
                                     },
@@ -27507,7 +27507,7 @@
                                         "#": "face:sonic_left"
                                     },
                                     "\n",
-                                    "^Amy:: TRAIN. ",
+                                    "^Amy:: TREM.",
                                     {
                                         "#": "stage:middle"
                                     },
@@ -27521,11 +27521,11 @@
                                         "#": "animatein"
                                     },
                                     "\n",
-                                    "^Barry:: …!",
+                                    "^Barry:: ...!",
                                     "\n",
                                     "^>>>>PlaySFX(amyhammerpull)",
                                     "\n",
-                                    "^Amy:: COME OUT AND SHOW YOURSELF! ",
+                                    "^Amy:: SAIA E SE MOSTRE!",
                                     {
                                         "#": "expression:angry"
                                     },
@@ -27539,7 +27539,7 @@
                                         "#": "expression:sonic_upset"
                                     },
                                     "\n",
-                                    "^Sonic:: A-Amy!  ",
+                                    "^Sonic:: A-Amy!",
                                     {
                                         "#": "expression:panicking"
                                     },
@@ -27547,7 +27547,7 @@
                                         "#": "expression:tails_sad"
                                     },
                                     "\n",
-                                    "^Amy:: It’s my BIRTHDAY! And I don’t need you MESSING WITH IT! ",
+                                    "^Amy:: É o meu ANIVERSÁRIO! E eu não preciso de vocês INTERFERINDO COM ELE!",
                                     {
                                         "#": "face:left"
                                     },
@@ -27570,13 +27570,13 @@
                                     "\n",
                                     "^>>>>PlaySFX(amyhitwall1)",
                                     "\n",
-                                    "^Barry:: <style=Thought>(Amy’s hitting the wall with her hammer!)</style>",
+                                    "^Barry:: <style=Thought>(Amy está batendo na parede com o martelo!)</style>",
                                     "\n",
                                     "^>>>>ScreenShake(150,140)",
                                     "\n",
                                     "^>>>>PlaySFX(amyhitwall2)",
                                     "\n",
-                                    "^Vector:: I’m with you, Amy. This train can have it! ",
+                                    "^Vector:: Eu estou com você, Amy. Este trem não tem chance!",
                                     {
                                         "#": "stage:right"
                                     },
@@ -27601,7 +27601,7 @@
                                     "\n",
                                     "^>>>>ScreenShake(60,70)",
                                     "\n",
-                                    "^Tails:: C’mon, there’s gotta be another way to get the train’s attention! ",
+                                    "^Tails:: Vamos lá, deve haver outra maneira de chamar a atenção do trem!",
                                     {
                                         "#": "expression:worried"
                                     },
@@ -27630,7 +27630,7 @@
                         "\n",
                         "^>>>>ScreenShake(80,100)",
                         "\n",
-                        "^Tails:: ...! What was that! ",
+                        "^Tails:: ...! O que foi isso! ",
                         {
                             "#": "face:left"
                         },
@@ -27676,7 +27676,7 @@
                             "VAR=": "ALLOW_SAVE_LOAD",
                             "re": true
                         },
-                        "^Rouge:: What did you two do?! ",
+                        "^Rouge:: O que vocês fizeram?! ",
                         {
                             "#": "stage:left"
                         },
@@ -27715,7 +27715,7 @@
                             "#": "expression:conductor_captured"
                         },
                         "\n",
-                        "^Tails:: Is that… the conductor?? ",
+                        "^Tails:: Isso é... o maquinista?? ",
                         {
                             "#": "expression:speechless"
                         },
@@ -27730,7 +27730,7 @@
                             "#": "move:sonic to:middle"
                         },
                         "\n",
-                        "^Sonic:: Here, I can get him down– ",
+                        "^Sonic:: Aqui, eu posso descer ele– ",
                         {
                             "#": "expression:determined"
                         },
@@ -27746,7 +27746,7 @@
                             "#": "move:sonic to:leftmiddle"
                         },
                         "\n",
-                        "^Train:: DON’T TOUCH HIM! ",
+                        "^Train:: NÃO TOQUE NELE! ",
                         {
                             "#": "move:train from:offstageright to:right"
                         },
@@ -27781,7 +27781,7 @@
                             "#": "expression:sonic_upset"
                         },
                         "\n",
-                        "^Amy:: Is the train talking?? ",
+                        "^Amy:: O trem está falando?? ",
                         {
                             "#": "expression:skeptical"
                         },
@@ -27791,18 +27791,18 @@
                             "#": "expression:amy_upset"
                         },
                         "\n",
-                        "^Train:: Of course I can talk! You fools were too distracted playing your little game to figure it out.",
+                        "^Train:: Claro que eu posso falar! Vocês tolos estavam muito distraídos jogando o seu joguinho para perceber.",
                         "\n",
-                        "^Tails:: We were right, weren’t we? ",
+                        "^Tails:: Nós estávamos certos, não é? ",
                         {
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Tails:: What are you plotting?",
+                        "^Tails:: O que você está tramando?",
                         "\n",
-                        "^Train:: I’m taking all of you to Eggman’s BASE.",
+                        "^Train:: Eu vou levar todos vocês para a BASE do Eggman.",
                         "\n",
-                        "^Train:: WHERE YOU WILL ROT!",
+                        "^Train:: ONDE VOCÊS VÃO APANHAR!",
                         "\n",
                         "^Sonic:: Eggman? ",
                         {
@@ -27812,14 +27812,14 @@
                             "#": "expression:mad"
                         },
                         "\n",
-                        "^Train:: After I deliver your annoying party right to his egg fortress…",
+                        "^Train:: Depois que eu entregar sua festa irritante diretamente para a fortaleza do ovo dele...",
                         "\n",
-                        "^Amy:: …annoying…? ",
+                        "^Amy:: ...irritante...? ",
                         {
                             "#": "expression:shocked"
                         },
                         "\n",
-                        "^Train:: THE CONDUCTOR AND I will be free to laugh and play games… Ride the open rails … Like we always planned! ",
+                        "^Train:: O MAQUINISTA E EU vamos ficar livres para rir e jogar jogos... Andar pelos trilhos abertos... Como planejamos desde o começo! ",
                         {
                             "#": "face:right"
                         },
@@ -27827,7 +27827,7 @@
                             "#": "expression:amy_upset"
                         },
                         "\n",
-                        "^Tails:: What are you– ",
+                        "^Tails:: O que você está– ",
                         {
                             "#": "expression:worried"
                         },
@@ -27840,7 +27840,7 @@
                         }
                     ],
                     "Train_Speeds_Up": [
-                        "^Train:: ENOUGH! ",
+                        "^Train:: CHEGA!",
                         {
                             "#": "face:left"
                         },
@@ -27864,7 +27864,7 @@
                             "#": "face:sonic_left"
                         },
                         "\n",
-                        "^Blaze:: The train’s picking up speed! ",
+                        "^Blaze:: O trem está ganhando velocidade!",
                         {
                             "#": "stage:middle"
                         },
@@ -27875,7 +27875,7 @@
                             "#": "expression:shocked"
                         },
                         "\n",
-                        "^Blaze:: Everyone, grab something! ",
+                        "^Blaze:: Todos, agarrem em algo!",
                         {
                             "#": "expression:nervous"
                         },
@@ -27888,12 +27888,12 @@
                             "#": "face:sonic_right"
                         },
                         "\n",
-                        "^Sonic:: ... ",
+                        "^Sonic:: ...",
                         {
                             "#": "expression:thinking3"
                         },
                         "\n",
-                        "^Sonic:: Which one of these buttons turns the train off?! ",
+                        "^Sonic:: Qual desses botões desliga o trem?!",
                         {
                             "#": "face:left"
                         },
@@ -27912,7 +27912,7 @@
                             "#": "face:train_left"
                         },
                         "\n",
-                        "^Sonic:: W-whoa! ",
+                        "^Sonic:: U-uau!",
                         {
                             "#": "expression:injured"
                         },
@@ -27938,9 +27938,9 @@
                         "\n",
                         "^Train:: HA HA… HAHAHAAAHAHA!",
                         "\n",
-                        "^Train:: STAY PUT UNTIL WE ARRIVE.",
+                        "^Train:: FIQUEM PARADOS ATÉ CHEGARMOS.",
                         "\n",
-                        "^Train:: Goodbye. ",
+                        "^Train:: Adeus. ",
                         {
                             "#": "exit:train_right"
                         },
@@ -27971,7 +27971,7 @@
                             "#": "expression:shocked"
                         },
                         "\n",
-                        "^Rouge:: No! Noo! ",
+                        "^Rouge:: Não! Não!",
                         {
                             "#": "stage:right"
                         },
@@ -27985,7 +27985,7 @@
                             "#": "expression:tense"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(I can’t keep my footing!!)</style>",
+                        "^Barry:: <style=Thought>(Não consigo manter meu equilíbrio!!)</style>",
                         "\n",
                         "^Barry:: Ahh! AHHHHHHHHH!!",
                         "\n",
@@ -28071,9 +28071,9 @@
                         }
                     ],
                     "Trash_Bin1": [
-                        "^Barry:: Y’know, I’m alright. I don’t need to check the trash bin.",
+                        "^Barry:: Sabe, eu estou bem. Não preciso checar a lata de lixo.",
                         "\n",
-                        "^Tails:: You’re satisfied with finding a clue here before, huh? ",
+                        "^Tails:: Você ficou satisfeito em encontrar uma pista aqui antes, né? ",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -28087,7 +28087,7 @@
                             "#": "expression:supportive"
                         },
                         "\n",
-                        "^Barry:: I know they say “always check the trash bin,” but I’m good. I’ll go out on a high note.",
+                        "^Barry:: Eu sei que dizem 'sempre checar a lata de lixo', mas estou bem. Vou sair por cima.",
                         "\n",
                         "^>>>> EndConversation()",
                         "\n",
@@ -28099,11 +28099,11 @@
                         }
                     ],
                     "Trash_Bin2": [
-                        "^Barry:: No no they’re right, you should always check the trash bin.",
+                        "^Barry:: Não, não, eles estão certos, você sempre deve verificar o lixo.",
                         "\n",
-                        "^Barry:: Let’s give it a look.",
+                        "^Barry:: Vamos dar uma olhada.",
                         "\n",
-                        "^Tails:: You gave in so easily! Will you be ok if there’s nothing in there? ",
+                        "^Tails:: Você cedeu tão facilmente! Você ficará bem se não tiver nada lá dentro? ",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -28117,18 +28117,18 @@
                             "#": "expression:worried"
                         },
                         "\n",
-                        "^Barry:: I found something once, no one can take that away from me. I’ll be fine.",
+                        "^Barry:: Eu já encontrei algo uma vez, ninguém pode tirar isso de mim. Eu ficarei bem.",
                         "\n",
                         "^Barry:: … …",
                         "\n",
                         "^Barry:: …hm.",
                         "\n",
-                        "^Tails:: Nothing in there, huh? ",
+                        "^Tails:: Nada lá dentro, né? ",
                         {
                             "#": "expression:disappointed"
                         },
                         "\n",
-                        "^Tails:: Oh no… you look so sad about it.",
+                        "^Tails:: Oh não... você parece tão triste com isso.",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -28150,12 +28150,12 @@
                             "#": "animateinfrom:shadow_right"
                         },
                         "\n",
-                        "^Shadow:: You two have been talking over the trash can for awhile now. ",
+                        "^Shadow:: Vocês dois estiveram conversando sobre a lixeira por um tempo agora. ",
                         {
                             "#": "expression:talking"
                         },
                         "\n",
-                        "^Shadow:: Did you find something?",
+                        "^Shadow:: Vocês encontraram alguma coisa?",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -28180,7 +28180,7 @@
                             "#": "expression:shadow_default"
                         },
                         "\n",
-                        "^Amy:: Yeah, I wanna see! Is it a clue? ",
+                        "^Amy:: Sim, eu quero ver! É uma pista? ",
                         {
                             "#": "expression:happy"
                         },
@@ -28200,14 +28200,14 @@
                             "#": "expression:disappointed"
                         },
                         "\n",
-                        "^Tails:: …maybe just, leave ",
+                        "^Tails:: ...talvez seja melhor deixar ",
                         "ev",
                         {
                             "VAR?": "PLAYER_NAME"
                         },
                         "out",
                         "/ev",
-                        "^ alone for a second…",
+                        "^ sozinho(a) por um segundo...",
                         "\n",
                         "^Barry:: …",
                         "\n",
@@ -28238,7 +28238,7 @@
                         }
                     ],
                     "Mounted_Screen": [
-                        "^Amy:: I’ve noticed these screens throughout the entire train.  ",
+                        "^Amy:: Eu notei essas telas por todo o trem.",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -28252,23 +28252,23 @@
                             "#": "expression:explaining2"
                         },
                         "\n",
-                        "^Barry:: Yeah, they’re used to show information and advertisements.",
+                        "^Barry:: Sim, elas são usadas para mostrar informações e propagandas.",
                         "\n",
-                        "^Barry:: They’re nice, the picture is really clear. I would watch a full movie on one!",
+                        "^Barry:: Elas são legais, a imagem é bem clara. Eu assistiria um filme inteiro em uma!",
                         "\n",
-                        "^Amy:: I saw a slide that said ‘Happy Birthday Amy!’ That was so cute. ",
+                        "^Amy:: Eu vi um slide que dizia 'Feliz Aniversário Amy!' Foi tão fofo.",
                         {
                             "#": "expression:happy"
                         },
                         "\n",
-                        "^Amy:: …the next ad being for nasal medication was a little jarring, though. ",
+                        "^Amy:: ...a próxima propaganda sendo para medicação nasal foi um pouco chocante, porém.",
                         {
                             "#": "expression:embarrassed"
                         },
                         "\n",
-                        "^Barry:: The high quality screens probably didn’t do that ad any favors…",
+                        "^Barry:: As telas de alta qualidade provavelmente não fizeram nenhum favor a essa propaganda...",
                         "\n",
-                        "^Amy:: Not at all. Perhaps too much detail. ",
+                        "^Amy:: De jeito nenhum. Talvez tenha sido muitos detalhes.",
                         {
                             "#": "expression:explaining1"
                         },
@@ -28283,7 +28283,7 @@
                         }
                     ],
                     "Conductor_Photo": [
-                        "^Amy:: Wow, the conductor looks so young in his uniform! ",
+                        "^Amy:: Uau, o maquinista parece tão jovem em seu uniforme! ",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -28297,11 +28297,11 @@
                             "#": "expression:delighted"
                         },
                         "\n",
-                        "^Barry:: He’s been here a long time, after thirty-two years he told me he’s finally retiring.",
+                        "^Barry:: Ele esteve aqui por um longo tempo, depois de trinta e dois anos ele me disse que finalmente vai se aposentar.",
                         "\n",
-                        "^Barry:: He said he's headed to Spagonia with his wife, I hope they have a great trip!",
+                        "^Barry:: Ele disse que está indo para Spagonia com sua esposa, espero que tenham uma ótima viagem!",
                         "\n",
-                        "^Amy:: Thirty-two years is a long time, I wish them a lot of happiness! ",
+                        "^Amy:: Trinta e dois anos é muito tempo, desejo muita felicidade a eles! ",
                         {
                             "#": "expression:happy"
                         },
@@ -28323,12 +28323,12 @@
                             "#": "face:amy_right"
                         },
                         "\n",
-                        "^Shadow:: May any future sorrow be fleeting. ",
+                        "^Shadow:: Que qualquer tristeza futura seja passageira. ",
                         {
                             "#": "expression:tsundere"
                         },
                         "\n",
-                        "^Amy:: Uh, yes, I wish that too! ",
+                        "^Amy:: Ah, sim, eu também desejo isso!",
                         {
                             "#": "expression:skeptical"
                         },
@@ -28343,7 +28343,7 @@
                         }
                     ],
                     "Train_Deck": [
-                        "^Shadow:: I didn’t realize these robot arms could also drive the train. ",
+                        "^Shadow:: Eu não sabia que esses braços robóticos também podiam conduzir o trem. ",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -28357,22 +28357,22 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Barry:: Yeah! But they can’t access every function on the train like the conductor can. ",
+                        "^Barry:: Sim! Mas eles não podem acessar todas as funções do trem como o maquinista pode. ",
                         {
                             "#": "expression:shadow_default"
                         },
                         "\n",
-                        "^Shadow:: Did they teach you how to drive it? ",
+                        "^Shadow:: Eles te ensinaram como conduzir o trem? ",
                         {
                             "#": "expression:talking"
                         },
                         "\n",
-                        "^Barry:: Oh… no, just how to work the microwave. ",
+                        "^Barry:: Ah... não, só como operar o micro-ondas. ",
                         {
                             "#": "expression:shadow_default"
                         },
                         "\n",
-                        "^Tails:: I recognize some of these functions, maybe I could drive the train! ",
+                        "^Tails:: Eu reconheço algumas dessas funções, talvez eu possa conduzir o trem! ",
                         {
                             "#": "stage:leftmiddle"
                         },
@@ -28412,14 +28412,14 @@
                             "#": "face:shadow_right"
                         },
                         "\n",
-                        "^Amy:: I would completely trust you to drive the train. ",
+                        "^Amy:: Eu confiaria completamente em você para conduzir o trem. ",
                         {
                             "#": "expression:happy"
                         },
                         "\n",
-                        "^Barry:: Same, actually.",
+                        "^Barry:: Eu também, na verdade.",
                         "\n",
-                        "^Shadow:: …it’s true. You could drive this train flawlessly. ",
+                        "^Shadow:: ...é verdade. Você poderia conduzir esse trem sem problemas. ",
                         {
                             "#": "expression:embarrassed"
                         },
@@ -28427,7 +28427,7 @@
                             "#": "face:left"
                         },
                         "\n",
-                        "^Tails:: A-aw, guys! ",
+                        "^Tails:: A-ah, pessoal! ",
                         {
                             "#": "expression:bashful"
                         },
@@ -28480,12 +28480,12 @@
                             "#": "expression:shadow_default"
                         },
                         "\n",
-                        "^Tails:: …did this fall over when the train sped up? ",
+                        "^Tails:: …isso caiu quando o trem acelerou?",
                         {
                             "#": "expression:thinking"
                         },
                         "\n",
-                        "^Amy:: Not sure… wait, what’s it say on the mug? ",
+                        "^Amy:: Não tenho certeza... espera, o que está escrito na caneca?",
                         {
                             "#": "expression:skeptical"
                         },
@@ -28493,12 +28493,12 @@
                             "#": "face:shadow_right"
                         },
                         "\n",
-                        "^Amy:: “A cup of joe in your hand, wife by your side, paradise.” ",
+                        "^Amy:: 'Uma xícara de café em sua mão, esposa ao seu lado, paraíso.'",
                         {
                             "#": "expression:explaining1"
                         },
                         "\n",
-                        "^Shadow:: Alright alright we get it, he loves his wife. ",
+                        "^Shadow:: Tudo bem, tudo bem, nós entendemos, ele ama a esposa dele. ",
                         {
                             "#": "expression:embarrassed"
                         },
@@ -28552,16 +28552,16 @@
                                 "#": "expression:shadow_default"
                             },
                             "\n",
-                            "^Amy:: A microphone! We can talk to the whole train with this. ",
+                            "^Amy:: Um microfone! Podemos falar com todo o trem com isso. ",
                             {
                                 "#": "expression:delighted"
                             },
                             "\n",
-                            "^Barry:: <style=Thought>(Hmm… should I say something?)</style>",
+                            "^Barry:: <style=Thought>(Hmm… devo dizer algo?)</style>",
                             "\n",
                             "ev",
                             "str",
-                            "^*start beatboxing*",
+                            "^*começar a fazer beatboxing*",
                             "/str",
                             "/ev",
                             {
@@ -28570,7 +28570,7 @@
                             },
                             "ev",
                             "str",
-                            "^If you can hear this, your armpits stink",
+                            "^Se você pode ouvir isso, suas axilas cheiram mal",
                             "/str",
                             "/ev",
                             {
@@ -28595,7 +28595,7 @@
                                     },
                                     "out",
                                     "/ev",
-                                    "^, why are you reaching for the mic– ",
+                                    "^, por que está chegando perto do microfone – ",
                                     {
                                         "#": "expression:confused"
                                     },
@@ -28617,16 +28617,16 @@
                                         "#": "expression:sideeye"
                                     },
                                     "\n",
-                                    "^Barry:: Just uh, offering our guests some musical entertainment.",
+                                    "^Barry:: Só oferecendo aos nossos convidados um pouco de entretenimento musical.",
                                     "\n",
-                                    "^Tails:: That was impressive, ",
+                                    "^Tails:: Isso foi impressionante, ",
                                     "ev",
                                     {
                                         "VAR?": "PLAYER_NAME"
                                     },
                                     "out",
                                     "/ev",
-                                    "^! Thank you for sharing. ",
+                                    "^! Obrigado por compartilhar. ",
                                     {
                                         "#": "expression:supportive"
                                     },
@@ -28640,7 +28640,7 @@
                                 ],
                                 "c-1": [
                                     "\n",
-                                    "^Amy:: Oh, you’re reaching for the microphone…? ",
+                                    "^Amy:: Oh, você está pegando o microfone...? ",
                                     {
                                         "#": "expression:confused"
                                     },
@@ -28658,7 +28658,7 @@
                                         "#": "expression:tails_worried"
                                     },
                                     "\n",
-                                    "^Barry:: If you can hear this, your armpits stink.",
+                                    "^Barry:: Se você está ouvindo isso, suas axilas fedem.",
                                     "\n",
                                     "^Amy:: … ",
                                     {
@@ -28670,7 +28670,7 @@
                                         "#": "expression:default"
                                     },
                                     "\n",
-                                    "^Tails:: My armpits certainly do not! They’re clean. ",
+                                    "^Tails:: Minhas axilas certamente não! Elas estão limpas. ",
                                     {
                                         "#": "expression:skeptical"
                                     },
@@ -28678,9 +28678,9 @@
                                         "#": "face:left"
                                     },
                                     "\n",
-                                    "^Barry:: Ah, I’m uh, sure they are Tails. Was just being silly…",
+                                    "^Barry:: Ah, tenho certeza de que sim, Tails. Estava apenas sendo bobo...",
                                     "\n",
-                                    "^Barry:: <style=Thought>(Perhaps not the audience for that sort of joke…)</style>",
+                                    "^Barry:: <style=Thought>(Talvez não seja o público para esse tipo de piada...)</style>",
                                     "\n",
                                     {
                                         "->": ".^.^.g-0"
@@ -28744,22 +28744,22 @@
                             "#": "expression:shadow_default"
                         },
                         "\n",
-                        "^Tails:: A vent! ",
+                        "^Tails:: Uma ventilação! ",
                         {
                             "#": "expression:wondering"
                         },
                         "\n",
-                        "^Amy:: Hm, it's a large one. Seems like at least one person could fit through. ",
+                        "^Amy:: Hm, é grande. Parece que pelo menos uma pessoa pode passar por aqui. ",
                         {
                             "#": "expression:explaining2"
                         },
                         "\n",
-                        "^Tails:: Not a problem for me, but I’m not sure how you’d get up there. ",
+                        "^Tails:: Não é um problema para mim, mas não tenho certeza de como vocês poderiam subir até lá. ",
                         {
                             "#": "expression:certain"
                         },
                         "\n",
-                        "^Barry:: Wait, why wouldn’t it be a problem for you?",
+                        "^Barry:: Espera, por que não seria um problema para você?",
                         "\n",
                         "^Tails:: … ",
                         {
@@ -28776,7 +28776,7 @@
                             "#": "expression:skeptical"
                         },
                         "\n",
-                        "^Barry:: …oh the uh, the tails. Right…",
+                        "^Barry:: …oh, as caudas. Certo…",
                         "\n",
                         "^Barry:: <style=Thought>(",
                         "ev",
@@ -28785,7 +28785,7 @@
                         },
                         "out",
                         "/ev",
-                        "^!! UGH.)</style>",
+                        "^!! AFF.)</style>",
                         "\n",
                         "^>>>> EndConversation()",
                         "\n",
@@ -28797,11 +28797,11 @@
                         }
                     ],
                     "Blowdart": [
-                        "^Barry:: Hm, what’s this? Was someone playing darts?",
+                        "^Barry:: Hm, o que é isso? Alguém estava jogando dardos?",
                         "\n",
                         "^>>>>StageShowImage(closeup, blowdart)",
                         "\n",
-                        "^Shadow:: …that’s not a throwing dart. That’s a <style=InventoryItem>blowdart</style>. ",
+                        "^Shadow:: ...esse não é um dardo de jogar. É um <style=InventoryItem>dardo sonífero</style>.",
                         {
                             "#": "stage:right"
                         },
@@ -28812,7 +28812,7 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Shadow:: Someone brought a weapon onto this train.",
+                        "^Shadow:: Alguém trouxe uma arma neste trem.",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -28835,7 +28835,7 @@
                         "\n",
                         "^>>>>StageHideImage(closeup)",
                         "\n",
-                        "^Tails:: Hm, that… shouldn’t be possible. ",
+                        "^Tails:: Hm, isso... não deveria ser possível. ",
                         {
                             "#": "expression:thinking"
                         },
@@ -28849,9 +28849,9 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Barry:: Tails is right, the train detects any weapons on a passenger before letting them aboard.",
+                        "^Barry:: O Tails está certo, o trem detecta qualquer arma com um passageiro antes de deixá-lo a bordo.",
                         "\n",
-                        "^Tails:: Let’s make note of this. ",
+                        "^Tails:: Vamos fazer uma nota disso. ",
                         {
                             "#": "expression:explaining"
                         },
@@ -28866,7 +28866,7 @@
                         "pop",
                         "/ev",
                         "\n",
-                        "^<style=InventoryItem>Blowdart</style> is added to your inventory.",
+                        "^<style=InventoryItem>Dardo sonífero</style> adicionado ao inventário.",
                         "\n",
                         "ev",
                         {
@@ -28915,11 +28915,11 @@
                         }
                     ],
                     "Broken_Robot_Arm": [
-                        "^Barry:: …! This robot arm has been completely torn off.",
+                        "^Barry:: …! Este braço robótico foi arrancado completamente.",
                         "\n",
                         "^>>>>StageShowImage(closeup, brokenrobotarm)",
                         "\n",
-                        "^Amy:: Yuck, how creepy! ",
+                        "^Amy:: Eca, que assustador! ",
                         {
                             "#": "expression:skeptical"
                         },
@@ -28933,7 +28933,7 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Shadow:: That arm is powerful. It’d be tough to break out of its grip. ",
+                        "^Shadow:: Esse braço é poderoso. Seria difícil quebrar sua empunhadura.",
                         {
                             "#": "expression:talking"
                         },
@@ -28954,7 +28954,7 @@
                         "\n",
                         "^>>>>StageHideImage(closeup)",
                         "\n",
-                        "^Tails:: A lot of people here have the strength to tear this off. But the question is why…  ",
+                        "^Tails:: Muitas pessoas aqui têm força suficiente para arrancá-lo. Mas a pergunta é por quê...",
                         {
                             "#": "expression:wondering"
                         },
@@ -28968,12 +28968,12 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Tails:: A confrontation definitely occurred in this room. We should log this. ",
+                        "^Tails:: Definitivamente houve uma confrontação nesta sala. Devemos registrar isso.",
                         {
                             "#": "expression:determined"
                         },
                         "\n",
-                        "^Barry:: Aye aye, sir.",
+                        "^Barry:: Entendido, capitão.",
                         "\n",
                         "ev",
                         {
@@ -28985,7 +28985,7 @@
                         "pop",
                         "/ev",
                         "\n",
-                        "^<style=InventoryItem>Broken Robot Arm</style> is added to your inventory.",
+                        "^<style=InventoryItem>Braço robótico quebrado</style> adicionado ao inventário.",
                         "\n",
                         "ev",
                         {
@@ -29051,12 +29051,12 @@
                                 "#": "face:tails_left"
                             },
                             "\n",
-                            "^Tails:: I think we've found enough clues. ",
+                            "^Tails:: Eu acho que encontramos pistas suficientes. ",
                             {
                                 "#": "Expression: thinking"
                             },
                             "\n",
-                            "^Tails:: Let's talk to Amy and solve this once and for all! ",
+                            "^Tails:: Vamos conversar com Amy e resolver isso de uma vez por todas! ",
                             {
                                 "#": "Expression: Determined"
                             },
