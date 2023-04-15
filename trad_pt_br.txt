@@ -29113,7 +29113,7 @@
                 "\n",
                 "^>>>> InitFinalPushMinigame(18)",
                 "\n",
-                "^Sonic:: Alright. Our friends are locked in the cars up ahead. ",
+                "^Sonic:: Certo. Nossos amigos estão presos nos vagões à frente. ",
                 {
                     "#": "stage: leftmiddle"
                 },
@@ -29127,14 +29127,14 @@
                     "#": "animatein"
                 },
                 "\n",
-                "^Sonic:: In my last adventure, maxing out my ring count gave me an extra boost of speed.  ",
+                "^Sonic:: Na minha última aventura, coletar o máximo de anéis me deu um impulso extra de velocidade. ",
                 {
                     "#": "expression:thinking3"
                 },
                 "\n",
-                "^Sonic:: If I can grab enough rings, I should be fast enough to bust through the next door too.",
+                "^Sonic:: Se eu conseguir coletar bastante anéis, devo ser rápido o suficiente para arrombar a próxima porta também.",
                 "\n",
-                "^Sonic:: Ready? Let's do this! ",
+                "^Sonic:: Pronto? Vamos lá! ",
                 {
                     "#": "expression:winking"
                 },
@@ -29176,7 +29176,7 @@
                                     "\n",
                                     "^>>>>StageHideImage(standalonecomics)",
                                     "\n",
-                                    "^Knuckles:: Just wait till I see Eggman, I’m gonna clobber ‘em! ",
+                                    "^Knuckles:: Só espere até que eu veja o Eggman, eu vou dar uma surra nele!",
                                     {
                                         "#": "stage:sonic_leftmiddle"
                                     },
@@ -29202,7 +29202,7 @@
                                         "#": "expression:sonic_upset"
                                     },
                                     "\n",
-                                    "^Sonic:: We gotta deal with the train first! C’mon, let’s go! ",
+                                    "^Sonic:: Temos que lidar com o trem primeiro! Vamos lá!",
                                     {
                                         "#": "expression:mad"
                                     },
@@ -29280,7 +29280,7 @@
                                     "\n",
                                     "^>>>>StageHideImage(standalonecomics)",
                                     "\n",
-                                    "^Espio:: You all came for us…! ",
+                                    "^Espio:: Vocês vieram nos resgatar...! ",
                                     {
                                         "#": "stage:vector_rightmiddle"
                                     },
@@ -29318,7 +29318,7 @@
                                         "#": "expression:sonic_upset"
                                     },
                                     "\n",
-                                    "^Sonic:: Of course, but let’s move! ",
+                                    "^Sonic:: Claro, mas vamos nos mover! ",
                                     {
                                         "#": "expression:winking"
                                     },
@@ -29326,17 +29326,17 @@
                                         "#": "expression:espio_default"
                                     },
                                     "\n",
-                                    "^Barry:: The train wants to take us prisoner and earn <style=Important>a reward</style>! ",
+                                    "^Barry:: O trem quer nos prender e receber uma <style=Important>recompensa</style>! ",
                                     {
                                         "#": "expression:sonic_thinking3"
                                     },
                                     "\n",
-                                    "^Vector:: My reward is to get off this stupid train! ",
+                                    "^Vector:: Minha recompensa é sair deste trem estúpido! ",
                                     {
                                         "#": "expression:ready2fight"
                                     },
                                     "\n",
-                                    "^Espio:: Let’s go! ",
+                                    "^Espio:: Vamos lá! ",
                                     {
                                         "#": "expression:ready2attack"
                                     },
@@ -29444,22 +29444,22 @@
                                         "#": "expression:shocked"
                                     },
                                     "\n",
-                                    "^Rouge:: It’s about time! I thought you were supposed to be fast, Sonic! ",
+                                    "^Rouge:: Já era hora! Pensei que você era para ser rápido, Sonic! ",
                                     {
                                         "#": "expression:shifty"
                                     },
                                     "\n",
-                                    "^Sonic:: We gotta move, you two ready? ",
+                                    "^Sonic:: Temos que nos mover, vocês duas estão prontas? ",
                                     {
                                         "#": "expression:determined"
                                     },
                                     "\n",
-                                    "^Blaze:: Always.",
+                                    "^Blaze:: Sempre.",
                                     {
                                         "#": "expression:annoyed"
                                     },
                                     "\n",
-                                    "^Rouge:: Let’s boogie! ",
+                                    "^Rouge:: Vamos lá! ",
                                     {
                                         "#": "expression:blowingkiss"
                                     },
@@ -29532,7 +29532,7 @@
                                     "\n",
                                     "^>>>>StageHideImage(standalonecomics)",
                                     "\n",
-                                    "^Shadow:: They locked Amy and Tails in the conductor’s car. ",
+                                    "^Shadow:: Eles trancaram a Amy e o Tails no vagão do maquinista. ",
                                     {
                                         "#": "stage:sonic_leftmiddle"
                                     },
@@ -29558,7 +29558,7 @@
                                         "#": "expression:sonic_upset"
                                     },
                                     "\n",
-                                    "^Sonic:: Say no more, let’s go. ",
+                                    "^Sonic:: Não diga mais nada, vamos lá. ",
                                     {
                                         "#": "expression:determined"
                                     },
@@ -29666,7 +29666,7 @@
                                         "#": "expression:sonic_determined"
                                     },
                                     "\n",
-                                    "^Amy:: Sonic! You’re here! ",
+                                    "^Amy:: Sonic! Você está aqui! ",
                                     {
                                         "#": "expression:delighted"
                                     },
@@ -29676,17 +29676,17 @@
                                         "#": "expression:tails_default"
                                     },
                                     "\n",
-                                    "^Sonic:: Heh, this is no way to treat the birthday girl. ",
+                                    "^Sonic:: Heh, isso não é jeito de tratar a aniversariante. ",
                                     {
                                         "#": "expression:winking"
                                     },
                                     "\n",
-                                    "^Amy:: You’re right. I’m ready to stop this train! ",
+                                    "^Amy:: Você está certo. Estou pronta para parar esse trem! ",
                                     {
                                         "#": "expression:confident"
                                     },
                                     "\n",
-                                    "^Sonic:: Time to finish this! ",
+                                    "^Sonic:: Hora de acabar com isso! ",
                                     {
                                         "#": "expression:determined"
                                     },
@@ -29778,13 +29778,13 @@
                             "\n",
                             "^>>>>StageShowImage(eggmanscreen, eggdefault)",
                             "\n",
-                            "^Eggman:: Excellent work trapping these pests! Now hurry to me!",
+                            "^Eggman:: Excelente trabalho, capturando essas pragas! Agora, corram para mim!",
                             "\n",
-                            "^Eggman:: I must properly dispose of them to begin my plans for Eggmanland! And probably another Death Egg!",
+                            "^Eggman:: Preciso me livrar deles adequadamente para começar meus planos para Eggmanland! E, provavelmente, criar outro Death Egg!",
                             "\n",
                             "ev",
                             "str",
-                            "^Don’t turn us into robots!",
+                            "^Não nos transforme em robôs!",
                             "/str",
                             "/ev",
                             {
@@ -29793,7 +29793,7 @@
                             },
                             "ev",
                             "str",
-                            "^Don't teleport us to the future!",
+                            "^Não nos teletransporte para o futuro!",
                             "/str",
                             "/ev",
                             {
@@ -29805,9 +29805,9 @@
                                     "\n",
                                     "^>>>>StageShowImage(eggmanscreen, eggsmug)",
                                     "\n",
-                                    "^Eggman:: Oh ho ho! Haven’t done that in awhile!",
+                                    "^Eggman:: Oh ho ho! Não fazia isso há um tempo!",
                                     "\n",
-                                    "^Eggman:: Maybe I will turn you all into robots to give Sage some new toys to play with.",
+                                    "^Eggman:: Talvez eu transforme todos vocês em robôs para dar a Sage alguns brinquedos novos para brincar.",
                                     "\n",
                                     {
                                         "->": ".^.^.g-0"
@@ -29820,9 +29820,9 @@
                                     "\n",
                                     "^>>>>StageShowImage(eggmanscreen, eggsmug)",
                                     "\n",
-                                    "^Eggman:: Teleport you all…? Ohhh, to the future, when I’ve already ruled the planet!",
+                                    "^Eggman:: Teleportá-los...? Ohhh, para o futuro, quando eu já tiver governado o planeta!",
                                     "\n",
-                                    "^Eggman:: Sure, I'll do that, whatever.",
+                                    "^Eggman:: Claro, eu farei isso, tanto faz.",
                                     "\n",
                                     {
                                         "->": ".^.^.g-0"
@@ -29832,18 +29832,18 @@
                                     }
                                 ],
                                 "g-0": [
-                                    "^Amy:: Shut it, Eggman. ",
+                                    "^Amy:: Cale a boca, Eggman. ",
                                     {
                                         "#": "expression:angry"
                                     },
                                     "\n",
                                     "^>>>>StageShowImage(eggmanscreen, eggexplain)",
                                     "\n",
-                                    "^Eggman:: Don’t disappoint me, train. Hurry it up!",
+                                    "^Eggman:: Não me decepcione, trem. Acelere!",
                                     "\n",
                                     "^>>>>StageShowImage(eggmanscreen, eggdefault)",
                                     "\n",
-                                    "^Train:: I will not fail… my <style=Important>wish</style> will be granted. ",
+                                    "^Trem:: Eu não falharei... meu <style=Important>desejo</style> será concedido.",
                                     {
                                         "#": "stage:rightmiddle"
                                     },
@@ -29859,17 +29859,17 @@
                                     "\n",
                                     "^>>>>StageShowImage(eggmanscreen, eggexplain)",
                                     "\n",
-                                    "^Eggman:: Your wish?? Oh. You mean the <style=Important>bounty</style>?",
+                                    "^Eggman:: Seu desejo? Ah. Você quer dizer a <style=Important>recompensa</style>?",
                                     "\n",
                                     "^>>>>StageShowImage(eggmanscreen, eggdefault)",
                                     "\n",
-                                    "^Eggman:: I don’t care what you call it, just bring me those overgrown mammals!",
+                                    "^Eggman:: Não importa como você chama, apenas me traga aqueles mamíferos gigantes!",
                                     "\n",
                                     "^>>>>StageHideImage(eggmanscreen)",
                                     "\n",
                                     "^>>>>PlaySFX(eggmanscreenstatic)",
                                     "\n",
-                                    "^Sonic:: Grr… That Eggman! ",
+                                    "^Sonic:: Grr... Esse Eggman!",
                                     {
                                         "#": "expression:mad"
                                     },
@@ -29882,24 +29882,24 @@
                                         "#": "move:train to:middle"
                                     },
                                     "\n",
-                                    "^Train:: I must get… my wish!",
+                                    "^Train:: Eu devo realizar... meu desejo!",
                                     "\n",
-                                    "^Tails:: …! ",
+                                    "^Tails:: ...! ",
                                     {
                                         "#": "expression:determined"
                                     },
                                     "\n",
-                                    "^Train:: I WILL NOT FAIL! ",
+                                    "^Train:: EU NÃO VOU FALHAR! ",
                                     {
                                         "#": "face:right"
                                     },
                                     "\n",
-                                    "^Amy:: This is it everyone, get ready! ",
+                                    "^Amy:: É isso aí pessoal, preparem-se! ",
                                     {
                                         "#": "expression:threatening3"
                                     },
                                     "\n",
-                                    "^Sonic:: We’re taking this thing down! ",
+                                    "^Sonic:: Vamos derrubar essa coisa! ",
                                     {
                                         "#": "expression:mad"
                                     },
@@ -35520,7 +35520,7 @@
                             "#": "expression:happy"
                         },
                         "\n",
-                        "^Barry:: Haha! <style=Thought>(Uma festa não me deixaria tão estressado assim...)</style>",
+                        "^Barry:: Haha! <style=Thought>(Uma festa não me deixaria tão estressado(a) assim...)</style>",
                         "\n",
                         "^Barry:: Estou apenas feliz que você esteja de volta e pronto para agir.",
                         "\n",
@@ -35646,9 +35646,9 @@
                     ],
                     "Eggman_Appears": [
                         [
-                            "^Barry:: That yellow glow is chilling…",
+                            "^Barry:: Essa luz amarela é arrepiante…",
                             "\n",
-                            "^Barry:: I miss when it was just showing us the weather.",
+                            "^Barry:: Sinto falta quando só mostrava o clima.",
                             "\n",
                             "ev",
                             true,
@@ -35671,7 +35671,7 @@
                                 "#": "expression:confused"
                             },
                             "\n",
-                            "^Barry:: Well, that's better than the yellow glow I guess.",
+                            "^Barry:: Bem, isso é melhor do que a luz amarela, eu acho.",
                             "\n",
                             "^>>>>PlaySFX(eggmanscreenstatic)",
                             "\n",
@@ -35685,7 +35685,7 @@
                                 "#": "face:sonic_right"
                             },
                             "\n",
-                            "^Eggman:: Hello? Hello? ",
+                            "^Eggman:: Olá? Olá?",
                             {
                                 "#": "stage:rightmiddle"
                             },
@@ -35699,31 +35699,31 @@
                                 "#": "expression:default"
                             },
                             "\n",
-                            "^Eggman:: Anyone there? Why is no one responding to me! ",
+                            "^Eggman:: Tem alguém aí? Por que ninguém está respondendo! ",
                             {
                                 "#": "expression:explaining"
                             },
                             "\n",
-                            "^Sonic:: … I miss the yellow glow already. ",
+                            "^Sonic:: ...Sinto falta do brilho amarelo.",
                             {
                                 "#": "expression:thinking2"
                             },
                             "\n",
                             "^>>>>PlayMusic(diningcarlockdown, 0, 1)",
                             "\n",
-                            "^Sonic:: You got some nerve showing up here, Egghead. ",
+                            "^Sonic:: Você tem muita coragem de aparecer aqui, Cabeça de Ovo.",
                             {
                                 "#": "expression:mad"
                             },
                             "\n",
-                            "^Eggman:: Hohoho, you spikey blue pest! Seems you’ve finally taken passage on one of my passenger trains. ",
+                            "^Eggman:: Hohoho, você é um verdadeiro incômodo azul e espinhento! Parece que finalmente embarcou em um dos meus trens de passageiros.",
                             {
                                 "#": "expression:smug"
                             },
                             "\n",
                             "ev",
                             "str",
-                            "^You created this train?!",
+                            "^Você criou esse trem?!",
                             "/str",
                             "/ev",
                             {
@@ -35732,7 +35732,7 @@
                             },
                             "ev",
                             "str",
-                            "^You own the train??",
+                            "^Você é dono do trem??",
                             "/str",
                             "/ev",
                             {
@@ -35759,55 +35759,55 @@
                                     }
                                 ],
                                 "g-0": [
-                                    "^Eggman:: Who the heck are you? Don’t talk to me. ",
+                                    "^Eggman:: Quem diabos é você? Não fale comigo. ",
                                     {
                                         "#": "expression:explaining"
                                     },
                                     "\n",
-                                    "^Barry:: <style=Thought>(Ah… ignoring that…)</style> They certainly didn’t talk about you in my interview!",
+                                    "^Barry:: <style=Thought>(Ah… ignorando isso…)</style> Eles certamente não falaram sobre você na minha entrevista!",
                                     "\n",
-                                    "^Eggman:: My involvement isn’t well known, civilian.",
+                                    "^Eggman:: Meu envolvimento não é bem conhecido, civil.",
                                     "\n",
-                                    "^Eggman:: The infrastructure in your towns just wasn’t cutting it. If I were to build Eggmanland, these problems would need sorting out!",
+                                    "^Eggman:: A infraestrutura em suas cidades simplesmente não estava funcionando. Se eu fosse construir a Terra do Eggman, esses problemas teriam que ser resolvidos!",
                                     "\n",
-                                    "^Eggman:: So, I courageously got involved!  ",
+                                    "^Eggman:: Então, corajosamente me envolvi! ",
                                     {
                                         "#": "expression:default"
                                     },
                                     "\n",
-                                    "^Eggman:: I converted some cargo trains into passenger trains for the sake of the public… it’s just more useful for future schemes.",
+                                    "^Eggman:: Converti alguns trens de carga em trens de passageiros pelo bem do público… é apenas mais útil para futuros planos.",
                                     "\n",
-                                    "^Sonic:: Let me guess… Another death egg, Doctor Predictable? ",
+                                    "^Sonic:: Deixa eu adivinhar… Outro Death Egg, Doutor Previsível? ",
                                     {
                                         "#": "expression:thinking3"
                                     },
                                     "\n",
-                                    "^Eggman:: The people fear giant spheres! It’s science! ",
+                                    "^Eggman:: As pessoas temem esferas gigantes! É ciência! ",
                                     {
                                         "#": "expression:smug"
                                     },
                                     "\n",
-                                    "^Sonic:: Let’s cut to the chase. Where are our friends? ",
+                                    "^Sonic:: Vamos direto ao assunto. Onde estão nossos amigos? ",
                                     {
                                         "#": "expression:mad"
                                     },
                                     "\n",
-                                    "^Eggman:: Judging by my security cameras, your pathetic friends are all locked in the cars they were stationed in. ",
+                                    "^Eggman:: De acordo com minhas câmeras de segurança, seus amigos patéticos estão todos trancados nos vagões em que foram designados. ",
                                     {
                                         "#": "expression:default"
                                     },
                                     "\n",
-                                    "^Eggman:: Seems you managed to make the train quite upset. ",
+                                    "^Eggman:: Parece que você conseguiu deixar o trem bastante agitado. ",
                                     {
                                         "#": "expression:explaining"
                                     },
                                     "\n",
-                                    "^Sonic:: …? Did you not know this was happening? ",
+                                    "^Sonic:: …? Você não sabia que isso estava acontecendo? ",
                                     {
                                         "#": "expression:confused"
                                     },
                                     "\n",
-                                    "^Eggman:: Heavens no, I’m only now getting caught up. I’m far too busy to notice what a passenger train is up to. ",
+                                    "^Eggman:: De jeito nenhum, só agora estou me atualizando. Estou ocupado demais para notar o que um trem de passageiros está fazendo. ",
                                     {
                                         "#": "expression:default"
                                     },
@@ -35822,19 +35822,19 @@
                                     "\n",
                                     "^>>>>StageShowImage(inlinecomics, badnik)",
                                     "\n",
-                                    "^Eggman:: You see, the capability of a badnik is normally very basic, just kill Sonic The Hedgehog. ",
+                                    "^Eggman:: Você vê, a capacidade de um badnik é normalmente muito básica, apenas matar Sonic The Hedgehog.",
                                     {
                                         "#": "expression:explaining"
                                     },
                                     "\n",
-                                    "^Eggman:: But for a luxury train, I wanted to be sure things ran without my supervision. And report to me if any of you happened aboard.",
+                                    "^Eggman:: Mas para um trem de luxo, eu queria ter certeza de que as coisas funcionariam sem minha supervisão. E me avisar se algo a bordo acontecesse.",
                                     "\n",
-                                    "^Eggman:: This train’s capability of intellectual thought is extraordinary! A feat only accomplished by my genius! ",
+                                    "^Eggman:: A capacidade deste trem de pensamento intelectual é extraordinária! Um feito realizado apenas pela minha genialidade! ",
                                     {
                                         "#": "expression:smug"
                                     },
                                     "\n",
-                                    "^Barry:: <style=Thought>(So this confirms it… the train really is sentient.)</style>",
+                                    "^Barry:: <style=Thought>(Então isso confirma... o trem é realmente consciente.)</style>",
                                     "\n",
                                     "^>>>>StageHideImage(inlinecomics)",
                                     "\n",
@@ -35849,23 +35849,23 @@
                                         "#": "expression:sonic_upset"
                                     },
                                     "\n",
-                                    "^Eggman:: Suffice to say, your capture is inevitable. You’re on a train that desires nothing more than to deliver you all to me.",
+                                    "^Eggman:: Diga-se de passagem, sua captura é inevitável. Você está em um trem que não deseja nada além de entregá-los a mim.",
                                     "\n",
                                     "^Barry:: …!",
                                     "\n",
-                                    "^Eggman:: See I got to thinking… I needed to manufacture motivation beyond programming. ",
+                                    "^Eggman:: Veja, comecei a pensar... Eu precisava fabricar motivação além da programação. ",
                                     {
                                         "#": "expression:explaining"
                                     },
                                     "\n",
-                                    "^Eggman:: I like to make my badniks compete against one another from time to time. It’s good for productivity.",
+                                    "^Eggman:: Gosto de fazer meus badniks competirem entre si de vez em quando. É bom para a produtividade.",
                                     "\n",
-                                    "^Eggman:: So I instituted a <style=Important>bounty</style> upon my army of badniks! ",
+                                    "^Eggman:: Então instituí uma <style=Important>recompensa</style> em meu exército de badniks! ",
                                     {
                                         "#": "expression:smug"
                                     },
                                     "\n",
-                                    "^Eggman:: First to capture you pathetic creatures gets <style=Important>a generous reward</style>! ",
+                                    "^Eggman:: O primeiro a capturar essas criaturas patéticas recebe <style=Important>uma generosa recompensa</style>! ",
                                     {
                                         "#": "expression:default"
                                     },
@@ -35875,31 +35875,31 @@
                                         "#": "expression:sonic_mad"
                                     },
                                     "\n",
-                                    "^Barry:: <style=Thought>(The train wants to deliver us to Eggman… for <style=Important>a reward</style>?)</style>",
+                                    "^Barry:: <style=Thought>(O trem quer nos entregar para o Eggman... por uma <style=Important>recompensa</style>?)</style>",
                                     "\n",
-                                    "^Eggman:: Most of my robots ask for something simple like my autograph or whatever, but a highly intelligent train… ",
+                                    "^Eggman:: A maioria dos meus robôs pede algo simples, como meu autógrafo ou o que for, mas um trem altamente inteligente... ",
                                     {
                                         "#": "expression:explaining"
                                     },
                                     "\n",
-                                    "^Eggman:: It may ask for something more… interesting. ",
+                                    "^Eggman:: Pode pedir algo mais... interessante. ",
                                     {
                                         "#": "expression:smug"
                                     },
                                     "\n",
-                                    "^Sonic:: As much as I like reward programs, are you done blabbering, Doc? ",
+                                    "^Sonic:: Por mais que eu goste de programas de recompensa, você acabou de falar, Doc?",
                                     {
                                         "#": "expression:thinking3"
                                     },
                                     "\n",
-                                    "^Sonic:: You can never just win silently, can you?",
+                                    "^Sonic:: Você nunca pode apenas vencer silenciosamente, não é?",
                                     "\n",
-                                    "^Eggman:: When you’re dragged to my base you’ll regret the day you ever crossed me, hedgehog. ",
+                                    "^Eggman:: Quando você for levado para minha base, você vai se arrepender do dia em que cruzou meu caminho, ouriço. ",
                                     {
                                         "#": "expression:explaining"
                                     },
                                     "\n",
-                                    "^Sonic:: I already do. Get lost. ",
+                                    "^Sonic:: Eu já me arrependi. Dá o fora daqui. ",
                                     {
                                         "#": "expression:upset"
                                     },
@@ -35921,40 +35921,40 @@
                                         "#": "face:sonic_left"
                                     },
                                     "\n",
-                                    "^Sonic:: …he always knows how to get under my skin. ",
+                                    "^Sonic:: …ele sempre sabe como me irritar. ",
                                     {
                                         "#": "expression:embarrassed"
                                     },
                                     "\n",
-                                    "^Sonic:: This is tough… the train has the motivation, and being made by Eggman, it’s no doubt powerful. ",
+                                    "^Sonic:: Isso é difícil... o trem tem a motivação, e sendo criado por Eggman, sem dúvida é poderoso. ",
                                     {
                                         "#": "expression:thinking1"
                                     },
                                     "\n",
-                                    "^Sonic:: Not to mention, we’re all separated… ",
+                                    "^Sonic:: Sem mencionar que estamos todos separados... ",
                                     {
                                         "#": "expression:thinking2"
                                     },
                                     "\n",
                                     "^Sonic:: …",
                                     "\n",
-                                    "^Barry:: … <style=Thought>(What am I supposed to think?)</style>",
+                                    "^Barry:: … <style=Thought>(O que devo pensar?)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(The train purposefully had Sonic knocked out so it could deliver us to Eggman.)</style>",
+                                    "^Barry:: <style=Thought>(O trem intencionalmente nocauteou Sonic para que pudesse nos entregar a Eggman.)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(This whole time we were all in danger… and I went along with it…)</style>",
+                                    "^Barry:: <style=Thought>(O tempo todo estivemos em perigo... e eu fui junto com isso...)</style>",
                                     "\n",
                                     "^Barry:: …",
                                     "\n",
-                                    "^Barry:: <style=Thought>(Sonic was really hurt… the conductor’s been captured…)</style>",
+                                    "^Barry:: <style=Thought>(Sonic foi realmente ferido... o vagão do maquinista foi capturado...)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(Should I have been more assertive earlier…?)</style>",
+                                    "^Barry:: <style=Thought>(Deveria ter sido mais assertivo antes...?)</style>",
                                     "\n",
                                     "^Barry:: …",
                                     "\n",
                                     "ev",
                                     "str",
-                                    "^I should have done more",
+                                    "^Eu deveria ter feito mais",
                                     "/str",
                                     "/ev",
                                     {
@@ -35963,7 +35963,7 @@
                                     },
                                     "ev",
                                     "str",
-                                    "^I didn't try hard enough",
+                                    "^Eu não tentei o suficiente",
                                     "/str",
                                     "/ev",
                                     {
@@ -35995,11 +35995,11 @@
                                 "g-1": [
                                     "^Barry:: <style=Thought>(...)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(...Am I at fault here…?)</style>",
+                                    "^Barry:: <style=Thought>(...Sou o culpado aqui...?)</style>",
                                     "\n",
                                     "ev",
                                     "str",
-                                    "^I knew Sonic was hurt all along",
+                                    "^Eu sabia que o Sonic estava ferido o tempo todo",
                                     "/str",
                                     "/ev",
                                     {
@@ -36008,7 +36008,7 @@
                                     },
                                     "ev",
                                     "str",
-                                    "^I couldn’t keep anyone safe",
+                                    "^Não consegui manter ninguém seguro",
                                     "/str",
                                     "/ev",
                                     {
@@ -36047,51 +36047,51 @@
                                     "\n",
                                     "^Barry:: …!",
                                     "\n",
-                                    "^Sonic:: I can tell this situation’s getting to you.",
+                                    "^Sonic:: Posso ver que essa situação está afetando você.",
                                     {
                                         "#": "expression:thinking2"
                                     },
                                     "\n",
-                                    "^Barry:: Oh.. yeah, sorry I…",
+                                    "^Barry:: Ah, sim, desculpe, eu...",
                                     "\n",
                                     "^>>>>PlayMusic(lockdowncaroptimistic, 0, 0.2)",
                                     "\n",
-                                    "^Sonic:: I get it, the road’s getting tough. It’s easy to question the decisions that got you here. ",
+                                    "^Sonic:: Eu entendo, a estrada está ficando difícil. É fácil questionar as decisões que te trouxeram até aqui. ",
                                     {
                                         "#": "expression:happy"
                                     },
                                     "\n",
-                                    "^Sonic:: But when negative thoughts hit you, let it pass, and keep living. ",
+                                    "^Sonic:: Mas quando pensamentos negativos te atingirem, deixe-os passar e continue seguindo em frente. ",
                                     {
                                         "#": "expression:winking"
                                     },
                                     "\n",
-                                    "^Sonic:: I need you here helping me think through this, before I do something rash.",
+                                    "^Sonic:: Eu preciso de você aqui para me ajudar a pensar sobre isso antes que eu faça algo impulsivo.",
                                     "\n",
-                                    "^Sonic:: See, I’m one of those ‘leap before you think’ kinda guys. ",
+                                    "^Sonic:: Veja bem, eu sou um daqueles caras que 'age antes de pensar'. ",
                                     {
                                         "#": "expression:happy"
                                     },
                                     "\n",
-                                    "^Barry:: Haha… ok. You’re right.",
+                                    "^Barry:: Haha... Ok. Você está certo.",
                                     "\n",
-                                    "^Barry:: <style=Thought>(Let’s keep moving forward, and make things right!)</style>",
+                                    "^Barry:: <style=Thought>(Vamos continuar seguindo em frente e acertar as coisas!)</style>",
                                     "\n",
-                                    "^Barry:: <style=Thought>(Breathe… ok!)</style>",
+                                    "^Barry:: <style=Thought>(Respire... Ok!)</style>",
                                     "\n",
-                                    "^Sonic:: We gotta get to the conductor’s car before the train arrives at Eggman’s base. ",
+                                    "^Sonic:: Temos que chegar ao vagão do maquinista antes do trem chegar à base do Eggman. ",
                                     {
                                         "#": "expression:mad"
                                     },
                                     "\n",
-                                    "^Sonic:: The doors have been heavily fortified. How do we get through? ",
+                                    "^Sonic:: As portas foram fortemente fortificadas. Como passaremos por elas? ",
                                     {
                                         "#": "expression:thinking3"
                                     },
                                     "\n",
                                     "ev",
                                     "str",
-                                    "^Believe in yourself!",
+                                    "^Acredite em si mesmo!",
                                     "/str",
                                     "/ev",
                                     {
@@ -36100,7 +36100,7 @@
                                     },
                                     "ev",
                                     "str",
-                                    "^What would you do?",
+                                    "^O que você faria?",
                                     "/str",
                                     "/ev",
                                     {
@@ -36110,7 +36110,7 @@
                                     {
                                         "c-6": [
                                             "\n",
-                                            "^Barry:: No matter the obstacle, I know you have what it takes to figure it out!",
+                                            "^Barry:: Não importa o obstáculo, eu sei que você tem o que é preciso para resolvê-lo!",
                                             "\n",
                                             {
                                                 "->": ".^.^.^.g-3"
@@ -36132,21 +36132,22 @@
                                     }
                                 ],
                                 "g-3": [
-                                    "^Barry:: The entire day, Tails and I have been asking ourselves what would Sonic do…",
+                                    "^Barry:: Durante todo o dia, Tails e eu nos perguntamos o que Sonic faria...",
                                     "\n",
-                                    "^Barry:: So… what would you do?",
+                                    "^Barry:: Então... o que você faria?",
                                     "\n",
-                                    "^Sonic:: What would I do… ",
+                                    "^Sonic:: O que eu faria...",
                                     {
                                         "#": "expression:confused"
                                     },
                                     "\n",
-                                    "^Sonic:: Well, I’d speed through head on, and rescue our friends! By any means necessary! ",
+                                    "^Sonic:: Bem, eu aceleraria em frente, e resgataria nossos amigos! De qualquer maneira necessária!",
                                     {
                                         "#": "expression:determined"
                                     },
                                     "\n",
-                                    "^Sonic:: Here, stand back! ",
+                                    "^Sonic:: Aqui, afaste-se!",
+                                    "\n",
                                     {
                                         "#": "move:sonic to:left"
                                     },
@@ -36206,9 +36207,9 @@
                                         "VAR=": "ALLOW_SAVE_LOAD",
                                         "re": true
                                     },
-                                    "^Barry:: <style=Thought>(Wow…! With one big wind up, Sonic's spindash was fast enough to get the door open!)</style>",
+                                    "^Barry:: <style=Thought>(Uau…! Com um grande giro, o Spindash do Sonic foi rápido o suficiente para abrir a porta!)</style>",
                                     "\n",
-                                    "^Sonic:: Heh! Now that the road's clear, nothing can stop us. ",
+                                    "^Sonic:: Heh! Agora que o caminho está livre, nada pode nos deter. ",
                                     {
                                         "#": "stage:rightmiddle"
                                     },
@@ -36222,19 +36223,19 @@
                                         "#": "expression:determined"
                                     },
                                     "\n",
-                                    "^Sonic:: Better hold on to your pants! I don't think we'll be getting another break after this. ",
+                                    "^Sonic:: É melhor segurar as calças! Eu não acho que teremos outra pausa depois disso. ",
                                     {
                                         "#": "expression:happy"
                                     },
                                     "\n",
-                                    "^Sonic:: Ready to go? ",
+                                    "^Sonic:: Pronto para ir? ",
                                     {
                                         "#": "expression:determined"
                                     },
                                     "\n",
                                     "ev",
                                     "str",
-                                    "^Let's do it to it!",
+                                    "^Vamos nessa!",
                                     "/str",
                                     "/ev",
                                     {
@@ -36243,7 +36244,7 @@
                                     },
                                     "ev",
                                     "str",
-                                    "^Actually, give me a second...",
+                                    "^Na verdade, me dê um segundo...",
                                     "/str",
                                     "/ev",
                                     {
@@ -36262,7 +36263,7 @@
                                         ],
                                         "c-9": [
                                             "\n",
-                                            "^Sonic:: I get it. Well, let me know when you're ready! ",
+                                            "^Sonic:: Entendi. Me avise quando estiver pronto! ",
                                             {
                                                 "#": "expression:default"
                                             },
@@ -36283,12 +36284,12 @@
                                     }
                                 ],
                                 "g-4": [
-                                    "^Sonic:: That's the spirit! Let's go find our friends! ",
+                                    "^Sonic:: Isso aí! Vamos encontrar nossos amigos! ",
                                     {
                                         "#": "expression:winking"
                                     },
                                     "\n",
-                                    "^Barry:: To the conductor car, to end this mystery!",
+                                    "^Barry:: Ao vagão do maquinista, para resolver esse mistério!",
                                     "\n",
                                     {
                                         "->": ".^.^.^.^.Go_To_Final_Push"
@@ -36328,7 +36329,7 @@
                     ],
                     "Ask_To_Go_To_Final_Push": [
                         [
-                            "^Sonic:: Ready to go save our friends? ",
+                            "^Sonic:: Pronto para salvar nossos amigos? ",
                             {
                                 "#": "expression:determined"
                             },
@@ -36344,7 +36345,7 @@
                             "\n",
                             "ev",
                             "str",
-                            "^I'm ready!",
+                            "^Estou pronto!",
                             "/str",
                             "/ev",
                             {
@@ -36353,7 +36354,7 @@
                             },
                             "ev",
                             "str",
-                            "^Uhhh sorry I need just a little more time",
+                            "^Uhhh desculpe, preciso de mais um tempinho",
                             "/str",
                             "/ev",
                             {
@@ -36363,12 +36364,12 @@
                             {
                                 "c-0": [
                                     "\n",
-                                    "^Sonic:: Alright! Let's do this! ",
+                                    "^Sonic:: Tudo bem! Vamos nessa!",
                                     {
                                         "#": "expression:winking"
                                     },
                                     "\n",
-                                    "^Barry:: To the conductor car, to end this mystery!",
+                                    "^Barry:: Ao vagão do maquinista, para acabar com este mistério!",
                                     "\n",
                                     {
                                         "->": ".^.^.^.^.Go_To_Final_Push"
@@ -36379,7 +36380,7 @@
                                 ],
                                 "c-1": [
                                     "\n",
-                                    "^Sonic:: Do what you gotta do, then let's get out of here! ",
+                                    "^Sonic:: Faça o que precisa fazer, depois vamos sair daqui!",
                                     {
                                         "#": "expression:default"
                                     },
@@ -36400,11 +36401,11 @@
                         }
                     ],
                     "Examine_monitors": [
-                        "^Barry:: <style=Thought>(Wow... So Eggman built this train, huh?)</style>",
+                        "^Barry:: <style=Thought>(Uau... Então Eggman construiu este trem, né?)</style>",
                         "\n",
                         "^Barry::...",
                         "\n",
-                        "^Barry:: <style=Thought>(...No sense dwelling on it now... We know what we have to do!)</style>",
+                        "^Barry:: <style=Thought>(...Não faz sentido ficar pensando nisso agora... Sabemos o que temos que fazer!)</style>",
                         "\n",
                         "^>>>>EndConversation",
                         "\n",
@@ -36493,11 +36494,11 @@
                             {
                                 "b": [
                                     "\n",
-                                    "^Barry:: My goodness, this door is daunting.",
+                                    "^Barry:: Nossa, esta porta é intimidante.",
                                     "\n",
-                                    "^Barry:: The train’s doing everything it can to keep us from the conductor car…",
+                                    "^Barry:: O trem está fazendo tudo o que pode para nos impedir de chegar ao vagão do maquinista ...",
                                     "\n",
-                                    "^Sonic:: Let me see if a spindash can’t solve all our problems. ",
+                                    "^Sonic:: Deixe-me ver se um spindash não pode resolver todos os nossos problemas. ",
                                     {
                                         "#": "stage:middle"
                                     },
@@ -36508,19 +36509,19 @@
                                         "#": "expression:determined"
                                     },
                                     "\n",
-                                    "^Sonic:: Ah…! It’ll take more than a few hits to get through… ",
+                                    "^Sonic:: Ah ...! Vai levar mais do que alguns golpes para passar ... ",
                                     {
                                         "#": "expression:thinking2"
                                     },
                                     "\n",
-                                    "^Barry:: Let's take it easy for now and keep looking around. There must be another way to open this door.",
+                                    "^Barry:: Vamos pegar leve por agora e continuar procurando. Deve haver outra maneira de abrir essa porta.",
                                     "\n",
-                                    "^Sonic:: Like a switch! Classic door opening mechanism. ",
+                                    "^Sonic:: Como um interruptor! Mecanismo clássico de abertura de porta. ",
                                     {
                                         "#": "expression:determined"
                                     },
                                     "\n",
-                                    "^Barry:: <style=Thought>(...what doors are you using that require a switch??!)</style>",
+                                    "^Barry:: <style=Thought>(...que portas você está usando que exigem um interruptor??!)</style>",
                                     "\n",
                                     "^>>>> EndConversation()",
                                     "\n",
@@ -36541,7 +36542,7 @@
                         }
                     ],
                     "Closed_Window": [
-                        "^Sonic:: Aw man! ",
+                        "^Sonic:: Ah droga! ",
                         {
                             "#": "stage:middle"
                         },
@@ -36552,18 +36553,18 @@
                             "#": "expression:defeated"
                         },
                         "\n",
-                        "^Barry:: W-what? What’s wrong??",
+                        "^Barry:: O-que? O que houve??",
                         "\n",
-                        "^Sonic:: The windows are all covered up now… I never got to look at the pretty views… ",
+                        "^Sonic:: As janelas estão todas cobertas agora... Eu não pude ver as vistas bonitas... ",
                         {
                             "#": "expression:serious"
                         },
                         "\n",
-                        "^Sonic:: Amy was saying the train’s sights couldn’t be beat! I was excited!",
+                        "^Sonic:: Amy disse que as paisagens do trem eram incríveis! Eu estava animado!",
                         "\n",
-                        "^Barry:: After all we’ve been through, I’m sure the train company will offer you some kind of coupon for another visit.",
+                        "^Barry:: Depois de tudo pelo que passamos, tenho certeza de que a companhia de trem lhe oferecerá algum tipo de cupom para outra visita.",
                         "\n",
-                        "^Sonic:: …! That’d be great, as I still don’t know where my wallet is… ",
+                        "^Sonic:: ...! Isso seria ótimo, já que ainda não sei onde está minha carteira... ",
                         {
                             "#": "expression:happy"
                         },
@@ -36578,11 +36579,11 @@
                         }
                     ],
                     "Scattered_Dinnerware": [
-                        "^Barry:: Ah, what a mess in here…",
+                        "^Barry:: Ah, que bagunça aqui dentro...",
                         "\n",
-                        "^Barry:: With the robot arms going rogue, I wonder who will have to pick all this up…",
+                        "^Barry:: Com esses braços robóticos enlouquecidos, eu me pergunto quem terá que limpar tudo isso...",
                         "\n",
-                        "^Sonic:: Look at all this salt that’s spilled, no wonder you’re having bad luck. ",
+                        "^Sonic:: Olha todo esse sal derramado, não é de se admirar que você esteja tendo azar. ",
                         {
                             "#": "stage:middle"
                         },
@@ -36593,19 +36594,19 @@
                             "#": "expression:panicking"
                         },
                         "\n",
-                        "^Sonic:: Quick, pick some up and toss it over your shoulder. ",
+                        "^Sonic:: Rápido, pegue um pouco e jogue por cima do ombro. ",
                         {
                             "#": "expression:winking"
                         },
                         "\n",
-                        "^Barry:: O-ok! <style=Thought>(A pinch of salt and… there, over the shoulder.)</style>",
+                        "^Barry:: O-ok! <style=Thought>(Uma pitada de sal e... lá, por cima do ombro.)</style>",
                         "\n",
-                        "^Sonic:: Perfect, I can already tell our luck is turning around. ",
+                        "^Sonic:: Perfeito, eu já consigo sentir que a nossa sorte está mudando. ",
                         {
                             "#": "expression:happy"
                         },
                         "\n",
-                        "^Barry:: Y-yeah, I guess you’re right! <style=Thought>(Why do I actually feel calmer…)</style>",
+                        "^Barry:: S-sim, acho que você está certo! <style=Thought>(Por que eu realmente me sinto mais calmo...)</style>",
                         "\n",
                         "^>>>> EndConversation()",
                         "\n",
@@ -36617,9 +36618,9 @@
                         }
                     ],
                     "Napkin_Holder": [
-                        "^Barry:: The Conductor and I found Vector’s ticket in this napkin holder.",
+                        "^Barry:: O Maquinista e eu encontramos o bilhete do Vector neste porta-guardanapo.",
                         "\n",
-                        "^Sonic:: …? What was his ticket doing here? ",
+                        "^Sonic:: ...? O que o bilhete dele estava fazendo aqui? ",
                         {
                             "#": "expression:confused"
                         },
@@ -36630,9 +36631,9 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Barry:: Maybe he confused a napkin for his ticket, and his ticket for a napkin?",
+                        "^Barry:: Talvez ele tenha confundido um guardanapo com seu bilhete, e seu bilhete com um guardanapo?",
                         "\n",
-                        "^Sonic:: HA, hope his ticket didn’t have a ketchup stain. ",
+                        "^Sonic:: HA, espero que o bilhete dele não tenha uma mancha de ketchup. ",
                         {
                             "#": "expression:happy"
                         },
@@ -36647,11 +36648,11 @@
                         }
                     ],
                     "Robotic_Arm": [
-                        "^Barry:: …! Hey, one of those robotic arms are here too–",
+                        "^Barry:: …! Ei, um daqueles braços robóticos também está aqui–",
                         "\n",
-                        "^Barry:: <style=Thought>(Yow! It swiped at me!)</style>",
+                        "^Barry:: <style=Thought>(Ai! Ele me atacou!)</style>",
                         "\n",
-                        "^Sonic:: Best to leave it alone. The train’s definitely mad at us. ",
+                        "^Sonic:: É melhor deixá-lo em paz. O trem definitivamente está bravo conosco. ",
                         {
                             "#": "stage:middle"
                         },
@@ -36662,7 +36663,7 @@
                             "#": "expression:thinking1"
                         },
                         "\n",
-                        "^Barry:: Good call. <style=Thought>(We gotta get out of here before that arm swipes at us again…)</style>",
+                        "^Barry:: Boa ideia. <style=Thought>(Temos que sair daqui antes que aquele braço nos ataque novamente…)</style>",
                         "\n",
                         "^>>>> EndConversation()",
                         "\n",
