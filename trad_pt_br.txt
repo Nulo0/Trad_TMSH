@@ -29995,7 +29995,7 @@
                         }
                     ],
                     "Final_Boss_Interaction1": [
-                        "^Train:: None of you could possibly understand! ",
+                        "^Train:: Nenhum de vocês pode entender!",
                         {
                             "#": "stage:amy_leftmiddle"
                         },
@@ -30027,9 +30027,9 @@
                             "#": "expression:tails_upset"
                         },
                         "\n",
-                        "^Train:: We promised to be together our whole lives! HOW COULD HE JUST LEAVE LIKE IT WAS NOTHING?",
+                        "^Train:: Prometemos estar juntos por toda a vida! COMO ELE PODE APENAS PARTIR COMO SE NADA TIVESSE ACONTECIDO?",
                         "\n",
-                        "^Tails:: Who do you mean? The conductor?? ",
+                        "^Tails:: Quem você quer dizer? O maquinista?? ",
                         {
                             "#": "expression:thinking"
                         },
@@ -30039,17 +30039,17 @@
                             "#": "expression:tails_upset"
                         },
                         "\n",
-                        "^Amy:: He’s retiring, you just have to accept that! ",
+                        "^Amy:: Ele está se aposentando, você tem que aceitar isso! ",
                         {
                             "#": "expression:explaining3"
                         },
                         "\n",
-                        "^Train:: My wish will keep us together forever… That’s what being friends is all about! ",
+                        "^Train:: Meu desejo nos manterá juntos para sempre... Isso é o que ser amigos significa!",
                         {
                             "#": "face:right"
                         },
                         "\n",
-                        "^Vector:: You can’t force someone to be friends with you! That’s messed up! ",
+                        "^Vector:: Você não pode forçar alguém a ser seu amigo! Isso é errado!",
                         {
                             "#": "stage:middle"
                         },
@@ -30069,7 +30069,7 @@
                             "#": "bringfront:tails"
                         },
                         "\n",
-                        "^Train:: SHUT UP! JUST shut UP!! ",
+                        "^Train:: CALE A BOCA! SÓ CALE a BOCA!!",
                         {
                             "#": "face:left"
                         },
@@ -30144,7 +30144,7 @@
                         }
                     ],
                     "Final_Boss_Interaction2": [
-                        "^Train:: Eggman! Eggman!! Can you hear me?! ",
+                        "^Train:: Eggman! Eggman!! Você consegue me ouvir?! ",
                         {
                             "#": "stage:train_rightmiddle"
                         },
@@ -30155,12 +30155,12 @@
                             "#": "animateinfrom:train_right"
                         },
                         "\n",
-                        "^Train:: My wish! MY WISH! MY WISH! ",
+                        "^Train:: Meu desejo! MEU DESEJO! MEU DESEJO! ",
                         {
                             "#": "move:train to:leftmiddle"
                         },
                         "\n",
-                        "^Train:: MAKE THE CONDUCTOR NEVER LEAVE ME! LET US BE FRIENDS FOREVER! ",
+                        "^Train:: FAÇA O MAQUINISTA NUNCA ME ABANDONAR! QUE SEJAMOS AMIGOS PARA SEMPRE! ",
                         {
                             "#": "move:train to:middle"
                         },
@@ -30168,14 +30168,14 @@
                             "#": "face:right"
                         },
                         "\n",
-                        "^Train:: THE KIND OF FRIENDS WHO WOULD NEVER LEAVE EACH OTHER! ",
+                        "^Train:: O TIPO DE AMIGOS QUE NUNCA SE ABANDONAM! ",
                         {
                             "#": "face:left"
                         },
                         "\n",
                         "^>>>>ScreenShake(40,0)",
                         "\n",
-                        "^Train:: WHY WOULD HE BETRAY ME? ",
+                        "^Train:: POR QUE ELE ME TRAIU? ",
                         {
                             "#": "face:right"
                         },
@@ -30255,7 +30255,7 @@
                         }
                     ],
                     "Final_Boss_Interaction3": [
-                        "^Barry:: Conductor! ",
+                        "^Barry:: Maquinista! ",
                         {
                             "#": "move:conductor from:offscreenright to:rightmiddle"
                         },
@@ -30271,7 +30271,7 @@
                             "#": "move:conductor to:right"
                         },
                         "\n",
-                        "^Train:: You promised me. YOU PROMISED! ",
+                        "^Train:: Você prometeu a mim. VOCÊ PROMETEU! ",
                         {
                             "#": "move:train from:offscreenright to:rightmiddle"
                         },
@@ -30279,7 +30279,7 @@
                             "#": "face:train_left"
                         },
                         "\n",
-                        "^Rouge:: Let him speak! Unhand him! ",
+                        "^Rouge:: Deixa ele falar! Solte-o! ",
                         {
                             "#": "expression:confrontational"
                         },
@@ -30293,7 +30293,7 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Conductor:: Train… stop this! When I told you we’d be with each other forever, I was a much younger man. I’m getting old… I’m tired…",
+                        "^Conductor:: Trem... pare com isso! Quando eu disse que estaríamos juntos para sempre, eu era um homem muito mais jovem. Estou ficando velho... Estou cansado...",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -30303,7 +30303,7 @@
                             "#": "expression:rouge_nervous"
                         },
                         "\n",
-                        "^Train:: EXCUSES! How dare you abandon me… I'll be lonely… so lonely… ",
+                        "^Train:: DESCULPAS! Como você ousa me abandonar... Vou ficar sozinho... tão sozinho...",
                         {
                             "#": "move:train to:middle"
                         },
@@ -30313,7 +30313,7 @@
                         "\n",
                         "^>>>>ScreenShake(50,0)",
                         "\n",
-                        "^Train:: WHY MUST you insist LONELINESS UPON ME? ",
+                        "^Train:: POR QUE VOCÊ INSISTE EM ME DEIXAR SOZINHO? ",
                         {
                             "#": "face:left"
                         },
@@ -30331,7 +30331,7 @@
                             "#": "move:conductor to:offscreenright"
                         },
                         "\n",
-                        "^Conductor:: ..!  ",
+                        "^Conductor:: ..! ",
                         {
                             "#": "stage:offscreenright"
                         },
@@ -30340,7 +30340,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, finalpush1)",
                         "\n",
-                        "^Conductor:: No, stop! What are you doing to me! ",
+                        "^Conductor:: Não, pare! O que você está fazendo comigo! ",
                         {
                             "#": "stage:offscreenright"
                         },
@@ -30349,9 +30349,9 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, finalpush2)",
                         "\n",
-                        "^Conductor:: Please don't make me do this!!",
+                        "^Conductor:: Por favor, não me faça fazer isso!",
                         "\n",
-                        "^Sonic:: Tch! We have to rescue the conductor if we ever want to stop this train! ",
+                        "^Sonic:: Tsc! Temos que resgatar o maquinista se quisermos parar este trem! ",
                         {
                             "#": "stage:left"
                         },
@@ -30445,7 +30445,7 @@
                         "\n",
                         "^>>>>StageHideImage(standalonecomics)",
                         "\n",
-                        "^Vector:: A flicky?! ",
+                        "^Vector:: Um flicky?! ",
                         {
                             "#": "stage:rightmiddle"
                         },
@@ -30459,7 +30459,7 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Tails:: …! This is just like the lore card, when my ex-best friend left detective work to join Dr. Eggman! ",
+                        "^Tails:: ...! Isso é igualzinho ao cartão de lenda, quando meu ex-melhor amigo deixou o trabalho de detetive para se juntar ao Dr. Eggman! ",
                         {
                             "#": "expression:speechless"
                         },
@@ -30473,7 +30473,7 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Shadow:: So this really is a badnik… ",
+                        "^Shadow:: Então isso realmente é um badnik ... ",
                         {
                             "#": "expression:tails_upset"
                         },
@@ -30490,7 +30490,7 @@
                             "#": "expression:defensive"
                         },
                         "\n",
-                        "^Rouge:: The stakes rise every second, huh. ",
+                        "^Rouge:: As apostas estão aumentando a cada segundo, né.",
                         {
                             "#": "stage:right"
                         },
@@ -30509,7 +30509,7 @@
                             "#": "exit:vector_left"
                         },
                         "\n",
-                        "^Knuckles:: We gotta save him! ",
+                        "^Knuckles:: Temos que salvá-lo! ",
                         {
                             "#": "expression:angry"
                         },
@@ -30523,7 +30523,7 @@
                             "#": "animatein"
                         },
                         "\n",
-                        "^Espio:: On it. ",
+                        "^Espio:: Estou nessa.",
                         {
                             "#": "expression:knuckles_determined"
                         },
@@ -30545,7 +30545,7 @@
                             "#": "exit:rouge_left"
                         },
                         "\n",
-                        "^Blaze:: Let’s show our full power.",
+                        "^Blaze:: Vamos mostrar todo o nosso poder.",
                         {
                             "#": "expression:annoyed"
                         },
@@ -30625,7 +30625,7 @@
                         }
                     ],
                     "Final_Boss_Interaction5": [
-                        "^Train:: Just… just be delivered to Eggman already! ",
+                        "^Train:: Apenas... apenas seja entregue ao Eggman logo!",
                         {
                             "#": "stage:right"
                         },
@@ -30648,26 +30648,26 @@
                             "#": "animateinfrom:train_right"
                         },
                         "\n",
-                        "^Train:: What about, what about my happiness! ",
+                        "^Train:: E quanto à minha felicidade!",
                         {
                             "#": "move:train to:rightmiddle"
                         },
                         "\n",
-                        "^Sonic:: Your happiness comes at the expense of others. ",
+                        "^Sonic:: Sua felicidade vem às custas dos outros.",
                         {
                             "#": "expression:mad"
                         },
                         "\n",
-                        "^Sonic:: Last I checked, that’s called being selfish.",
+                        "^Sonic:: Pelo que eu saiba, isso é chamado de egoísmo.",
                         "\n",
-                        "^Train:: …! Me… selfish? ",
+                        "^Train:: ...! Eu... egoísta?",
                         {
                             "#": "face:right"
                         },
                         "\n",
                         "^>>>>ScreenShake(30,0)",
                         "\n",
-                        "^Train:: How… How DARE YOU! ",
+                        "^Train:: Como... como VOCÊ OUSA!",
                         {
                             "#": "face:left"
                         },
@@ -30743,7 +30743,7 @@
                         }
                     ],
                     "Train_Endgame": [
-                        "^Train:: No… no! NO! ",
+                        "^Train:: Não… não! NÃO! ",
                         {
                             "#": "stage:right"
                         },
@@ -30756,13 +30756,13 @@
                         "\n",
                         "^>>>>ScreenShake(40,0)",
                         "\n",
-                        "^Train:: <size=150%>NOOOOOOOOOOOOOOOOO</size>",
+                        "^Train:: <size=150%>NÃOOOOOOOOOOOOOOOOO</size>",
                         "\n",
                         "^Train:: <size=150%>OOOO</size><size=140%>OOO</size><size=125%>OOO</size><size=110%>OOO</size><size=100%>OOOOO!</size>",
                         "\n",
                         "^>>>>ScreenShake(0,0)",
                         "\n",
-                        "^Espio:: I’ll grab the flicky. ",
+                        "^Espio:: Vou pegar o flicky.",
                         {
                             "#": "expression:ready2attack"
                         },
@@ -30800,7 +30800,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, traindeath1)",
                         "\n",
-                        "^Amy:: It's over! ",
+                        "^Amy:: Acabou!",
                         {
                             "#": "stage:offscreen"
                         },
@@ -30809,7 +30809,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, traindeath2)",
                         "\n",
-                        "^Amy:: Time to pay for ruining my birthday!",
+                        "^Amy:: Hora de pagar por estragar meu aniversário!",
                         "\n",
                         "^>>>>FadeOutDialogAndHUD(0.4)",
                         "\n",
@@ -30903,17 +30903,17 @@
                             "#": "bringfront:amy"
                         },
                         "\n",
-                        "^Sonic:: The train is slowing down, great hit Amy! ",
+                        "^Sonic:: O trem está desacelerando, ótimo golpe Amy!",
                         {
                             "#": "expression:winking"
                         },
                         "\n",
-                        "^Amy:: Heheh, it was pretty great, wasn’t it? ",
+                        "^Amy:: Heheh, foi bem legal, não foi?",
                         {
                             "#": "expression:delighted"
                         },
                         "\n",
-                        "^Amy:: That’s what you get when you mess with my special day! ",
+                        "^Amy:: É isso que você ganha quando mexe com o meu dia especial!",
                         {
                             "#": "expression:confident"
                         },
@@ -31000,7 +31000,7 @@
                             "#": "face:left"
                         },
                         "\n",
-                        "^Train:: I... ",
+                        "^Train:: Eu... ",
                         {
                             "#": "stage:left"
                         },
@@ -31008,7 +31008,7 @@
                             "#": "face:right"
                         },
                         "\n",
-                        "^Train:: I just… <style=AsteriskAction>*zzt*</style> couldn’t bear to see you go… ",
+                        "^Train:: Eu só... <style=AsteriskAction>zzt</style> não suportava vê-lo partir...",
                         {
                             "#": "expression:train_remorse"
                         },
@@ -31039,7 +31039,7 @@
                             "#": "expression:train_remorse"
                         },
                         "\n",
-                        "^Train:: …I’m.. Sorry… <style=AsteriskAction>*zzt*</style> for the t-trouble…",
+                        "^Train:: ...Me desculpe... <style=AsteriskAction>zzt</style> pelo transtorno...",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -31102,7 +31102,7 @@
                             "#": "expression:train_deactivated"
                         },
                         "\n",
-                        "^Amy:: I think our work here is done. Now let's get OFF THIS THING! ",
+                        "^Amy:: Acho que nosso trabalho aqui acabou. Agora vamos SAIR DAQUI!",
                         {
                             "#": "stage:right"
                         },
@@ -31141,9 +31141,9 @@
                         "\n",
                         "^Conductor:: ...",
                         "\n",
-                        "^Conductor:: …thank you.",
+                        "^Conductor:: …obrigado.",
                         "\n",
-                        "^Conductor:: Goodbye, my friend. I may be leaving the rails, but I assure you. I'll never forget our time together. ",
+                        "^Conductor:: Adeus, meu amigo. Posso estar deixando os trilhos, mas garanto que nunca esquecerei o tempo que passamos juntos. ",
                         {
                             "#": "expression:grateful"
                         },
@@ -31183,38 +31183,38 @@
                         "\n",
                         "^>>>>FadeInDialogAndHUD(0.5)",
                         "\n",
-                        "^Vector:: We DID IT! ",
+                        "^Vector:: CONSEGUIMOS!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Rouge:: Well… I’ll say I’ve never been on a train like that before. ",
+                        "^Rouge:: Bom, posso dizer que nunca estive em um trem assim antes.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Blaze:: This universe has a… unique way of doing things. ",
+                        "^Blaze:: Este universo tem uma maneira... única de fazer as coisas.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Barry:: Watch your step, watch your step!",
+                        "^Barry:: Cuidado com o degrau, cuidado com o degrau!",
                         "\n",
-                        "^Barry:: <style=Thought>(I-it’s… over…)</style>",
+                        "^Barry:: <style=Thought>(A-acabou...)</style>",
                         "\n",
-                        "^Barry:: <style=Thought>(The mystery of Sonic The Hedgehog’s murder is officially over.)</style>",
+                        "^Barry:: <style=Thought>(O mistério do assassinato do Sonic The Hedgehog acabou oficialmente.)</style>",
                         "\n",
-                        "^Knuckles:: Maybe next birthday we just ask Vanilla to make dinner. ",
+                        "^Knuckles:: Talvez no próximo aniversário peçamos para a Vanilla fazer o jantar.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Vector:: Oh? You don’t love parties where by the end someone tries to kill you? ",
+                        "^Vector:: Ah? Você não adora festas onde no final alguém tenta te matar?",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(I think I’m actually going to miss this group’s unhinged way of thinking.)</style>",
+                        "^Barry:: <style=Thought>(Acho que vou sentir falta da forma insana de pensar deste grupo.)</style>",
                         "\n",
                         "^>>>>StageHideImage(inlinecomics)",
                         "\n",
@@ -31222,32 +31222,32 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, ending3)",
                         "\n",
-                        "^Conductor’s Wife:: Honey! You’re late! I’ve been waiting here for hours!",
+                        "^Conductor’s Wife:: Querido! Você está atrasado! Eu estive esperando aqui por horas!",
                         "\n",
-                        "^Conductor:: Fahahaha, you’d honestly never believe what happened! ",
+                        "^Conductor:: Fahahaha, você nunca acreditaria no que aconteceu! ",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Conductor:: So I won’t even try! Faha! Fahahaha!",
+                        "^Conductor:: Então nem vou tentar explicar! Faha! Fahahaha!",
                         "\n",
-                        "^Conductor’s Wife:: I'm just glad you’re here, quick, we leave for Spagonia in the morning and you need to pack!",
+                        "^Conductor’s Wife:: Só estou feliz que você esteja aqui, rápido, partimos para Spagonia pela manhã e você precisa arrumar as malas!",
                         "\n",
-                        "^Conductor:: I’ll pack faster than the wind! I need this vacation something terrible!",
+                        "^Conductor:: Eu arrumarei mais rápido que o vento! Preciso muito dessas férias!",
                         "\n",
-                        "^Conductor’s Wife:: And I need you home! Happy first day of retirement, dear.",
+                        "^Conductor’s Wife:: E eu preciso de você em casa! Feliz primeiro dia de aposentadoria, querido.",
                         "\n",
-                        "^Barry:: <style=Thought>(Seems the conductor is more than ready to begin his retirement after this ordeal.)</style>",
+                        "^Barry:: <style=Thought>(Parece que o maquinista está mais do que pronto para começar sua aposentadoria depois desse problema.)</style>",
                         "\n",
-                        "^Barry:: <style=Thought>(I’m happy for them both!)</style>",
+                        "^Barry:: <style=Thought>(Estou feliz pelos dois!)</style>",
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, ending4)",
                         "\n",
-                        "^Conductor’s Wife:: Oh! Who’s this?",
+                        "^Conductor’s Wife:: Oh! Quem é esse?",
                         "\n",
-                        "^Conductor:: Fahaha, an old friend, I think!",
+                        "^Conductor:: Fahaha, um velho amigo, acho!",
                         "\n",
-                        "^Conductor’s Wife:: Well, they’re a cutie, that’s for sure!",
+                        "^Conductor’s Wife:: Bem, ele é uma gracinha, com certeza!",
                         "\n",
                         "^Flicky:: Cheep, cheep! Cheep!",
                         "\n",
@@ -31257,70 +31257,70 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, ending2)",
                         "\n",
-                        "^Espio:: Seems that flicky found a friend… ",
+                        "^Espio:: Parece que Flicky encontrou um amigo...",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Tails:: Great job saving that little guy, Espio. ",
+                        "^Tails:: Ótimo trabalho salvando aquele pequeno cara, Espio.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Espio:: It was the least I could do. Sonic, everyone… I sincerely apologize for the trouble I caused. ",
+                        "^Espio:: Era o mínimo que eu podia fazer. Sonic, todos... Eu sinceramente peço desculpas pelo problema que causei.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Amy:: Don’t be. You were just following what you thought was the game. ",
+                        "^Amy:: Não se preocupe. Você só estava seguindo o que pensava ser o jogo.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Amy:: It’s hard to know what I would have done in the same situation.",
+                        "^Amy:: É difícil saber o que eu teria feito na mesma situação.",
                         "\n",
-                        "^Sonic:: I wouldn’t have hit someone with a blow dart! ",
+                        "^Sonic:: Eu não teria atingido alguém com um dardo! ",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Sonic:: Seriously, a dart?",
+                        "^Sonic:: Sério, um dardo?",
                         "\n",
-                        "^Espio:: It would have been hard to get close to you otherwise, mister speed of sound. ",
+                        "^Espio:: Teria sido difícil se aproximar de você de outra forma, senhor velocidade do som. ",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Espio:: Regardless, I am sorry.",
+                        "^Espio:: De qualquer forma, sinto muito.",
                         "\n",
-                        "^Sonic:: We’re cool, and now that we’re all safe, it was fun! ",
+                        "^Sonic:: Estamos de boa, e agora que estamos todos em segurança, foi divertido!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(...this group has a wild idea of fun.)</style>",
+                        "^Barry:: <style=Thought>(...esse grupo tem uma ideia louca de diversão.)</style>",
                         "\n",
-                        "^Rouge:: Boy, am I starving! I forgot we never ate. ",
+                        "^Rouge:: Cara, estou morrendo de fome! Esqueci que não comemos nada.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Knuckles:: With all the clatter I completely forgot I was hungry. ",
+                        "^Knuckles:: Com todo o barulho, eu esqueci completamente que estava com fome.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Tails:: Me too… I was distracted playing detective. ",
+                        "^Tails:: Eu também... Eu estava distraído brincando de detetive.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Tails:: If only you could have seen me, Sonic! I was finding clues, presenting evidence, poking holes in alibis– ",
+                        "^Tails:: Se você pudesse ter me visto, Sonic! Eu estava encontrando pistas, apresentando evidências, questionando álibis--",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Tails:: Sonic…? Wait, where’d he go? ",
+                        "^Tails:: Sonic...? Espera, para onde ele foi? ",
                         {
                             "#": "stage:offscreen"
                         },
@@ -31337,18 +31337,18 @@
                         }
                     ],
                     "Ending1_For_Non_Completionists": [
-                        "^Sonic:: Everyone, guess what! ",
+                        "^Sonic:: Pessoal, adivinhem só!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, cake1)",
                         "\n",
-                        "^Sonic:: This station has a bakery! And look what I boughhht!",
+                        "^Sonic:: Esta estação tem uma padaria! E vejam o que eu compreeeii!",
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, cake2)",
                         "\n",
-                        "^Amy:: AH! A BIRTHDAY CAKE!  ",
+                        "^Amy:: AH! UM BOLO DE ANIVERSÁRIO!",
                         {
                             "#": "stage:offscreen"
                         },
@@ -31359,79 +31359,79 @@
                         "\n",
                         "^>>>>Hold(1)",
                         "\n",
-                        "^Everyone:: Happy Birthday Amy!",
+                        "^Todos:: Feliz aniversário Amy!",
                         "\n",
-                        "^Sonic:: To the confident, unshakable, and radiant Amy Rose! ",
+                        "^Sonic:: Para a confiante, inabalável e radiante Amy Rose!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Rouge:: To an adventure of a birthday, darling! ",
+                        "^Rouge:: Para um aniversário de aventura, meu amor!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Vector:: A memorable party every year!",
+                        "^Vector:: Uma festa memorável a cada ano!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Knuckles:: To a fun birthday. ",
+                        "^Knuckles:: Para um aniversário divertido.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Shadow:: A ride from start to finish. ",
+                        "^Shadow:: Um passeio do começo ao fim.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Blaze:: May our friendship grow stronger each celebration. ",
+                        "^Blaze:: Que nossa amizade cresça mais forte a cada celebração.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Espio:: <style=\"Italics\">I admire your tenacity,<br>May you never lose your vivacity.<br>Happy Birthday to Amy,<br>And her sparkling personacity.</style> ",
+                        "^Espio:: <style=\"Italics\">Admiro sua tenacidade,<br>Que você nunca perca sua vivacidade.<br>Feliz aniversário para Amy,<br>E sua brilhante personalidade.</style>",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Barry:: Happy Birthday! <style=Thought>(I’m not smart enough to know if personacity is a word.)</style>",
+                        "^Barry:: Feliz aniversário! <style=Thought>(Eu não sou inteligente o suficiente para saber se vivacidade é uma palavra.)</style>",
                         "\n",
-                        "^Tails:: We love you, Amy! Happy Birthday! ",
+                        "^Tails:: Nós te amamos, Amy! Feliz aniversário!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Amy:: Ah!! Ahhhhhh!!! You guys!! ",
+                        "^Amy:: Ah!! Ahhhhhh!!! Vocês todos!!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Amy:: We almost got murdered by a lonely train, but…but!!",
+                        "^Amy:: Nós quase fomos mortos por um trem solitário, mas... mas!!",
                         "\n",
-                        "^Amy:: I wouldn’t trade these adventures for anything! Never in a million years!",
+                        "^Amy:: Eu não trocaria essas aventuras por nada! Nem em um milhão de anos!",
                         "\n",
-                        "^Amy:: You guys won’t ever leave me, right?",
+                        "^Amy:: Vocês nunca vão me abandonar, certo?",
                         "\n",
-                        "^Sonic:: Wouldn’t dream of it. ",
+                        "^Sonic:: Nem sonhando.",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Sonic:: Now, let's have some cake!",
+                        "^Sonic:: Agora, vamos comer bolo!",
                         "\n",
-                        "^Vector:: Yes please! Dig in, everyone! ",
+                        "^Vector:: Sim, por favor! Vamos comer, pessoal!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Tails:: Yay! ",
+                        "^Tails:: Yay!",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Shadow:: …I hope it’s chocolate. ",
+                        "^Shadow:: ...Eu espero que seja de chocolate.",
                         {
                             "#": "stage:offscreen"
                         },
@@ -31451,33 +31451,33 @@
                             "#": "stage:offscreen"
                         },
                         "\n",
-                        "^Eggman:: That train’s never making it here, is it.",
+                        "^Eggman:: Esse trem nunca vai chegar aqui, vai?",
                         "\n",
                         "^Eggman:: …",
                         "\n",
-                        "^Eggman:: Orbot! Prepare a bath!",
+                        "^Eggman:: Orbot! Prepare um banho!",
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, eggmanending2)",
                         "\n",
-                        "^Orbot:: The happy rubber duck or the angry one? ",
+                        "^Orbot:: O patinho de borracha feliz ou o bravo? ",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
                         "^>>>>ScreenShake(40,60)",
                         "\n",
-                        "^Eggman:: ANGRY!",
+                        "^Eggman:: BRAVO!",
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, eggmanending3)",
                         "\n",
-                        "^Cubot:: Sour choice, your evilness. ",
+                        "^Cubot:: Escolha amarga, seu malvado. ",
                         {
                             "#": "stage:offscreen"
                         },
                         "\n",
                         "^>>>>ScreenShake(80,80)",
                         "\n",
-                        "^Eggman:: <size=150%>SHUT IT!</size>",
+                        "^Eggman:: <size=150%>CALEM A BOCA!</size>",
                         "\n",
                         "^>>>>ParseTags() ",
                         {
@@ -31488,13 +31488,13 @@
                         "\n",
                         "^>>>>Hold(4)",
                         "\n",
-                        "^Barry:: …",
+                        "^Barry:: ...",
                         "\n",
-                        "^Barry:: …and that’s my story of when I met Sonic and his friends.",
+                        "^Barry:: ...e essa é minha história de quando conheci o Sonic e seus amigos.",
                         "\n",
-                        "^Barry:: Entangled in their lives for a fleeting moment, and then back to things as they were.",
+                        "^Barry:: Emaranhado em suas vidas por um momento fugaz, e depois de volta às coisas como eram.",
                         "\n",
-                        "^Barry:: Cities realized Eggman was running the train system and fought back to seize control. Everything’s squeaky clean now.",
+                        "^Barry:: As cidades perceberam que Eggman estava controlando o sistema ferroviário e lutaram para retomar o controle. Agora está tudo limpo como um apito.",
                         "\n",
                         {
                             "->": ".^.^.Final_Questions1"
@@ -31505,11 +31505,11 @@
                     ],
                     "Final_Questions1": [
                         [
-                            "^Barry:: As for me, I…",
+                            "^Barry:: Quanto a mim, eu...",
                             "\n",
                             "ev",
                             "str",
-                            "^Quit my job",
+                            "^Deixei meu emprego",
                             "/str",
                             "/ev",
                             {
@@ -31518,7 +31518,7 @@
                             },
                             "ev",
                             "str",
-                            "^Stuck with the gig",
+                            "^Fiquei preso ao trabalho",
                             "/str",
                             "/ev",
                             {
@@ -31560,11 +31560,11 @@
                     ],
                     "Final_Questions2": [
                         [
-                            "^Barry:: And then...",
+                            "^Barry:: E então...",
                             "\n",
                             "ev",
                             "str",
-                            "^Practiced my singing",
+                            "^Pratiquei meu canto",
                             "/str",
                             "/ev",
                             {
@@ -31573,7 +31573,7 @@
                             },
                             "ev",
                             "str",
-                            "^Won millions in the lottery",
+                            "^Ganhei milhões na loteria",
                             "/str",
                             "/ev",
                             {
@@ -31615,11 +31615,11 @@
                     ],
                     "Final_Questions3": [
                         [
-                            "^Barry:: And after all that, I...",
+                            "^Barry:: E depois de tudo isso, eu...",
                             "\n",
                             "ev",
                             "str",
-                            "^Managed to fly to space",
+                            "^Consegui voar para o espaço",
                             "/str",
                             "/ev",
                             {
@@ -31628,7 +31628,7 @@
                             },
                             "ev",
                             "str",
-                            "^Now run a local supermarket",
+                            "^Agora dirijo um supermercado local",
                             "/str",
                             "/ev",
                             {
@@ -31655,7 +31655,7 @@
                                     }
                                 ],
                                 "g-0": [
-                                    "^Barry:: Yeah… that’s just been my life!",
+                                    "^Barry:: Sim... essa tem sido minha vida!",
                                     "\n",
                                     "^>>>>StopMusic(3)",
                                     "\n",
