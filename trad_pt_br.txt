@@ -5888,7 +5888,7 @@
                             "#": "expression:default"
                         },
                         "\n",
-                        "^Barry:: <style=Thought>(Espere um segundo, ele é, ele é o Sonic The Hedgehog??)</style>",
+                        "^Barry:: <style=Thought>(Espere um segundo, ele é, ele é o Sonic, o Ouriço??)</style>",
                         "\n",
                         "^Conductor:: Prometo que você terá uma excelente estadia em nosso trem, Sonic. Divirta-se agora! ",
                         {
@@ -22790,7 +22790,7 @@
                                 "#": "expression:tails_thinking"
                             },
                             "\n",
-                            "^Amy:: Quem, nessa sala, fez isso? Quem matou Sonic The Hedgehog? ",
+                            "^Amy:: Quem, nessa sala, fez isso? Quem matou Sonic, o Ouriço? ",
                             {
                                 "#": "expression:explaining3"
                             },
@@ -26349,7 +26349,7 @@
                         "\n",
                         "^>>>>StageShowImage(inlinecomics, espioaccusation2, 0.3)",
                         "\n",
-                        "^Barry:: Você foi quem assassinou Sonic The Hedgehog!",
+                        "^Barry:: Você foi quem assassinou Sonic, o Ouriço!",
                         "\n",
                         "^>>>>StageHideImage(inlinecomics)",
                         "\n",
@@ -27140,7 +27140,7 @@
                             "\n",
                             "^Espio:: …",
                             "\n",
-                            "^Espio:: Eu matei Sonic The Hedgehog. ",
+                            "^Espio:: Eu matei Sonic, o Ouriço. ",
                             {
                                 "#": "expression:guilty"
                             },
@@ -31202,7 +31202,7 @@
                         "\n",
                         "^Barry:: <style=Thought>(A-acabou...)</style>",
                         "\n",
-                        "^Barry:: <style=Thought>(O mistério do assassinato do Sonic The Hedgehog acabou oficialmente.)</style>",
+                        "^Barry:: <style=Thought>(O mistério do assassinato do Sonic, o Ouriço, acabou oficialmente.)</style>",
                         "\n",
                         "^Knuckles:: Talvez no próximo aniversário peçamos para a Vanilla fazer o jantar.",
                         {
@@ -35334,7 +35334,7 @@
                         "#": "expression:thinking2"
                     },
                     "\n",
-                    "^Barry:: <style=Thought>(Sonic The Hedgehog, perguntando sobre mim????)</style>",
+                    "^Barry:: <style=Thought>(Sonic, o Ouriço, perguntando sobre mim????)</style>",
                     "\n",
                     "ev",
                     "str",
@@ -35822,7 +35822,7 @@
                                     "\n",
                                     "^>>>>StageShowImage(inlinecomics, badnik)",
                                     "\n",
-                                    "^Eggman:: Você vê, a capacidade de um badnik é normalmente muito básica, apenas matar Sonic The Hedgehog.",
+                                    "^Eggman:: Você vê, a capacidade de um badnik é normalmente muito básica, apenas matar Sonic, o Ouriço.",
                                     {
                                         "#": "expression:explaining"
                                     },
