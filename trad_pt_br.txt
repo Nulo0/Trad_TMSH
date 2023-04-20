@@ -3642,7 +3642,7 @@
                             },
                             "ev",
                             "str",
-                            "^FOVIDE",
+                            "^ULTIM",
                             "/str",
                             "/ev",
                             {
@@ -3782,7 +3782,7 @@
                                     "\n",
                                     "^Barry:: Todos os outros nomes têm tema de comida, mas esse não.",
                                     "\n",
-                                    "^Barry:: Quem aqui é conhecido como Fovide?",
+                                    "^Barry:: Quem aqui é conhecido como Ultim(Forma de vida definitiva)?",
                                     "\n",
                                     "^>>>>HideArcadeScreenChoices()",
                                     "\n",
@@ -5318,7 +5318,7 @@
                                 ],
                                 "c-1": [
                                     "\n",
-                                    "^Sonic:: Bem, você não é simpático. ",
+                                    "^Sonic:: Bem, você é bem simpático. ",
                                     {
                                         "#": "expression:winking"
                                     },
